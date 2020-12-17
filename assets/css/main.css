@@ -2,13 +2,26 @@
 /* ########## FONT ########## */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Rubik', sans-serif; */
+html {
+  --color-main: #007aff;
+  --color-text: #333333;
+  --color-text-lighter: #DDDDDD;
+  --color-background: #fbfbfd;
+  --font-text: "Rubik", sans-serif;
+  --font-light: 300;
+  --font-reg: 400;
+  --font-med: 500;
+  --font-bold: 600;
 
+  --nav-height: 60px;
+}
 
 
 /* ########## SPACING ########## */
 .mrg-left{
   margin-left: 10px;
 }
+
 
 
 /* ########## NAVBAR ########## */
@@ -22,8 +35,8 @@
 }
 
 .WebsiteTitle {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 600;
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
   font-size: 13px;
   margin-left: 100px;
 }
