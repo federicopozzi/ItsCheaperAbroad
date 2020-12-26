@@ -1,6 +1,6 @@
-
 /* ########## FONT ########## */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* font-family: 'Rubik', sans-serif; */
 html {
   --color-main: #007aff;
@@ -12,17 +12,14 @@ html {
   --font-reg: 400;
   --font-med: 500;
   --font-bold: 600;
-
+  --fontitalic: italic;
   --nav-height: 60px;
 }
 
-
 /* ########## SPACING ########## */
-.mrg-left{
+.mrg-left {
   margin-left: 10px;
 }
-
-
 
 /* ########## NAVBAR ########## */
 .navbar {
@@ -39,4 +36,14 @@ html {
   font-weight: var(--font-bold);
   font-size: 13px;
   margin-left: 100px;
+}
+
+/* ########## TYPO ########## */
+.mainTitle {
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
+  font-style: var(--fontitalic);
+  font-size: 40px;
+  color: white;
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
