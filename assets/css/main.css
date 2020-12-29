@@ -6,6 +6,7 @@ html {
   --color-back-main: white;
   --color-back-header: #9437FF;
   --color-back-footer: #9437FF;
+  --color-main: #9437FF;
   --color-text-primary: white;
   --color-text-secondary: #FF1049;
   --font-text: "Rubik", sans-serif;
@@ -30,12 +31,12 @@ h1 {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
   font-size: 20px;
-  color: var(--color-back-footer);
+  color: var(--color-main);
 }
 
 /* ########## UTILITY ########## */
 .divider {
-  border-bottom:2px solid #9437FF;
+  border-bottom:2px solid var(--color-main);
 }
 
 /* ########## NAVBAR ########## */
