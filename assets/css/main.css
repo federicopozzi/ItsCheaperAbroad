@@ -15,6 +15,12 @@ html {
   --font-med: 500;
   --font-bold: 600;
   --fontitalic: italic;
+  --fontsize-title: 20px;
+  /* ########## NavBar ########## */
+  --fontsize-nav: 13px;
+  /* ########## ProductPage ########## */
+  --fontsize-typeMedical: 30px;
+  --fontsize-productPrice: 50px;
 }
 
 body {
@@ -30,7 +36,7 @@ footer {
 .mainTitle {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
-  font-size: 20px;
+  font-size: var(--fontsize-title);
   color: var(--color-main);
 }
 
@@ -48,14 +54,6 @@ footer {
   color: var(--color-text-primary);
 }
 
-.WebsiteTitle {
-  font-family: var(--font-text);
-  font-weight: var(--font-bold);
-  font-size: 13px;
-  margin-left: 20px;
-}
-
-/* ########## FIRST TEXT ########## */
 .firstTextContainer {
   background-color: yellow;
   border: 1px solid black;
@@ -65,7 +63,7 @@ footer {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
   color: var(--color-text-secondary);
-  font-size: 13px;
+  font-size: var(--fontsize-nav);
 }
 
 /* ########## PRODUCT PAGE ########## */
@@ -89,7 +87,7 @@ footer {
 .typeMedical {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
-font-size: 30px;
+font-size: var(--fontsize-typeMedical);
 color: var(--color-text-primary);
 line-height: normal;
 }
