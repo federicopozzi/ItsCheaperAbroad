@@ -1,6 +1,14 @@
 /* ########## FONT ########## */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: Messapia-Bold;
+  src: url('../font/Messapia-Bold.woff') format('woff'),
+  url('../font/Messapia-Bold.woff2') format('woff2')
+}
+
+
 /* ########## DOM ########## */
 html {
   --color-back-main: white;
@@ -9,6 +17,7 @@ html {
   --color-main: #9437FF;
   --color-text-primary: white;
   --color-text-secondary: #FF1049;
+  --font-secondary: Messapia-Bold;
   --font-text: "Inter", sans-serif;
   --font-light: 300;
   --font-reg: 400;
@@ -17,7 +26,7 @@ html {
   --fontitalic: italic;
   --fontsize-title: 20px;
   /* ########## NavBar ########## */
-  --fontsize-nav: 13px;
+  --fontsize-nav: 18px;
   /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
   --fontsize-productPrice: 50px;
@@ -34,7 +43,7 @@ footer {
 
 /* ########## TYPO ########## */
 .mainTitle {
-  font-family: var(--font-text);
+  font-family: var(--font-secondary);
   font-weight: var(--font-bold);
   font-size: var(--fontsize-title);
   color: var(--color-main);
@@ -45,17 +54,91 @@ footer {
   border-bottom:2px solid var(--color-main);
 }
 
+.backgroundSection1 {
+  background-color: #EE1B22;
+}
+
+/* ########## MARQUEE ########## */
+
+/* .menu {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 10vh 0 25vh;
+	--marquee-width: 100vw;
+	--offset: 20vw;
+	--move-initial: calc(0 + var(--offset));
+	--move-final: calc(-50% + var(--offset));
+	--item-font-size: 2vw;
+	counter-reset: menu;
+}
+
+.marquee {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: var(--marquee-width);
+	overflow: hidden;
+	pointer-events: none;
+	mix-blend-mode: color-burn;
+}
+
+.marquee__inner {
+	width: fit-content;
+	display: flex;
+	position: relative;
+	transform: translate3d(var(--move-initial), 0, 0);
+	animation: marquee 5s linear;
+	animation-play-state: paused;
+	opacity: 0;
+	transition: opacity 0.1s;
+}
+
+ .marquee .marquee__inner {
+	animation-play-state: running;
+	opacity: 1;
+	transition-duration: 0.4s;
+}
+
+.marquee span {
+	text-align: center;
+}
+
+.menu__item-link,
+.marquee span {
+	white-space: nowrap;
+	font-size: var(--item-font-size);
+	padding: 0 1vw;
+	font-weight: 900;
+	line-height: 1.15;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translate3d(var(--move-initial), 0, 0);
+	}
+
+	100% {
+		transform: translate3d(var(--move-final), 0, 0);
+	}
+} */
+
 /* ########## NAVBAR ########## */
-.navbar {
+.navBackground {
   background-color: var(--color-back-header);
 }
 
-.navbar-brand {
+.navFont {
   color: var(--color-text-primary);
+  font-family: var(--font-text);
+  font-weight: var(--font-reg);
+  font-size: var(--fontsize-title);
 }
 
 .firstTextContainer {
-  background-color: yellow;
+  background-color: #FDEF4B;
   border: 1px solid black;
 }
 
@@ -66,15 +149,42 @@ footer {
   font-size: var(--fontsize-nav);
 }
 
+/* ########## INTROTEXT ########## */
+.introTextContainer {
+  text-align: center;
+}
+
+.introText {
+  font-family: var(--font-text);
+  font-weight: var(--font-medium);
+  color:#FDEF4B;
+  font-size: var(--fontsize-title);
+  line-height: 20px;
+}
+
+
+/* ########## HOME PAGE ########## */
+.borderBodyItem {
+  border-radius: 10px;
+  border:2px solid var(--color-main);
+}
+
+.categoryBodyText{
+  font-family: var(--font-secondary);
+  background-color: var(--color-main);
+  color:#FDEF4B;
+  font-size: var(--fontsize-title);
+}
+
 /* ########## CATEGORY PAGE ########## */
 .backgroundCategory1 {
   background-image: url("../img/categoryImg1.jpg");
-  
+
   background-size:cover;
   width:100%;
 }
 .descriptionCategory {
-  background-color: yellow;
+  background-color: #FDEF4B;
   height:80px;
 }
 
