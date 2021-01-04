@@ -5,7 +5,7 @@ document.getElementById("header").innerHTML = `
     <div class="col-lg-12 d-flex justify-content-between navFont">
 <span>INTRO</span>
 <a class="navbar-brand" href="../index.html">
-    <img src="../assets/img/logo.png" alt="">
+    <!-- <img src="../assets/img/logo.png" alt=""> -->
   </a>
 <span>ABOUT</span>
 

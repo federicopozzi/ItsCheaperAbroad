@@ -150,8 +150,13 @@ footer {
 }
 
 /* ########## HOME PAGE ########## */
-.borderBodyItem {
-  border-radius: 10px;
+.borderBodyPic {
+  border-radius: 10px 10px 0px 0px;
+  border: 2px solid var(--color-main);
+}
+
+.borderBodyText {
+  border-radius:0px 0px 10px 10px;
   border: 2px solid var(--color-main);
 }
 
