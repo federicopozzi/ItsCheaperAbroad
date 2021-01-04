@@ -15,7 +15,7 @@ html {
   --color-back-footer: #9437FF;
   --color-main: #9437FF;
   --color-text-primary: white;
-  --color-text-secondary: #FF1049;
+  --color-text-secondary: #FF0009;
   --font-secondary: Messapia-Bold;
   --font-text: "Inter", sans-serif;
   --font-light: 300;
@@ -25,7 +25,8 @@ html {
   --font-xbold: 700;
   --font-xxbold: 800;
   --fontitalic: italic;
-  --fontsize-title: 20px;
+  --fontsize-title: 18px;
+  --fontsize-titleSection: 30px;
   /* ########## NavBar ########## */
   --fontsize-nav: 18px;
   /* ########## ProductPage ########## */
@@ -47,6 +48,12 @@ footer {
   font-family: var(--font-secondary);
   font-weight: var(--font-bold);
   font-size: var(--fontsize-title);
+  color: var(--color-main);
+}
+.mainTitleSection {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+  font-size: var(--fontsize-titleSection);
   color: var(--color-main);
 }
 
@@ -168,6 +175,25 @@ footer {
 }
 
 /* ########## CATEGORY PAGE ########## */
+.backButton {
+  background-color: var(--color-main);
+  border-radius: 15px;
+  color:white;
+}
+
+.todayOnPromoText {
+  background-color: var(--color-text-secondary);
+  color:#FDEF4B;
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.todayOnPromoBox {
+  background-color: var(--color-main);
+  border-radius: 0px 0px 20px 20px;
+}
+
 .backgroundCategory1 {
   background-image: url("../img/categoryImg1.jpg");
   background-size: cover;
