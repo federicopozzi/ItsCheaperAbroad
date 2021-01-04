@@ -51,6 +51,12 @@ footer {
   color: var(--color-main);
 }
 
+.alert {
+  padding:0;
+  margin-bottom: 0;
+  border-radius: 0;
+  border:0;
+}
 /* ########## UTILITY ########## */
 .divider {
   border-bottom:2px solid var(--color-main);
@@ -58,6 +64,11 @@ footer {
 
 .backgroundSection1 {
   background-color: #EE1B22;
+}
+
+.bottone {
+  border:0;
+  background-color: #FDEF4B;
 }
 
 /* ########## MARQUEE ########## */
@@ -115,7 +126,7 @@ footer {
 
 .firstTextContainer {
   background-color: #FDEF4B;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .firstText {
