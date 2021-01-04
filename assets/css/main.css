@@ -97,7 +97,7 @@ footer {
 }
 
 .marquee span {
-  font-size: 1vw;
+  font-size: 18px;
   padding: 0 2vw;
   font-family: var(--font-text);
   font-weight: var(--font-xbold);
