@@ -31,7 +31,8 @@ html {
   --fontsize-nav: 18px;
   /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
-  --fontsize-productPrice: 50px;
+  --fontsize-info: 15px;
+  --fontsize-typeOp: 25px;
 }
 
 body {
@@ -41,6 +42,15 @@ body {
 footer {
   background-color: var(--color-back-footer);
   color: var(--color-text-primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.websiteMargin {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* ########## TYPO ########## */
@@ -208,33 +218,89 @@ footer {
 /* ########## PRODUCT PAGE ########## */
 .imgCarouselProduct {
   border-radius: 20px;
-  border: 1px solid black;
+  border: 3px solid var(--color-main);
 }
 
 .borderInfo {
   border-radius: 20px;
-  border: 1px solid black;
+  border: 3px solid var(--color-main);
 }
 
-.productPriceContainer {
+.profileName {
+  font-family: var(--font-text);
+  font-weight: var(--font-xbold);
+}
+
+.clinicName {
+  font-family: var(--font-text);
+  font-weight: var(--font-reg);
+}
+
+.countryClinic {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right:6px;
+  border-radius: 10px;
+  color:var(--color-main);
+  border: 1.5px solid var(--color-main);
+}
+
+.followers {
+  font-family: var(--font-text);
+  font-weight: var(--font-reg);
+  font-size: var(--fontsize-info);
+}
+
+.borderPrice {
   border-radius: 20px;
-  border: 1px solid black;
-  background-color: var(--color-main);
-  height: 90px;
+  border: 3px solid var(--color-text-secondary);
+  background-color: #FDEF4B;
 }
 
-.typeMedical {
+.typeOperation {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
-  font-size: var(--fontsize-typeMedical);
-  color: var(--color-text-primary);
-  line-height: normal;
+  font-size: var(--fontsize-typeOp);
+  color:var(--color-text-secondary);
 }
 
-.productPrice {
+.fullPrice {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-med);
+  font-size:20px;
+  text-decoration: line-through;
+}
+
+.price {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-xbold);
+  font-size:40px;
+  color:var(--color-text-secondary);
+}
+
+.mappa {
+  border-radius: 20px;
+  border: 3px solid var(--color-main);
+}
+
+.username {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
-  font-size: 50px;
-  color: var(--color-text-primary);
-  line-height: normal;
+  color:var(--color-main);
+}
+
+.review {
+  font-family: var(--font-text);
+  font-weight: var(--font-light);
+}
+
+
+
+/* iphone */
+@media only screen and (max-width: 414px) {
+  .websiteMargin {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
