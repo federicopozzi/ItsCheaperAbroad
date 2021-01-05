@@ -48,6 +48,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .websiteMargin {
   margin-left: 200px;
   margin-right: 200px;
