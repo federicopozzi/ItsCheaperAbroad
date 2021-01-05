@@ -107,10 +107,10 @@ ul {
 }
 
 .marquee span {
-  font-size: 18px;
+  font-size: 25px;
   padding: 0 2vw;
   font-family: var(--font-text);
-  font-weight: var(--font-xbold);
+  font-weight: var(--font-xxbold);
   font-style: var(--fontitalic);
   color: var(--color-text-secondary);
 }
@@ -249,6 +249,18 @@ ul {
 .followers {
   font-family: var(--font-text);
   font-weight: var(--font-reg);
+  font-size: var(--fontsize-info);
+}
+
+.website {
+  font-family: var(--font-text);
+  font-weight: var(--font-bold);
+  font-size: var(--fontsize-info);
+}
+
+.readMore {
+  color:var(--color-main);
+  font-family: var(--font-text);
   font-size: var(--fontsize-info);
 }
 
