@@ -118,8 +118,9 @@ a {
   color: var(--color-text-secondary);
 }
 
-.marquee__inner {
+.marquee__inner:hover {
   animation-play-state: running;
+  cursor:context-menu;
 }
 
 @keyframes marquee {
