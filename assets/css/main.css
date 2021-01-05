@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+nav {
+  background-color: var(--color-back-footer);
+}
+
 .websiteMargin {
   margin-left: 200px;
   margin-right: 200px;
@@ -191,8 +195,9 @@ a {
 /* ########## CATEGORY PAGE ########## */
 .backButton {
   background-color: var(--color-main);
-  border-radius: 15px;
-  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-main);
+  padding: 5px 10px 5px 10px;
   color:white;
 }
 

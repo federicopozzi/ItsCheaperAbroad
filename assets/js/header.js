@@ -1,14 +1,11 @@
 document.getElementById("header").innerHTML = `
-<section class="navBackground">
-  <div class="container-fluid pt-3 pb-3" style="padding-right:5rem; padding-left:5rem;">
-  <div class="row">
-    <div class="col-lg-12 d-flex justify-content-between navFont">
-<span>INTRO</span>
-<img src="../assets/svg/logo_Header.svg" class="img-fluid" alt="Responsive image">
-<span>ABOUT</span>
+<!-- Image and text -->
+<nav class="navbar d-flex justify-content-between">
 
-    </div>
-  </div>
-</div>
-</section>
+      <div><a class="nav-item nav-link" href="#">INTRO </a></div>
+      <div><a class="nav-item nav-link" href="../index.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid" alt="Responsive image" width="400"></a></div>
+      <div><a class="nav-item nav-link" href="#">ABOUT</a></div>
+
+
+</nav>
       `
