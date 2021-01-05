@@ -188,6 +188,7 @@ ul {
 .backButton {
   background-color: var(--color-main);
   border-radius: 15px;
+  padding: 0px 10px 0px 10px;
   color:white;
 }
 

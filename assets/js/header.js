@@ -4,7 +4,7 @@ document.getElementById("header").innerHTML = `
   <div class="row">
     <div class="col-lg-12 d-flex justify-content-between navFont">
 <span>INTRO</span>
-
+<img src="../assets/svg/logo_Header.svg" class="img-fluid" alt="Responsive image">
 <span>ABOUT</span>
 
     </div>
