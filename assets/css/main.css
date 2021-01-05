@@ -104,7 +104,6 @@ a {
 .marquee__inner {
   width: fit-content;
   display: flex;
-  /* position: relative; */
   transform: translate3d(var(--move-initial), 0, 0);
   animation: marquee 5s linear infinite;
   animation-play-state: paused;
@@ -114,7 +113,7 @@ a {
   font-size: 25px;
   padding: 0 2vw;
   font-family: var(--font-text);
-  font-weight: var(--font-xxbold);
+  font-weight: var(--font-bold);
   font-style: var(--fontitalic);
   color: var(--color-text-secondary);
 }
