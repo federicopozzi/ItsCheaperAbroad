@@ -29,8 +29,10 @@ html {
   --fontsize-titleSection: 30px;
   /* ########## NavBar ########## */
   --fontsize-nav: 18px;
+
   /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
+  --fontsize-clinicName: 20px;
   --fontsize-info: 15px;
   --fontsize-typeOp: 25px;
 }
@@ -240,6 +242,7 @@ nav {
 .profileName {
   font-family: var(--font-text);
   font-weight: var(--font-xbold);
+  font-size: var(--fontsize-clinicName);
 }
 
 .clinicName {
@@ -284,7 +287,7 @@ nav {
 
 .typeOperation {
   font-family: var(--font-text);
-  font-weight: var(--font-bold);
+  font-weight: var(--font-xbold);
   font-size: var(--fontsize-typeOp);
   color:var(--color-text-secondary);
   line-height: 25px;
