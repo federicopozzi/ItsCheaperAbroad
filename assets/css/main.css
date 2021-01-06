@@ -231,7 +231,7 @@ nav {
 .imgCarouselProduct {
   border-radius: 20px;
   border: 3px solid var(--color-main);
-  height: 400px;
+  height: 300px;
 }
 
 .borderInfo {
@@ -291,9 +291,9 @@ nav {
   font-size: var(--fontsize-typeOp);
   color:var(--color-text-secondary);
   line-height: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 .fullPrice {
@@ -306,9 +306,9 @@ nav {
 .price {
   font-family: var(--font-secondary);
   font-weight: var(--font-xbold);
-  font-size:40px;
+  font-size:25px;
   color:var(--color-text-secondary);
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .mappa {
