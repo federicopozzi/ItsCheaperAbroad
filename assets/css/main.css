@@ -327,6 +327,10 @@ nav {
   font-weight: var(--font-light);
 }
 
+.reviewLine {
+  padding-top: 1.5rem;
+}
+
 /* ########## ABOUT PAGE ########## */
 .borderAbout {
   border: 3.5px solid var(--color-main);
