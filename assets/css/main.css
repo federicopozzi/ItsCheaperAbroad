@@ -57,8 +57,8 @@ nav {
 }
 
 .websiteMargin {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 /* ########## TYPO ########## */
@@ -229,6 +229,7 @@ nav {
 .imgCarouselProduct {
   border-radius: 20px;
   border: 3px solid var(--color-main);
+  height: 350px;
 }
 
 .borderInfo {
@@ -244,6 +245,7 @@ nav {
 .clinicName {
   font-family: var(--font-text);
   font-weight: var(--font-reg);
+  font-size: var(--fontsize-info);
 }
 
 .countryClinic {
@@ -285,6 +287,10 @@ nav {
   font-weight: var(--font-bold);
   font-size: var(--fontsize-typeOp);
   color:var(--color-text-secondary);
+  line-height: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
 }
 
 .fullPrice {
@@ -299,6 +305,7 @@ nav {
   font-weight: var(--font-xbold);
   font-size:40px;
   color:var(--color-text-secondary);
+  padding-right: 30px;
 }
 
 .mappa {
@@ -317,8 +324,39 @@ nav {
   font-weight: var(--font-light);
 }
 
+/* ########## ABOUT PAGE ########## */
+.borderAbout {
+  border: 3.5px solid var(--color-main);
+  border-radius: 30px;
+}
 
+.uk-active > a {
+  background-color: var(--color-main) !important;
+  font-family: var(--font-secondary);
+  border: 1px solid var(--color-main);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
+.uk-subnav {
+  margin-left: 0px;
+}
+
+.uk-subnav-pill>*>:first-child {
+  background-color: white ;
+  font-family: var(--font-secondary);
+  border: 1px solid var(--color-main);
+  border-radius: 10px;
+  color:var(--color-main);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.uk-subnav-pill>*>:first-child:hover {
+  background-color: var(--color-main);
+  color:white;
+}
 
 /* iphone */
 @media only screen and (max-width: 414px) {
