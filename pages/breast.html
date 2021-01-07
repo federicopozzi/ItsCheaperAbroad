@@ -17,10 +17,6 @@
   <!-- Maps -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHEzS2xXoSE9a8CT_3WrhjqLz0vjDegIs&callback=initMap&libraries=&v=beta&map_ids=8e0a97af9386fef" defer></script>
-  <!-- Mapbox -->
-  <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
-   MapBox JS
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script> -->
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <!-- UIkit CSS -->
@@ -127,12 +123,16 @@
         <script>
           function initMap() {
             const breast1 = {
-              lat: -5.363,
-              lng: 131.044
+              lat: 41.010,
+              lng: 28.960
             };
             const breast2 = {
-              lat: 10.363,
-              lng: 131.044
+              lat: 7.888,
+              lng: 98.397
+            };
+            const breast3 = {
+              lat: 18.493,
+              lng: -69.867
             };
 
             const map = new google.maps.Map(document.getElementById("mapBreast"), {
@@ -149,6 +149,11 @@
 
             new google.maps.Marker({
               position: breast2,
+              map,
+              title: "Hello World!",
+            });
+            new google.maps.Marker({
+              position: breast3,
               map,
               title: "Hello World!",
             });
