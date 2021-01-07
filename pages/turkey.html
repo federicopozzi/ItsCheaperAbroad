@@ -1,0 +1,197 @@
+<html lang=eng>
+
+<head>
+  <!-- metatag -->
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Group 04 - DD16">
+
+  <title>ItsCheaperAbroad</title>
+
+  <!-- responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <!-- favicon -->
+  <link rel="icon" sizes="192x192" href="">
+  <!-- Maps -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHEzS2xXoSE9a8CT_3WrhjqLz0vjDegIs&callback=initMap&libraries=&v=beta&map_ids=8e0a97af9386fef" defer></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+
+<body>
+
+  <div class="sticky-top">
+    <header id="header"></header>
+
+    <div class="firstTextContainerCountry d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner country" aria-hidden="true">
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+          <span>TURKEY</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+      <div id="homebtn"></div>
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">TURKEY</span>
+        </div>
+      </div>
+  </section>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-4">
+      <div class="col-lg-12">
+        <div class="row pt-3 pb-5">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <a href="https://www.instagram.com/p/CIlUDIJgAhk/" target="_blank"><img src="../assets/svg/teethAll/teethPromo.svg" class="img-fluid" alt="Responsive image"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3 mx-auto">
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="teethOp01.html"><img src="../assets/svg/teethAll/Op/teethOp01.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="teethOp02.html"><img src="../assets/svg/teethAll/Op/teethOp02.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="teethOp03.html"><img src="../assets/svg/teethAll/Op/teethOp03.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="faceOp05.html"><img src="../assets/svg/faceAll/Op/faceOp05.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+      </div>
+      <div class="row pt-5 mx-auto">
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="breastOp03.html"><img src="../assets/svg/breastAll/Op/breastOp03.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="eyeOp04.html"><img src="../assets/svg/eyeAll/Op/eyeOp04.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="buttOp03.html"><img src="../assets/svg/buttAll/Op/buttOp03.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <a href="buttOp04.html"><img src="../assets/svg/buttAll/Op/buttOp04.svg" class="img-fluid" alt="Responsive image"></a>
+        </div>
+      </div>
+      <div class="col-lg-12 pt-5">
+        <div class="row pt-3 pb-5">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <a href="https://www.instagram.com/p/CIlT3KHrxIW/" target="_blank"><img src="../assets/svg/hairAll/hairPromo.svg" class="img-fluid" alt="Responsive image"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5 pb-5">
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">CLINICS LOCATION</span>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
+        <script>
+          function initMap() {
+            const breast1 = {
+              lat: 41.010,
+              lng: 28.960
+            };
+            const breast2 = {
+              lat: 7.888,
+              lng: 98.397
+            };
+            const breast3 = {
+              lat: 18.493,
+              lng: -69.867
+            };
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+              mapId: "2840f96b932a2934",
+              zoom: 2,
+              center: breast1,
+            });
+
+            new google.maps.Marker({
+              position: breast1,
+              map,
+              title: "Hello World!",
+            });
+
+            new google.maps.Marker({
+              position: breast2,
+              map,
+              title: "Hello World!",
+            });
+            new google.maps.Marker({
+              position: breast3,
+              map,
+              title: "Hello World!",
+            });
+          }
+        </script>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <footer id="footer"></footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/header.js"></script>
+  <script src="../assets/js/homebtn.js"></script>
+  <script src="../assets/js/footer.js"></script>
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
