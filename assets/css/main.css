@@ -124,6 +124,10 @@ nav {
   color: var(--color-text-secondary);
 }
 
+.country span {
+  color: #FDEF4B;
+}
+
 .marquee__inner:hover {
   animation-play-state: running;
   cursor:context-menu;
@@ -154,6 +158,9 @@ nav {
 .firstTextContainer {
   background-color: #FDEF4B;
   /* border: 1px solid black; */
+}
+.firstTextContainerCountry {
+  background-color: var(--color-text-secondary);
 }
 
 .firstText {
