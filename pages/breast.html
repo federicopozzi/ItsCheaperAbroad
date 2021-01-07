@@ -119,7 +119,7 @@
       </div>
 
       <div class="row pt-4">
-        <div id="mapBreast" style='width: 100%; height: 300px; border-radius:10px;'></div>
+        <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
           function initMap() {
             const breast1 = {
@@ -135,7 +135,7 @@
               lng: -69.867
             };
 
-            const map = new google.maps.Map(document.getElementById("mapBreast"), {
+            const map = new google.maps.Map(document.getElementById("map"), {
               mapId: "2840f96b932a2934",
               zoom: 2,
               center: breast1,
@@ -144,18 +144,18 @@
             new google.maps.Marker({
               position: breast1,
               map,
-              title: "Hello World!",
+              title: "Istanbul, Turkey",
             });
 
             new google.maps.Marker({
               position: breast2,
               map,
-              title: "Hello World!",
+              title: "Phuket, Thailand",
             });
             new google.maps.Marker({
               position: breast3,
               map,
-              title: "Hello World!",
+              title: "Santo Domingo, Colombia",
             });
           }
         </script>
