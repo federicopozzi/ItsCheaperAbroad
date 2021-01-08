@@ -1,0 +1,222 @@
+<html lang=eng>
+
+<head>
+  <!-- metatag -->
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Group 04 - DD16">
+
+  <title>ItsCheaperAbroad</title>
+
+  <!-- responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <!-- favicon -->
+  <link rel="icon" sizes="192x192" href="">
+  <!-- Maps -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHEzS2xXoSE9a8CT_3WrhjqLz0vjDegIs&callback=initMap&libraries=&v=beta&map_ids=8e0a97af9386fef" defer></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+
+<body>
+<div class="sticky-top">
+  <header id="header"></header>
+</div>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+      <div id="bellybtn">
+
+      </div>
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">TUMMY TUCK</span> <!-- AGGIUNGERE PRIMA FOTO-->
+        </div>
+      </div>
+  </section>
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+
+
+      <div class="row">
+        <div class="col-lg-4">
+
+        <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slideshow>
+
+            <ul class="uk-slideshow-items imgCarouselProduct">
+              <li>
+                <img src="../assets/img/bellyAll/Belly_03_01.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                <img src="../assets/img/bellyAll/Belly_03_02.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                <img src="../assets/img/bellyAll/Belly_03_03.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                <img src="../assets/img/bellyAll/Belly_03_04.jpg" alt="" uk-cover>
+              </li>
+              <li>
+                <img src="../assets/img/bellyAll/Belly_03_05.jpg" alt="" uk-cover>
+              </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="row pb-2 borderInfo d-flex justify-content-center">
+            <div class="row pt-2 pb-2">
+              <div class="col-lg-2 d-flex align-items-center">
+                <img src="../assets/img/BellyAll/IG_Belly_03.jpg" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="col-lg-5 d-flex align-items-center" style="padding-left:0px">
+                <span><span class="profileName">@plasticsurgeryphuket</span>
+                  <br />
+                  <span class="clinicName">Plastic Surgery Phuket</span></span>
+              </div>
+              <div class="col-lg-5" style="text-align:right;">
+                <ul>
+                  <li> <span class="countryClinic">THAILAND</span></li>
+                  <li class="pt-2"> <span class="followers"><strong>1.225k</strong> followers</span></li>
+                  <li> <span class="followers"><strong>497</strong> posts</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row pb-4">
+              <div class="col-lg-12">
+                <span class="website">📧: info@plastic-surgery-phuket.com</span>
+              </div>
+              <div class="col-lg-8">
+                <span><a href="https://l.instagram.com/?u=https%3A%2F%2Fyoutu.be%2FagpsVo6HF6A&e=ATP03Bu1OAPGCIae-PM70gntcxyAsNDKXai9MmzUIk790elB8HDmfCwgnlhXESDKYTPToV9hi-YleSGAGFpfVQ&s=1" target="_blank">youtu.be/agpsVo6HF6A</a></span>
+              </div>
+              <div class="col-lg-4" style="text-align:right;">
+                <a href="https://www.instagram.com/plasticsurgeryphuket/" target="_blank"><span class="readMore">read more <span uk-icon="chevron-double-right"></span></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row borderPrice mt-2">
+            <div class="col-lg-12 d-flex align-items-center justify-content-between">
+              <span class="typeOperation">TUMMY TUCK</span>
+              <span class="price">$ 6.900</span>
+            </div>
+        </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">LOCATION</span>
+        </div>
+      </div>
+
+      <div class="row pt-4 ">
+        <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
+        <script>
+          function initMap() {
+            const breast1 = {
+              lat: -5.363,
+              lng: 131.044
+            };
+            const breast2 = {
+              lat: 10.363,
+              lng: 131.044
+            };
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+              mapId: "2840f96b932a2934",
+              zoom: 2,
+              center: breast1,
+            });
+
+            new google.maps.Marker({
+              position: breast1,
+              map,
+              title: "Hello World!",
+            });
+
+            new google.maps.Marker({
+              position: breast2,
+              map,
+              title: "Hello World!",
+            });
+          }
+        </script>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">REVIEWS</span>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-lg-6">
+          <ul>
+            <li class="reviewLine">
+              <span class="username">@i.am.lia</span> <span class="review">@danikadickie</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@brandonplasticsurgery</span> <span class="review">Amazing!</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@jens_weightlose_journey</span> <span class="review">what is the cost please</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+  <footer id="footer"></footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/header.js"></script>
+  <script src="../assets/js/bellybtn.js"></script>
+  <script src="../assets/js/footer.js"></script>
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
