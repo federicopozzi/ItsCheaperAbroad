@@ -1,7 +1,7 @@
 document.getElementById("header").innerHTML = `
 <div class="sticky-top">
   <header class="">
-    <nav class="navbar d-flex justify-content-between pl-5">
+    <nav class="navbar d-flex justify-content-between">
 
 
 <span id="sidebarCollapse"><i class="fas fa-bars"></i></span>
