@@ -122,40 +122,31 @@
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
           function initMap() {
-            const breast1 = {
-              lat: 41.010,
-              lng: 28.960
+            const domrep1 = {
+              lat: 18.489193328123676,
+              lng: -69.92182622012228
             };
-            const breast2 = {
-              lat: 7.888,
-              lng: 98.397
-            };
-            const breast3 = {
-              lat: 18.493,
-              lng: -69.867
+            const domrep2 = {
+              lat: 18.473492903244644,
+              lng: -69.89681557448539
             };
 
             const map = new google.maps.Map(document.getElementById("map"), {
               mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: breast1,
+              zoom: 11,
+              center: domrep1,
             });
 
             new google.maps.Marker({
-              position: breast1,
+              position: domrep1,
               map,
-              title: "Hello World!",
+              title: "Dra. Silvia Avilès",
             });
 
             new google.maps.Marker({
-              position: breast2,
+              position: domrep2,
               map,
-              title: "Hello World!",
-            });
-            new google.maps.Marker({
-              position: breast3,
-              map,
-              title: "Hello World!",
+              title: "Dra Denia Carpio",
             });
           }
         </script>
