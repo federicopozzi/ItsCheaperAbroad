@@ -148,37 +148,7 @@
       </div>
 
       <div class="row pt-4 ">
-        <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
-        <script>
-          function initMap() {
-            const breast1 = {
-              lat: -5.363,
-              lng: 131.044
-            };
-            const breast2 = {
-              lat: 10.363,
-              lng: 131.044
-            };
-
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: breast1,
-            });
-
-            new google.maps.Marker({
-              position: breast1,
-              map,
-              title: "Hello World!",
-            });
-
-            new google.maps.Marker({
-              position: breast2,
-              map,
-              title: "Hello World!",
-            });
-          }
-        </script>
+        
       </div>
     </div>
 
@@ -242,7 +212,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
-  
+
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/header.js"></script>
   <script src="../assets/js/nosebtn.js"></script>

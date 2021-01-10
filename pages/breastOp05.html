@@ -132,38 +132,7 @@
       </div>
 
       <div class="row pt-4 ">
-        <div id="map"></div>
-        <script>
-
-
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
-
-        var mapBreast05 = L.map('map').setView([41.010, 28.960], 2);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapBreast05);
-
-        L.marker([41.010, 28.960], {
-            icon: myIcon
-          }).addTo(mapBreast05)
-          .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
-
-        L.marker([7.888, 98.397], {
-            icon: myIcon
-          }).addTo(mapBreast05)
-          .bindPopup('<span class="popUpText">Phuket, Thailand</span>')
-
-        L.marker([18.493, -69.867], {
-            icon: myIcon
-          }).addTo(mapBreast05)
-          .bindPopup('<span class="popUpText">Santo Domingo, Colombia</span>')
-        </script>
+        
       </div>
     </div>
 

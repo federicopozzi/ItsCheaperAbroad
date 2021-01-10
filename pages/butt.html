@@ -126,25 +126,25 @@
           popupAnchor: [10, -25],
         });
 
-        var mapBelly = L.map('map').setView([41.010, 28.960], 2);
+        var mapButt = L.map('map').setView([41.010, 28.960], 2);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapBelly);
+        }).addTo(mapButt);
 
         L.marker([41.010, 28.960], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapButt)
           .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
 
         L.marker([18.493, -69.867], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapButt)
           .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
 
         L.marker([18.837, 98.971], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapButt)
           .bindPopup('<span class="popUpText">Chiang Mai, Thailand</span>')
         </script>
       </div>

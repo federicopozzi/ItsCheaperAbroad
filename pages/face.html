@@ -127,30 +127,30 @@
           popupAnchor: [10, -25],
         });
 
-        var mapBelly = L.map('map').setView([37.583, 127.000], 2);
+        var mapFace = L.map('map').setView([37.583, 127.000], 2);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapBelly);
+        }).addTo(mapFace);
 
         L.marker([37.583, 127.000], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapFace)
           .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
 
         L.marker([12.923, 100.872], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapFace)
           .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
 
         L.marker([13.750, 100.517], {
             icon: myIcon
-          }).addTo(mapBelly)
+          }).addTo(mapFace)
           .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
 
           L.marker([18.493, -69.867], {
               icon: myIcon
-            }).addTo(mapBelly)
+            }).addTo(mapFace)
             .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
         </script>
       </div>
