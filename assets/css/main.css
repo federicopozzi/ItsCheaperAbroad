@@ -227,6 +227,7 @@ font-family: var(--font-secondary);
 
 #sidebarCollapse {
   cursor: pointer;
+  color: #fff;
 }
 
 #sidebar ul li a {
