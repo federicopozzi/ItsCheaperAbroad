@@ -110,52 +110,38 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-          function initMap() {
-            const eye1 = {
-              lat: 37.583,
-              lng: 127.000
-            };
-            const eye2 = {
-              lat: 41.010,
-              lng: 28.960
-            };
-            const eye3 = {
-              lat: 6.245,
-              lng: -75.575
-            };
-            const eye4 = {
-              lat: 18.493,
-              lng: -69.867
-            };
+        var myIcon = L.icon({
+          iconUrl: '../assets/other/pin01.png',
+          iconSize: [27.5, 41],
+          iconAnchor: [5, 40],
+          popupAnchor: [10, -25],
+        });
 
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: eye1,
-            });
+        var mapBelly = L.map('map').setView([37.583, 127.000], 2);
 
-            new google.maps.Marker({
-              position: eye1,
-              map,
-              title: "Seoul, South Korea",
-            });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(mapBelly);
 
-            new google.maps.Marker({
-              position: eye2,
-              map,
-              title: "Istanbul, Turkey",
-            });
-            new google.maps.Marker({
-              position: eye3,
-              map,
-              title: "Medellin, Colombia",
-            });
-            new google.maps.Marker({
-              position: eye4,
-              map,
-              title: "Santo Domingo, Dominican Republic",
-            });
-          }
+        L.marker([37.583, 127.000], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
+
+        L.marker([41.010, 28.960], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
+
+        L.marker([6.245, -75.575], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Medellin, Colombia</span>')
+
+          L.marker([18.493, -69.867], {
+              icon: myIcon
+            }).addTo(mapBelly)
+            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
         </script>
       </div>
     </div>
