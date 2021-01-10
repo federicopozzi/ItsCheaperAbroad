@@ -116,54 +116,38 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-          function initMap() {
-            const face1 = {
-              lat: 37.583,
-              lng: 127.000
-            };
-            const face2 = {
-              lat: 12.923,
-              lng: 100.872
-            };
-            const face3 = {
-              lat: 13.750,
-              lng: 100.517
-            };
-            const face4 = {
-              lat: 18.493,
-              lng: -69.867
-            };
+        var myIcon = L.icon({
+          iconUrl: '../assets/other/pin01.png',
+          iconSize: [27.5, 41],
+          iconAnchor: [5, 40],
+          popupAnchor: [10, -25],
+        });
 
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: face1,
-            });
+        var mapBelly = L.map('map').setView([37.583, 127.000], 2);
 
-            new google.maps.Marker({
-              position: face1,
-              map,
-              title: "Seoul, South Korea",
-            });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(mapBelly);
 
-            new google.maps.Marker({
-              position: face2,
-              map,
-              title: "Pattaya, Chon Buri, Thailand",
-            });
+        L.marker([37.583, 127.000], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
 
-            new google.maps.Marker({
-              position: face3,
-              map,
-              title: "Bangkok, Thailand",
-            });
+        L.marker([12.923, 100.872], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
 
-            new google.maps.Marker({
-              position: face4,
-              map,
-              title: "Santo Domingo, Dominican Republic",
-            });
-          }
+        L.marker([13.750, 100.517], {
+            icon: myIcon
+          }).addTo(mapBelly)
+          .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
+
+          L.marker([18.493, -69.867], {
+              icon: myIcon
+            }).addTo(mapBelly)
+            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
         </script>
       </div>
     </div>
