@@ -29,7 +29,6 @@ html {
   --fontsize-titleSection: 30px;
   /* ########## NavBar ########## */
   --fontsize-nav: 18px;
-
   /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
   --fontsize-clinicName: 20px;
@@ -63,13 +62,26 @@ nav {
   margin-right: 250px;
 }
 
-/* ########## TYPO ########## */
+
+/* ########## MAP ########## */
+#map {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.popUpText {
+font-family: var(--font-secondary);
+}
+
+/* ########## TYPE ########## */
 .mainTitle {
   font-family: var(--font-secondary);
   font-weight: var(--font-bold);
   font-size: var(--fontsize-title);
   color: var(--color-main);
 }
+
 .mainTitleSection {
   font-family: var(--font-secondary);
   font-weight: var(--font-bold);
@@ -94,7 +106,7 @@ nav {
 }
 
 /* ########## DISMISSABLE ALERT ########## */
-.bottone {
+.colorDismissable {
   border: 0;
   background-color: #FDEF4B;
 }
@@ -130,7 +142,7 @@ nav {
 
 .marquee__inner:hover {
   animation-play-state: running;
-  cursor:context-menu;
+  cursor: context-menu;
 }
 
 @keyframes marquee {
@@ -144,148 +156,149 @@ nav {
 }
 
 /* ########## SIDENAV ########## */
-
 #sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    height: 100vh;
-    z-index: 1050;
-    background: var(--color-main);
-    color: #fff;
-    transition: all 0.3s;
-    overflow-y: scroll;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 1050;
+  background: var(--color-main);
+  color: #fff;
+  transition: all 0.3s;
+  overflow-y: scroll;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 #sidebar.active {
-    left: 0;
+  left: 0;
 }
 
 #dismiss {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background:var(--color-main);
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: var(--color-main);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #dismiss:hover {
-    background: #fff;
-    color: #7386D5;
+  background: #fff;
+  color: #7386D5;
 }
 
 .overlay {
-    display: none;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 998;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
+
 .overlay.active {
-    display: block;
-    opacity: 1;
+  display: block;
+  opacity: 1;
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: var(--color-main);
+  padding: 20px;
+  background: var(--color-main);
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    /* border-bottom: 1px solid #47748b; */
+  padding: 20px 0;
+  /* border-bottom: 1px solid #47748b; */
 }
 
 #sidebar ul p {
-    color: #fff;
-    padding: 10px;
+  color: #fff;
+  padding: 10px;
 }
+
 #sidebarCollapse {
-  cursor:pointer;
+  cursor: pointer;
 }
+
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
-    color:white;
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  color: white;
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+  color: #7386D5;
+  background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: var(--color-main);
+  color: #fff;
+  background: var(--color-main);
 }
 
 a[data-toggle="collapse"] {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
 }
 
 ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: var(--color-main);
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: var(--color-main);
 }
 
 ul.CTAs {
-    padding: 20px;
+  padding: 20px;
 }
 
 ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 a.download {
-    background: #fff;
-    color: var(--color-main);
+  background: #fff;
+  color: var(--color-main);
 }
 
 a.article,
 a.article:hover {
-    background: var(--color-main) !important;
-    color: #fff !important;
+  background: var(--color-main) !important;
+  color: #fff !important;
 }
 
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
 #content {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* ########## NAVBAR ########## */
@@ -304,6 +317,7 @@ a.article:hover {
   background-color: #FDEF4B;
   /* border: 1px solid black; */
 }
+
 .firstTextContainerCountry {
   background-color: var(--color-text-secondary);
 }
@@ -335,7 +349,7 @@ a.article:hover {
 }
 
 .borderBodyText {
-  border-radius:0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
   border: 2px solid var(--color-main);
 }
 
@@ -352,12 +366,12 @@ a.article:hover {
   border-radius: 10px;
   border: 1.5px solid var(--color-main);
   padding: 5px 10px 5px 10px;
-  color:white;
+  color: white;
 }
 
 .todayOnPromoText {
   background-color: var(--color-text-secondary);
-  color:#FDEF4B;
+  color: #FDEF4B;
   font-family: var(--font-secondary);
   font-weight: var(--font-bold);
   border-radius: 20px 20px 0px 0px;
@@ -407,9 +421,9 @@ a.article:hover {
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 6px;
-  padding-right:6px;
+  padding-right: 6px;
   border-radius: 10px;
-  color:var(--color-main);
+  color: var(--color-main);
   border: 1.5px solid var(--color-main);
 }
 
@@ -426,7 +440,7 @@ a.article:hover {
 }
 
 .readMore {
-  color:var(--color-main);
+  color: var(--color-main);
   font-family: var(--font-text);
   font-size: var(--fontsize-info);
 }
@@ -441,7 +455,7 @@ a.article:hover {
   font-family: var(--font-text);
   font-weight: var(--font-xbold);
   font-size: var(--fontsize-typeOp);
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
   line-height: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -451,15 +465,15 @@ a.article:hover {
 .fullPrice {
   font-family: var(--font-secondary);
   font-weight: var(--font-med);
-  font-size:20px;
+  font-size: 20px;
   text-decoration: line-through;
 }
 
 .price {
   font-family: var(--font-secondary);
   font-weight: var(--font-xbold);
-  font-size:25px;
-  color:var(--color-text-secondary);
+  font-size: 25px;
+  color: var(--color-text-secondary);
   padding-right: 20px;
 }
 
@@ -471,7 +485,7 @@ a.article:hover {
 .username {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
-  color:var(--color-main);
+  color: var(--color-main);
 }
 
 .review {
@@ -489,7 +503,7 @@ a.article:hover {
   border-radius: 30px;
 }
 
-.uk-active > a {
+.uk-active>a {
   background-color: var(--color-main) !important;
   font-family: var(--font-secondary);
   border: 1px solid var(--color-main);
@@ -503,18 +517,18 @@ a.article:hover {
 }
 
 .uk-subnav-pill>*>:first-child {
-  background-color: white ;
+  background-color: white;
   font-family: var(--font-secondary);
   border: 1px solid var(--color-main);
   border-radius: 10px;
-  color:var(--color-main);
+  color: var(--color-main);
   padding-left: 40px;
   padding-right: 40px;
 }
 
 .uk-subnav-pill>*>:first-child:hover {
   background-color: var(--color-main);
-  color:white;
+  color: white;
 }
 
 /* iphone */
