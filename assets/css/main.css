@@ -28,7 +28,7 @@ html {
   --fontsize-title: 18px;
   --fontsize-titleSection: 30px;
   /* ########## NavBar ########## */
-  --fontsize-nav: 18px;
+  --fontsize-nav: 14px;
   /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
   --fontsize-clinicName: 20px;
@@ -94,19 +94,6 @@ font-family: var(--font-secondary);
   margin-bottom: 0;
   border-radius: 0;
   border: 0;
-}
-
-/* ########## NAVBAR ########## */
-.marginNavSx {
-  margin-left: 50px;
-}
-
-.marginNavDx {
-  margin-right: 50px;
-}
-
-.logo {
-  width: 400px;
 }
 
 /* ########## UTILITY ########## */
@@ -317,6 +304,18 @@ a.article:hover {
 }
 
 /* ########## NAVBAR ########## */
+.marginNavSx {
+  margin-left: 50px;
+}
+
+.marginNavDx {
+  margin-right: 50px;
+}
+
+.logo {
+  width: 400px;
+}
+
 .navBackground {
   background-color: var(--color-back-header);
 }
