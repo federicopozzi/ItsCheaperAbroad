@@ -14,10 +14,17 @@
   <meta name="robots" content="all">
   <!-- favicon -->
   <link rel="icon" sizes="192x192" href="">
+  <!-- Navcollapse -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <!-- Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
   <!-- style -->
   <link rel="stylesheet" href="../assets/css/main.css">
 
@@ -26,14 +33,7 @@
 <body>
 
   <div class="sticky-top">
-    <header>
-      <nav class="navbar d-flex justify-content-between">
-
-        <div><a class="nav-item nav-link" href="#">INTRO </a></div>
-        <div><a class="nav-item nav-link" href="../index.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid" alt="Responsive image" width="400"></a></div>
-        <div><a class="nav-item nav-link" href="#">ABOUT</a></div>
-      </nav>
-    </header>
+    <header id="header"></header>
   </div>
 
   <section class="websiteMargin">
@@ -54,7 +54,7 @@
     </div>
   </section>
 
-  <section class="pb-5 websiteMargin">
+  <section class="pb-5 websiteMargin" style="height:100vh;">
     <div class="container-fluid pt-5">
       <div uk-filter="target: .js-filter">
 
@@ -66,41 +66,105 @@
         </ul>
 
         <ul class="js-filter">
-          <li data-color="white" >
+          <li data-color="white">
 
-              <div class="row d-flex justify-content-center borderAbout">
-                <div class="row pt-3 ">
-                  <div class="col-lg-12">
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <span>
-                          In the research phase we investigated tourism on Instagram. By taking a look at all the categories that build up the tourism presence on Instagram we discovered medical tourism, the practise that refers to people traveling
-                          abroad to obtain medical treatment. </span>
-                      </div>
-                      <div class="col-lg-6">
-                        <span>There are a lot of treatment options, the majority of them are cosmetic surgeries. It is noticable how specific countries in the world provide different and specialized treatments to medical tourists.</span>
-                      </div>
+            <div class="row d-flex justify-content-center borderAbout">
+              <div class="row pt-3 ">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <span>
+                        In the research phase we investigated tourism on Instagram. By taking a look at all the categories that build up the tourism presence on Instagram we discovered medical tourism, the practise that refers to people traveling
+                        abroad to obtain medical treatment. </span>
+                    </div>
+                    <div class="col-lg-6">
+                      <span>There are a lot of treatment options, the majority of them are cosmetic surgeries. It is noticable how specific countries in the world provide different and specialized treatments to medical tourists.</span>
                     </div>
                   </div>
                 </div>
-                <div class="row pb-3 pt-3">
-                  <a href="https://federicopozzi.github.io/dd16-phase2-template-master/question-1/" target="_blank">
-                    <img src="../assets/img/viz4.jpg" style="background-color: #333; border-radius:30px;" />
-                  </a>
-                </div>
-
               </div>
+              <div class="row pb-3 pt-3">
+                <a href="https://federicopozzi.github.io/dd16-phase2-template-master/question-1/" target="_blank">
+                  <img src="../assets/img/viz4.jpg" style="background-color: #333; border-radius:30px;" />
+                </a>
+              </div>
+
+            </div>
 
 
           </li>
           <li data-color="blue">
-            <div class="uk-card uk-card-primary uk-card-body">Item</div>
+            <div class="row d-flex justify-content-center borderAbout">
+              <div class="row pt-3 ">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <span>
+                        Instagram, thorughout time, increased its potential of selling you things through images. The consequence of this sell-you-everything approach brought Instagram as a platform to objectify users’ content in order to sell.
+                        Instragram has become a showcase of each and every kind of product.
+
+                        Medical tourism online is advertised with language of mass marketing or product of consumption. Selling medical procedures or computer hardware seems to be the same. </span>
+                    </div>
+                    <div class="col-lg-6">
+                      <span>The audience could be influenced by the mass marketing language and forget we are talking about medical procedures that bare risks and consequences. All the complexities and consequences are usually hidden because in
+                        advertising critical aspects or side effects are not shown.
+
+                        This project starts from medical tourism but it is also about the way services are becoming merchandised through the advertisement language of social media platforms such as Instagram.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pb-3 pt-3">
+                <a href="https://federicopozzi.github.io/dd16-phase2-template-master/question-1/" target="_blank">
+                  <img src="../assets/img/viz4.jpg" style="background-color: #333; border-radius:30px;" />
+                </a>
+              </div>
+
+            </div>
           </li>
           <li data-color="black">
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
+            <div class="row d-flex justify-content-center borderAbout">
+              <div class="row pt-3 ">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <span>
+                        The idea is to transpose real advertising campaigns and deals of medical tourism procedures found on Instagram in order to create a digital catalogue. </span>
+                    </div>
+                    <div class="col-lg-6">
+                      <span>This a collection of medical procedures that aims to showing real deals and promos on cosmetic surgeries in order to expose its mass marketing approach and ojectification.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pb-3 pt-3">
+
+              </div>
+
+            </div>
           </li>
           <li data-color="red">
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
+            <div class="row d-flex justify-content-center borderAbout">
+              <div class="row pt-3 ">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <span>
+                        The language we use belongs to the imagery of low cost, wanna-sell-you-everything marketing strategies and TV ads. Since the content we use comes exclusively from Instagram and we did not generate nor altered it, we are just
+                        putting together posts and comments. </span>
+                    </div>
+                    <div class="col-lg-6">
+                      <span>The big difference concerns the exaggerated graphic and stylistic approach to the matter, that allows us to trace back and expose the real intention of this marketing campaigns through images: sell you everything
+                        regardless of what it is.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pb-3 pt-3">
+
+              </div>
+
+            </div>
           </li>
 
         </ul>
@@ -134,6 +198,7 @@
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
 
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/header.js"></script>
   <script src="../assets/js/footer.js"></script>
 
 </body>
