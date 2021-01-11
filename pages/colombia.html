@@ -119,33 +119,33 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapCol = L.map('map').setView([41.010, 28.960], 2);
+          var mapCol = L.map('map').setView([41.010, 28.960], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapCol);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapCol);
 
-        L.marker([41.010, 28.960], {
-            icon: myIcon
-          }).addTo(mapCol)
-          .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
+          L.marker([11.01127471851537, -74.82809605936626], {
+              icon: myIcon
+            }).addTo(mapCol)
+            .bindPopup('<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>')
 
-        L.marker([18.493, -69.867], {
-            icon: myIcon
-          }).addTo(mapCol)
-          .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+          L.marker([3.3946519617905495, -76.5413944306804], {
+              icon: myIcon
+            }).addTo(mapCol)
+            .bindPopup('<span class="popUpText">Sonrisa Charry - Valle del Cauca, Colombia</span>')
 
-        L.marker([18.837, 98.971], {
-            icon: myIcon
-          }).addTo(mapCol)
-          .bindPopup('<span class="popUpText">Chiang Mai, Thailand</span>')
+          L.marker([7.036529835292955, -73.06845903863724], {
+              icon: myIcon
+            }).addTo(mapCol)
+            .bindPopup('<span class="popUpText">Dr. Felipe Gonzalez - Santander, Colombia</span>')
         </script>
       </div>
     </div>

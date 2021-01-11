@@ -32,36 +32,36 @@
 
 <body>
 
-<div class="sticky-top">
-  <header id="header"></header>
+  <div class="sticky-top">
+    <header id="header"></header>
 
-  <div class="firstTextContainer d-flex justify-content-center">
-    <div class="marquee">
-      <div class="marquee__inner" aria-hidden="true">
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
-        <span>BUTT</span>
+    <div class="firstTextContainer d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+          <span>BUTT</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <section class="websiteMargin">
     <div class="container-fluid pt-5">
@@ -119,33 +119,33 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapButt = L.map('map').setView([41.010, 28.960], 2);
+          var mapButt = L.map('map').setView([41.010, 28.960], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapButt);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapButt);
 
-        L.marker([41.010, 28.960], {
-            icon: myIcon
-          }).addTo(mapButt)
-          .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
+          L.marker([41.06565331567315, 29.001017241413674], {
+              icon: myIcon
+            }).addTo(mapButt)
+            .bindPopup('<span class="popUpText">Estetik International - Istanbul, Turkey</span>')
 
-        L.marker([18.493, -69.867], {
-            icon: myIcon
-          }).addTo(mapButt)
-          .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+          L.marker([18.473983358302632, -69.8967334], {
+              icon: myIcon
+            }).addTo(mapButt)
+            .bindPopup('<span class="popUpText">Dra. silvia Aviles - Santo Domingo, Dominican Republic</span>')
 
-        L.marker([18.837, 98.971], {
-            icon: myIcon
-          }).addTo(mapButt)
-          .bindPopup('<span class="popUpText">Chiang Mai, Thailand</span>')
+          L.marker([18.79572628416046, 98.97201133863724], {
+              icon: myIcon
+            }).addTo(mapButt)
+            .bindPopup('<span class="popUpText">Sarinya Clinic (ศรินยา คลินิก) - Chiang Mai, Thailand</span>')
         </script>
       </div>
     </div>
