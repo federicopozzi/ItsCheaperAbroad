@@ -32,36 +32,36 @@
 
 <body>
 
-<div class="sticky-top">
-  <header id="header"></header>
+  <div class="sticky-top">
+    <header id="header"></header>
 
-  <div class="firstTextContainer d-flex justify-content-center">
-    <div class="marquee">
-      <div class="marquee__inner" aria-hidden="true">
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
-        <span>TEETH</span>
+    <div class="firstTextContainer d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+          <span>TEETH</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <section class="websiteMargin">
     <div class="container-fluid pt-5">
@@ -123,45 +123,50 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapTeeth = L.map('map').setView([37.583, 127.000], 2);
+          var mapTeeth = L.map('map').setView([37.583, 127.000], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapTeeth);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapTeeth);
 
-        L.marker([37.583, 127.000], {
-            icon: myIcon
-          }).addTo(mapTeeth)
-          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
-
-        L.marker([12.923, 100.872], {
-            icon: myIcon
-          }).addTo(mapTeeth)
-          .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
-
-        L.marker([13.750, 100.517], {
-            icon: myIcon
-          }).addTo(mapTeeth)
-          .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
-
-          L.marker([18.493, -69.867], {
+          L.marker([41.010, 28.960], {
               icon: myIcon
             }).addTo(mapTeeth)
-            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+            .bindPopup('<span class="popUpText">Starling Health - Instanbul, Turkey</span>')
+
+          L.marker([6.250197625883222, -75.57088972470223], {
+              icon: myIcon
+            }).addTo(mapTeeth)
+            .bindPopup('<span class="popUpText">Perfect Smile Experience - Medellín, Colombia</span>')
+
+          L.marker([3.3946519617905495, -76.5413944306804], {
+              icon: myIcon
+            }).addTo(mapTeeth)
+            .bindPopup('<span class="popUpText">Sonrisa Charry - Valle del Cauca, Colombia</span>')
+
+          L.marker([20.63695910557869, -87.06711544602062], {
+              icon: myIcon
+            }).addTo(mapTeeth)
+            .bindPopup('<span class="popUpText">Dentex 2020 - Playa del Carmen, Mexico</span>')
+
+          L.marker([36.84733677305643, 28.254776760987284], {
+              icon: myIcon
+            }).addTo(mapTeeth)
+            .bindPopup('<span class="popUpText">Celebi Dental - Marmaris, Turkey</span>')
         </script>
         <!-- <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
           function initMap() {
             const teeth1 = {
-              lat: 41.010,
-              lng: 28.960
+              lat: 41.010, 28.960
+              lng:
             };
             const teeth2 = {
               lat: 3.440,
@@ -176,7 +181,7 @@
               lng: 29.033
             };
             const teeth5 = {
-              lat: 36.856,
+              lat: 36.84733677305643, 28.254776760987284
               lng: 28.271
             };
 

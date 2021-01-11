@@ -125,67 +125,16 @@
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(mapHair);
 
-        L.marker([37.583, 127.000], {
+        L.marker([19.419, -99.146], {
             icon: myIcon
           }).addTo(mapHair)
-          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
+          .bindPopup('<span class="popUpText">Mexico City, Mexico</span>')
 
-        L.marker([12.923, 100.872], {
+        L.marker([41.010, 28.960], {
             icon: myIcon
           }).addTo(mapHair)
-          .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
-
-        L.marker([13.750, 100.517], {
-            icon: myIcon
-          }).addTo(mapHair)
-          .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
-
-          L.marker([18.493, -69.867], {
-              icon: myIcon
-            }).addTo(mapHair)
-            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+          .bindPopup('<span class="popUpText">Istanbul, Turkey</span>')
         </script>
-        <!-- <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
-        <script>
-          function initMap() {
-            const hair1 = {
-              lat: 19.419,
-              lng: -99.146
-            };
-            const hair2 = {
-              lat: 41.010,
-              lng: 28.960
-            };
-            const hair3 = {
-              lat: 6.245,
-              lng: -75.575
-            };
-
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: hair1,
-            });
-
-            new google.maps.Marker({
-              position: hair1,
-              map,
-              title: "Mexico City, Mexico",
-            });
-
-            new google.maps.Marker({
-              position: hair2,
-              map,
-              title: "Istanbul, Turkey",
-            });
-
-            new google.maps.Marker({
-              position: hair3,
-              map,
-              title: "Medellin, Colombia",
-            });
-          }
-        </script> -->
       </div>
     </div>
 
