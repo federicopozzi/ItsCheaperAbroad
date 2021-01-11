@@ -133,38 +133,43 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapMex = L.map('map').setView([37.583, 127.000], 2);
+          var mapMex = L.map('map').setView([26.68511446997661, -103.39514154502761], 4);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapMex);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapMex);
 
-        L.marker([37.583, 127.000], {
-            icon: myIcon
-          }).addTo(mapMex)
-          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
-
-        L.marker([12.923, 100.872], {
-            icon: myIcon
-          }).addTo(mapMex)
-          .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
-
-        L.marker([13.750, 100.517], {
-            icon: myIcon
-          }).addTo(mapMex)
-          .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
-
-          L.marker([18.493, -69.867], {
+          L.marker([32.526118, -117.02126], {
               icon: myIcon
             }).addTo(mapMex)
-            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+            .bindPopup('<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>')
+
+          L.marker([32.523374791452376, -117.01309590491408], {
+              icon: myIcon
+            }).addTo(mapMex)
+            .bindPopup('<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>')
+
+          L.marker([20.63695910557869, -87.06711544602062], {
+              icon: myIcon
+            }).addTo(mapMex)
+            .bindPopup('<span class="popUpText">Dentex Odontología - Playa del Carmen, Mexico</span>')
+
+          L.marker([20.68511446997661, -103.39514154502761], {
+              icon: myIcon
+            }).addTo(mapMex)
+            .bindPopup('<span class="popUpText">Hair in 1 Day - Gudalajara, Mexico</span>')
+
+          L.marker([19.357103566905515, -99.18463991505979], {
+              icon: myIcon
+            }).addTo(mapMex)
+            .bindPopup('<span class="popUpText">Clinica DrEO - Mexico City, Mexico</span>')
         </script>
         <!-- <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>

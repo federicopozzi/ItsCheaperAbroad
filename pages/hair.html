@@ -32,36 +32,36 @@
 
 <body>
 
-<div class="sticky-top">
-  <header id="header"></header>
+  <div class="sticky-top">
+    <header id="header"></header>
 
-  <div class="firstTextContainer d-flex justify-content-center">
-    <div class="marquee">
-      <div class="marquee__inner" aria-hidden="true">
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
-        <span>HAIR</span>
+    <div class="firstTextContainer d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+          <span>HAIR</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <section class="websiteMargin">
     <div class="container-fluid pt-5">
@@ -90,10 +90,10 @@
           <a href="hairOp01.html"><img src="../assets/svg/hairAll/Op/hairOp01.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="hairOp02.html"><img src="../assets/svg/hairAll/Op/hairOp02.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="hairOp02.html"><img src="../assets/svg/hairAll/Op/hairOp02.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="hairOp03.html"><img src="../assets/svg/hairAll/Op/hairOp03.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="hairOp03.html"><img src="../assets/svg/hairAll/Op/hairOp03.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
       </div>
     </div>
@@ -112,34 +112,33 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapHair = L.map('map').setView([37.583, 127.000], 2);
+          var mapHair = L.map('map').setView([22.731460267949362, -44.880591087998454], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapHair);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapHair);
 
-L.marker([20.68511446997661, -103.39514154502761], {
-    icon: myIcon
-  }).addTo(mapHair)
-  .bindPopup('<span class="popUpText">Hair in 1 Day - Gudalajara, Mexico</span>')
+          L.marker([20.68511446997661, -103.39514154502761], {
+              icon: myIcon
+            }).addTo(mapHair)
+            .bindPopup('<span class="popUpText">Hair in 1 Day - Gudalajara, Mexico</span>')
 
+          L.marker([19.357103566905515, -99.18463991505979], {
+              icon: myIcon
+            }).addTo(mapHair)
+            .bindPopup('<span class="popUpText">Clinica DrEO - Mexico City, Mexico</span>')
 
-        L.marker([19.357103566905515, -99.18463991505979], {
-            icon: myIcon
-          }).addTo(mapHair)
-          .bindPopup('<span class="popUpText">Clinica DrEO - Mexico City, Mexico</span>')
-
-        L.marker([41.000874008735956, 29.05510727024624], {
-            icon: myIcon
-          }).addTo(mapHair)
-          .bindPopup('<span class="popUpText">Arenamed Hair Clinic - Istanbul, Turkey</span>')
+          L.marker([41.000874008735956, 29.05510727024624], {
+              icon: myIcon
+            }).addTo(mapHair)
+            .bindPopup('<span class="popUpText">Arenamed Hair Clinic - Istanbul, Turkey</span>')
         </script>
       </div>
     </div>

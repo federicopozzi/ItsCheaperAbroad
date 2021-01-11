@@ -32,36 +32,36 @@
 
 <body>
 
-<div class="sticky-top">
-  <header id="header"></header>
+  <div class="sticky-top">
+    <header id="header"></header>
 
-  <div class="firstTextContainer d-flex justify-content-center">
-    <div class="marquee">
-      <div class="marquee__inner" aria-hidden="true">
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
-        <span>NOSE</span>
+    <div class="firstTextContainer d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+          <span>NOSE</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <section class="websiteMargin">
     <div class="container-fluid pt-5">
@@ -90,13 +90,13 @@
           <a href="noseOp01.html"><img src="../assets/svg/noseAll/Op/noseOp01.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="noseOp02.html"><img src="../assets/svg/noseAll/Op/noseOp02.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="noseOp02.html"><img src="../assets/svg/noseAll/Op/noseOp02.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="noseOp03.html"><img src="../assets/svg/noseAll/Op/noseOp03.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="noseOp03.html"><img src="../assets/svg/noseAll/Op/noseOp03.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="noseOp04.html"><img src="../assets/svg/noseAll/Op/noseOp04.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="noseOp04.html"><img src="../assets/svg/noseAll/Op/noseOp04.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
       </div>
       <div class="row pt-5 mx-auto">
@@ -120,70 +120,44 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapNose = L.map('map').setView([37.523091480791976, 127.02673587011269], 12);
+          var mapNose = L.map('map').setView([37.523091480791976, 127.02673587011269], 12);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapNose);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapNose);
 
-        L.marker([37.50544810254444, 127.07881449766033], {
-            icon: myIcon
-          }).addTo(mapNose)
-          .bindPopup('<span class="popUpText">Medictel - Seoul, South Korea</span>')
+          L.marker([37.50544810254444, 127.07881449766033], {
+              icon: myIcon
+            }).addTo(mapNose)
+            .bindPopup('<span class="popUpText">Medictel - Seoul, South Korea</span>')
 
-        L.marker([37.5232105439706, 127.02794862593731], {
-            icon: myIcon
-          }).addTo(mapNose)
-          .bindPopup('<span class="popUpText">JK Plastics - Seoul, South Korea</span>')
+          L.marker([37.5232105439706, 127.02794862593731], {
+              icon: myIcon
+            }).addTo(mapNose)
+            .bindPopup('<span class="popUpText">JK Plastics - Seoul, South Korea</span>')
 
-        L.marker([37.496518048888824, 127.0277505613608], {
-            icon: myIcon
-          }).addTo(mapNose)
-          .bindPopup('<span class="popUpText">Seoul Guide Medical - Seoul, South Korea</span>')
+          L.marker([37.496518048888824, 127.0277505613608], {
+              icon: myIcon
+            }).addTo(mapNose)
+            .bindPopup('<span class="popUpText">Seoul Guide Medical - Seoul, South Korea</span>')
 
           L.marker([37.523091480791976, 127.02673587011269], {
               icon: myIcon
             }).addTo(mapNose)
             .bindPopup('<span class="popUpText">MISOODA - Seoul, South Korea</span>')
+
+          L.marker([37.523433616202034, 127.02794202593883], {
+              icon: myIcon
+            }).addTo(mapNose)
+            .bindPopup('<span class="popUpText">POP整形外科 - Seoul, South Korea</span>')
         </script>
-        <!-- <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
-        <script>
-          function initMap() {
-            const nose1 = {
-              lat: 37.583,
-              lng: 127.000
-            };
-            const nose2 = {
-              lat: 37.464,
-              lng: 126.649
-            };
-
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 2,
-              center: nose1,
-            });
-
-            new google.maps.Marker({
-              position: nose1,
-              map,
-              title: "Seoul, South Korea",
-            });
-
-            new google.maps.Marker({
-              position: nose2,
-              map,
-              title: "Seoul, South Korea",
-            });
-          }
-        </script> -->
       </div>
     </div>
 
