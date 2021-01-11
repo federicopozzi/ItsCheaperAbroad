@@ -1,15 +1,18 @@
 document.getElementById("header").innerHTML = `
 <div class="sticky-top">
   <header class="">
-    <nav class="navbar d-flex justify-content-between">
+  <nav class=" d-flex align-items-center justify-content-between">
 
 
-<span id="sidebarCollapse"><i class="fas fa-bars"></i></span>
+    <div>
+      <span id="sidebarCollapse" class="marginNavSx"><i class="fas fa-bars"></i></span>
+    </div>
 
-      <div><a class="nav-item nav-link" href="../index.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid" alt="Responsive image" width="400"></a></div>
-<div><a class="nav-item nav-link" href="./pages/about.html"></a></div>
-
-    </nav>
+    <div><a class="nav-item nav-link" href="../index.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a></div>
+    <div>
+      <span id="" class="marginNavDx"></span>
+    </div>
+  </nav>
   </header>
 
 
