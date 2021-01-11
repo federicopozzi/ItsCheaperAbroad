@@ -33,42 +33,42 @@
 
 <body>
 
-<div class="sticky-top">
-  <header id="header"></header>
+  <div class="sticky-top">
+    <header id="header"></header>
 
-  <div class="firstTextContainer d-flex justify-content-center">
-    <div class="marquee">
-      <div class="marquee__inner" aria-hidden="true">
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
-        <span>FACE</span>
+    <div class="firstTextContainer d-flex justify-content-center">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+          <span>FACE</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <section class="websiteMargin">
     <div class="container-fluid pt-5">
-    <div id="homebtn">
+      <div id="homebtn">
 
-    </div>
+      </div>
       <div class="row pt-5">
         <div>
           <span class="mainTitleSection">FACE</span>
@@ -90,10 +90,10 @@
           <a href="faceOp01.html"><img src="../assets/svg/faceAll/Op/faceOp01.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="faceOp02.html"><img src="../assets/svg/faceAll/Op/faceOp02.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="faceOp02.html"><img src="../assets/svg/faceAll/Op/faceOp02.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-        <a href="faceOp03.html"><img src="../assets/svg/faceAll/Op/faceOp03.svg" class="img-fluid" alt="Responsive image"></a>
+          <a href="faceOp03.html"><img src="../assets/svg/faceAll/Op/faceOp03.svg" class="img-fluid" alt="Responsive image"></a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
           <a href="faceOp04.html"><img src="../assets/svg/faceAll/Op/faceOp04.svg" class="img-fluid" alt="Responsive image"></a>
@@ -120,38 +120,43 @@
       <div class="row pt-4">
         <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
         <script>
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
+          var myIcon = L.icon({
+            iconUrl: '../assets/other/pin01.png',
+            iconSize: [27.5, 41],
+            iconAnchor: [5, 40],
+            popupAnchor: [10, -25],
+          });
 
-        var mapFace = L.map('map').setView([37.583, 127.000], 2);
+          var mapFace = L.map('map').setView([37.583, 127.000], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapFace);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapFace);
 
-        L.marker([37.583, 127.000], {
-            icon: myIcon
-          }).addTo(mapFace)
-          .bindPopup('<span class="popUpText">Seoul, South Korea</span>')
+          L.marker([37.496518048888824, 127.0277505613608], {
+              icon: myIcon
+            }).addTo(mapBelly)
+            .bindPopup('<span class="popUpText">Seoul Guide Medical - Seoul, South Korea</span>')
 
-        L.marker([12.923, 100.872], {
-            icon: myIcon
-          }).addTo(mapFace)
-          .bindPopup('<span class="popUpText">Pattaya, Chon Buri, Thailand</span>')
-
-        L.marker([13.750, 100.517], {
-            icon: myIcon
-          }).addTo(mapFace)
-          .bindPopup('<span class="popUpText">Bangkok, Thailand</span>')
-
-          L.marker([18.493, -69.867], {
+          L.marker([13.72377309366014, 100.56674017582452], {
               icon: myIcon
             }).addTo(mapFace)
-            .bindPopup('<span class="popUpText">Santo Domingo, Dominican Republic</span>')
+            .bindPopup('<span class="popUpText">Nirunda International Aesthetic Clinic (นิรันดาคลินิก) - Bangkok, Thailand</span>')
+
+          L.marker([18.825487130547206, 99.01171333960211], {
+              icon: myIcon
+            }).addTo(mapFace)
+            .bindPopup('<span class="popUpText">Rinrada Clinic CM รินรดา เชียงใหม่ - Pattaya, Chon Buri, Thailand</span>')
+
+          L.marker([18.47406276988475, -69.89695504602206], {
+              icon: myIcon
+            }).addTo(mapBreast)
+            .bindPopup('<span class="popUpText">Dra. Denia Carpio - Santo Domingo, Dominican Republic</span>')
+
+          L.marker([36.867934712530776, 30.728576437563394], {
+              icon: myIcon
+            }).addTo(mapEye)
+            .bindPopup('<span class="popUpText">Morsia Medical - Antalya, Turkey</span>')
         </script>
       </div>
     </div>
