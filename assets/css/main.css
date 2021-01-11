@@ -566,4 +566,20 @@ a.article:hover {
     width: 250px;
   }
 
+  .firstText {
+    font-family: var(--font-text);
+    font-weight: var(--font-bold);
+    color: var(--color-text-secondary);
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .introText {
+    font-family: var(--font-text);
+    font-weight: var(--font-medium);
+    color: #FDEF4B;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
 }
