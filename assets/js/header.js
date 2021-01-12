@@ -52,13 +52,28 @@ document.getElementById("header").innerHTML = `
         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">BODY <span uk-icon="triangle-down"></span></a>
         <ul class="collapse list-unstyled" id="pageSubmenu">
           <li>
-            <a href="#">Body 1</a>
+            <a href="./belly.html">Belly</a>
           </li>
           <li>
-            <a href="#">Body 2</a>
+            <a href="./breast.html">Breast</a>
           </li>
           <li>
-            <a href="#">Body 3</a>
+            <a href="./butt.html">Butt</a>
+          </li>
+          <li>
+            <a href="./eye.html">Eye</a>
+          </li>
+          <li>
+            <a href="./face.html">Face</a>
+          </li>
+          <li>
+            <a href="./hair.html">Hair</a>
+          </li>
+          <li>
+            <a href="./nose.html">Nose</a>
+          </li>
+          <li>
+            <a href="./teeth.html">Teeth</a>
           </li>
         </ul>
 
@@ -67,15 +82,24 @@ document.getElementById("header").innerHTML = `
       <li>
         <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">COUNTRY <span uk-icon="triangle-down"></span></a>
         <ul class="collapse list-unstyled" id="pageSubmenu1">
-          <li>
-            <a href="#">Country 1</a>
-          </li>
-          <li>
-            <a href="#">Country 2</a>
-          </li>
-          <li>
-            <a href="#">Country 3</a>
-          </li>
+        <li>
+          <a href="./colombia.html">Colombia</a>
+        </li>
+        <li>
+          <a href="./dominicanRep.html">Dominican Republic</a>
+        </li>
+        <li>
+          <a href="./mexico.html">Mexico</a>
+        </li>
+        <li>
+          <a href="./southKorea.html">South Korea</a>
+        </li>
+        <li>
+          <a href="./thailand.html">Thailand</a>
+        </li>
+        <li>
+          <a href="./turkey.html">Turkey</a>
+        </li>
         </ul>
         <a href="./about.html">ABOUT</a>
         <a href="#">INFO</a>
