@@ -133,37 +133,6 @@
 
       <div class="row pt-4 ">
         <div id="map"></div>
-        <script>
-
-        var myIcon = L.icon({
-          iconUrl: '../assets/other/pin01.png',
-          iconSize: [27.5, 41],
-          iconAnchor: [5, 40],
-          popupAnchor: [10, -25],
-        });
-
-        var mapBelly04 = L.map('map').setView([32.533, -117.021], 2);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mapBelly04);
-
-        L.marker([32.533, -117.021], {
-            icon: myIcon
-          }).addTo(mapBelly04)
-          .bindPopup('<span class="popUpText">Tijuana, Mexico</span>')
-
-        L.marker([7.888, 98.397], {
-            icon: myIcon
-          }).addTo(mapBelly04)
-          .bindPopup('<span class="popUpText">Phuket, Thailand</span>')
-
-        L.marker([10.964, -74.796], {
-            icon: myIcon
-          }).addTo(mapBelly04)
-          .bindPopup('<span class="popUpText">Baranquilla, Colombia</span>')
-
-        </script>
       </div>
     </div>
 
@@ -250,6 +219,7 @@
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
 
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/myMapProducts.js"></script>
   <script src="../assets/js/header.js"></script>
   <script src="../assets/js/bellybtn.js"></script>
   <script src="../assets/js/footer.js"></script>

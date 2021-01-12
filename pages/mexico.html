@@ -131,8 +131,8 @@
       </div>
 
       <div class="row pt-4">
-        <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
-        <script>
+        <div id="map"></div>
+        <!-- <script>
           var myIcon = L.icon({
             iconUrl: '../assets/other/pin01.png',
             iconSize: [27.5, 41],
@@ -170,55 +170,6 @@
               icon: myIcon
             }).addTo(mapMex)
             .bindPopup('<span class="popUpText">Clinica DrEO - Mexico City, Mexico</span>')
-        </script>
-        <!-- <div id="map" style='width: 100%; height: 300px; border-radius:10px;'></div>
-        <script>
-          function initMap() {
-            const mexico1 = {
-              lat: 32.512858327530026,
-              lng: -117.00717786067857
-            };
-            const mexico2 = {
-              lat: 20.685260618701076,
-              lng: -103.39500982841665
-            };
-            const mexico3 = {
-              lat: 19.35713393394929,
-              lng: -99.18477938981515
-            };
-            const mexico4 = {
-              lat: 32.526118,
-              lng: -117.02126
-            };
-
-            const map = new google.maps.Map(document.getElementById("map"), {
-              mapId: "2840f96b932a2934",
-              zoom: 3,
-              center: mexico2,
-            });
-
-            new google.maps.Marker({
-              position: mexico1,
-              map,
-              title: "Baltic Surgeries Tijuana",
-            });
-
-            new google.maps.Marker({
-              position: mexico2,
-              map,
-              title: "Hair in 1 day, Guadalajara",
-            });
-            new google.maps.Marker({
-              position: mexico3,
-              map,
-              title: "Clinica DrEO, Ciudad de Mexico",
-            });
-            new google.maps.Marker({
-              position: mexico4,
-              map,
-              title: "Sirene Surgery Clinic & Wellness Center, Ciudad de Mexico",
-            });
-          }
         </script> -->
       </div>
     </div>
@@ -252,6 +203,7 @@
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
 
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/myMapCategories.js"></script>
   <script src="../assets/js/header.js"></script>
   <script src="../assets/js/homebtn.js"></script>
   <script src="../assets/js/footer.js"></script>
