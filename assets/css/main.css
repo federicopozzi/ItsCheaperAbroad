@@ -159,6 +159,10 @@ nav {
 }
 
 /* ########## SIDENAV ########## */
+.marginMenu {
+  padding-left: 20px !important;
+}
+
 #sidebar {
   width: 250px;
   position: fixed;
@@ -246,13 +250,13 @@ nav {
 }
 
 #sidebar ul li a:hover {
-  color: #7386D5;
-  background: #fff;
+  color: var(--color-text-secondary);
+  background: #FDEF4B;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-  color: #fff;
+
   background: var(--color-main);
 }
 
@@ -357,10 +361,14 @@ a.article:hover {
 
 .introText {
   font-family: var(--font-text);
-  font-weight: var(--font-medium);
-  color: #FDEF4B;
-  font-size: var(--fontsize-title);
-  line-height: 20px;
+  font-weight: var(--font-light);
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.introText2 {
+  font-weight: var(--font-bold);
 }
 
 /* ########## HOME PAGE ########## */
@@ -519,37 +527,48 @@ a.article:hover {
 }
 
 /* ########## ABOUT PAGE ########## */
-.borderAbout {
-  border: 3.5px solid var(--color-main);
-  border-radius: 30px;
-}
-
-.uk-active>a {
-  background-color: var(--color-main) !important;
-  font-family: var(--font-secondary);
-  border: 1px solid var(--color-main);
+.accAbout {
+  border: 3px solid var(--color-main);
   border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.uk-subnav {
-  margin-left: 0px;
-}
-
-.uk-subnav-pill>*>:first-child {
-  background-color: white;
-  font-family: var(--font-secondary);
-  border: 1px solid var(--color-main);
+.acc-title {
+  background-color: white !important;
   border-radius: 10px;
+  font-family: var(--font-secondary);
   color: var(--color-main);
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.uk-subnav-pill>*>:first-child:hover {
-  background-color: var(--color-main);
-  color: white;
+.uk-accordion-title:focus, .uk-accordion-title:hover {
+  color: var(--color-main);
+}
+
+.uk-accordion-title::before {
+  background-image: url(../svg/plus.svg);
+}
+
+.uk-open>.uk-accordion-title::before {
+  background-image: url(../svg/minus.svg);
+}
+
+.imgResearch {
+  border-radius: 15px;
+  border: 3px solid var(--color-main);
+}
+
+.textAbout {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.textAbout > p {
+  font-family: var(--font-text);
+  color:var(--color-main);
+}
+
+.textAbout > span {
+  font-size: var(--fontsize-info);
+  color:var(--color-main);
 }
 
 /* iphone */
