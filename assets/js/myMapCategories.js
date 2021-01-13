@@ -11,8 +11,8 @@ let prefix = "/pages/";
 
 switch (document.location.pathname) {
   case prefix + "belly.html":
-    mapOptions.viewx = 19.45207519930728;
-    mapOptions.viewy =  -1.8116567150579195;
+    parseFloat(mapOptions.viewx = 19.45207519930728);
+    parseFloat(mapOptions.viewy =  -1.8116567150579195);
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [32.526118, -117.02126],
