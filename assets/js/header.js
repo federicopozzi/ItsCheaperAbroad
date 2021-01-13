@@ -8,7 +8,7 @@ document.getElementById("header").innerHTML = `
       <span id="sidebarCollapse" class="marginNavSx"><i class="fas fa-bars"></i></span>
     </div>
 
-    <div><a class="nav-item nav-link" href="../index.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a></div>
+    <div><a class="nav-item nav-link" href="../home.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a></div>
     <div>
       <span id="" class="marginNavDx"></span>
     </div>
@@ -102,7 +102,7 @@ document.getElementById("header").innerHTML = `
         </li>
         </ul>
         <a class="marginMenu" href="./about.html"><span class="secCat">ABOUT</span></a>
-        <a class="marginMenu" href="#"><span class="secCat">INFO</span></a>
+        <a class="marginMenu" href="../index.html"><span class="secCat">INTRO</span></a>
       </li>
     </ul>
     <!-- <ul class="list-unstyled CTAs">

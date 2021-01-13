@@ -79,7 +79,7 @@ document.getElementById("sideBar").innerHTML = `
       </li>
       </ul>
       <a class="marginMenu" href="./pages/about.html"><span class="secCat">ABOUT</span></a>
-      <a class="marginMenu" href="#"><span class="secCat">INFO</span></a>
+      <a class="marginMenu" href="./index.html"><span class="secCat">INTRO</span></a>
     </li>
   </ul>
     <!-- <ul class="list-unstyled CTAs">
