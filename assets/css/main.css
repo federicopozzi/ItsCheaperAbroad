@@ -66,6 +66,7 @@ nav {
   margin-right: 250px;
 }
 
+
 /* ########## MAP ########## */
 #map {
   width: 100%;
@@ -256,7 +257,6 @@ nav {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-
   background: var(--color-main);
 }
 
@@ -561,15 +561,21 @@ a.article:hover {
   padding-right: 40px;
 }
 
-.textAbout > p {
+.textAbout>p {
   font-family: var(--font-text);
-  color:var(--color-main);
+  color: var(--color-main);
 }
 
-.textAbout > span {
+.textAbout>span {
   font-size: var(--fontsize-info);
-  color:var(--color-main);
+  color: var(--color-main);
 }
+
+.descr {
+  color: var(--color-main);
+}
+
+
 
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -606,4 +612,3 @@ a.article:hover {
     font-size: 10px;
     line-height: 20px;
   }
-}

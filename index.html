@@ -26,7 +26,8 @@
 
 </head>
 <style>
-  a {
+
+  .bottone {
     position: absolute;
     left: 50%;
     top: 80%;
@@ -35,12 +36,12 @@
     padding: 20px;
     font-family: var(--font-secondary);
     cursor: pointer;
-    color:#FDEF4B;
+    color: #FDEF4B;
   }
 
-  a:hover {
+  .bottone:hover {
     background-color: #FDEF4B;
-    color:#EE1B22;
+    color: #EE1B22;
   }
 
   body {
@@ -52,21 +53,24 @@
     left: 5%;
     top: 5%;
     transform: translate(-50%, -50%);
-    background-color: white;
     padding: 20px;
     font-family: var(--font-secondary);
     cursor: pointer;
+    color: white;
+    transform: scale(2);
   }
+
 </style>
 
 <body>
 
   <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-  <video autoplay id="videointroductorio"><source src="../assets/videoTest.mp4" type="video/mp4"></video>
+  <video class="videoDesk" autoplay id="videointroductorio">
+    <source src="../assets/videoTest.mp4" type="video/mp4"></video>
 
-  <a href="home.html"><span>Go to Website</span></a>
+  <a class="bottone" href="home.html"><span>Go to Website</span></a>
 
-  <span id="audio"></span>
+  <span id="audio"><i class="fas fa-volume-up"></i></span>
 
 
   <!-- JavaScript-->
@@ -93,6 +97,7 @@
   <script src="./assets/js/main.js"></script>
   <script src="./assets/js/footer.js"></script>
   <script src="./assets/js/sideBar.js"></script>
+
   <script>
     $(document).ready(function() {
       //autoplay
