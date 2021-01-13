@@ -49,7 +49,7 @@ document.getElementById("header").innerHTML = `
       </li>
       <li>
 
-        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">BODY <span uk-icon="triangle-down"></span></a>
+        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><span class="secCat">BODY</span> <span uk-icon="triangle-down"></span></a>
         <ul class="collapse list-unstyled" id="pageSubmenu">
           <li>
             <a href="./belly.html">Belly</a>
@@ -80,7 +80,7 @@ document.getElementById("header").innerHTML = `
       </li>
 
       <li>
-        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">COUNTRY <span uk-icon="triangle-down"></span></a>
+        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false"><span class="secCat">COUNTRY</span> <span uk-icon="triangle-down"></span></a>
         <ul class="collapse list-unstyled" id="pageSubmenu1">
         <li>
           <a href="./colombia.html">Colombia</a>
@@ -101,8 +101,8 @@ document.getElementById("header").innerHTML = `
           <a href="./turkey.html">Turkey</a>
         </li>
         </ul>
-        <a href="./about.html">ABOUT</a>
-        <a href="#">INFO</a>
+        <a href="./about.html"><span class="secCat">ABOUT</span></a>
+        <a href="#"><span class="secCat">INFO</span></a>
       </li>
     </ul>
     <!-- <ul class="list-unstyled CTAs">

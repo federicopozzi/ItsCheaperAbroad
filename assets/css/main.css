@@ -66,7 +66,6 @@ nav {
   margin-right: 250px;
 }
 
-
 /* ########## MAP ########## */
 #map {
   width: 100%;
@@ -75,7 +74,7 @@ nav {
 }
 
 .popUpText {
-font-family: var(--font-secondary);
+  font-family: var(--font-secondary);
 }
 
 /* ########## TYPE ########## */
@@ -171,7 +170,11 @@ font-family: var(--font-secondary);
   color: #fff;
   transition: all 0.3s;
   overflow-y: scroll;
+  font-family: var(--font-text);
+}
 
+.secCat {
+  font-weight: var(--font-bold);
 }
 
 #sidebar.active {
@@ -551,7 +554,6 @@ a.article:hover {
 
 /* iphone */
 @media only screen and (max-width: 414px) {
-
   .websiteMargin {
     margin-left: auto;
     margin-right: auto;
@@ -585,5 +587,4 @@ a.article:hover {
     font-size: 10px;
     line-height: 20px;
   }
-
 }
