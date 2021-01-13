@@ -14,23 +14,23 @@ switch (document.location.pathname) {
     parseFloat(mapOptions.viewx = 19.45207519930728);
     parseFloat(mapOptions.viewy =  -1.8116567150579195);
     mapOptions.zoom = 2;
-    mapOptions.markers = [{
-        latlong: [32.526118, -117.02126],
-        title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
-      },
-      {
-        latlong: [32.523374791452376, -117.01309590491408],
-        title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
-      },
-      {
-        latlong: [7.898500665037002, 98.3679161],
-        title: '<span class="popUpText">Plastic Surgery Phuket - Phuket, Thailand</span>'
-      },
-      {
-        latlong: [11.01127471851537, -74.82809605936626],
-        title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
-      }
-    ];
+    // mapOptions.markers = [{
+    //     latlong: [32.526118, -117.02126],
+    //     title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+    //   },
+    //   {
+    //     latlong: [32.523374791452376, -117.01309590491408],
+    //     title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
+    //   },
+    //   {
+    //     latlong: [7.898500665037002, 98.3679161],
+    //     title: '<span class="popUpText">Plastic Surgery Phuket - Phuket, Thailand</span>'
+    //   },
+    //   {
+    //     latlong: [11.01127471851537, -74.82809605936626],
+    //     title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
+    //   }
+    // ];
     break;
 
   // case prefix + "breast.html":
