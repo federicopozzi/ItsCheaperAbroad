@@ -346,9 +346,11 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+// , {
+//   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+// }
+).addTo(map);
 
 for (let marker of mapOptions.markers) {
   L.marker(marker.latlong, {
