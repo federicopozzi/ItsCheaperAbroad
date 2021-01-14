@@ -7,9 +7,9 @@ var myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = "/pages/";
+let prefix = "https://federicopozzi.github.io/phase3/pages/"; //controllare anche questo
 
-switch (document.location.pathname) {
+switch (document.location.pathname) { //document.location.pathname.includes('belly.html')
   case prefix + "belly.html":
     mapOptions.view = [19.45207519930728, -1.8116567150579195];
     mapOptions.zoom = 2;
