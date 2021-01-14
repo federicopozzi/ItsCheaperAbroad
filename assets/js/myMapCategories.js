@@ -345,9 +345,10 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
 // https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 // mapOptions['viewx'],mapOptions['viewy']
 // var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
+// var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 
 
-var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
+var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
 
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 , {
