@@ -348,7 +348,7 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 
 
-var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
+var map = L.map('map').setView(new L.LatLng(mapOptions['viewx'],mapOptions['viewy']), mapOptions.zoom);
 
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 , {
