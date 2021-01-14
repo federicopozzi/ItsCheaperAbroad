@@ -342,11 +342,12 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
   default:
 
 }
+// https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 // mapOptions['viewx'],mapOptions['viewy']
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 // , {
 //   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 // }
