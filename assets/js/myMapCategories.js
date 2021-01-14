@@ -7,7 +7,7 @@ var myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = "/pages/"; //controllare anche questo
+let prefix = "https://federicopozzi.github.io/phase3/pages/"; //controllare anche questo
 
 switch (document.location.pathname) { //document.location.pathname.includes('belly.html')
   case prefix + "belly.html":
