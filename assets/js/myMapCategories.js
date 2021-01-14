@@ -342,9 +342,9 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
   default:
 
 }
-
+// mapOptions['viewx'],mapOptions['viewy']
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
-var map = L.map('map').setView(new L.LatLng(mapOptions['viewx'],mapOptions['viewy']), mapOptions.zoom);
+var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
