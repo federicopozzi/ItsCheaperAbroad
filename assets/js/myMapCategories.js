@@ -6,12 +6,13 @@ var myIcon = L.icon({
 });
 
 let mapOptions = {}
-
-let prefix = "https://federicopozzi.github.io/phase3/pages/"; //controllare anche questo
+// https://federicopozzi.github.io/phase3/pages/
+let prefix = "/pages/"; //controllare anche questo
 
 switch (document.location.pathname) { //document.location.pathname.includes('belly.html')
   case prefix + "belly.html":
-    mapOptions.view = [19.45207519930728, -1.8116567150579195];
+    mapOptions.viewx = 19.45207519930728;
+    mapOptions.viewy = -1.8116567150579195;
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [32.526118, -117.02126],
@@ -342,9 +343,8 @@ switch (document.location.pathname) { //document.location.pathname.includes('bel
 
 }
 
-
-
-var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
+// var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
+var map = L.map('map').setView(new L.LatLng(mapOptions.viewx,mapOptions.viewx), mapOptions.zoom);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
