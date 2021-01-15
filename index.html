@@ -1,120 +1,130 @@
 <html lang=eng>
 
 <head>
-  <!-- metatag -->
-  <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="Group 04 - DD16">
+    <!-- metatag -->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Group 04 - DD16">
 
-  <title>ItsCheaperAbroad</title>
+    <title>ItsCheaperAbroad</title>
 
-  <!-- responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="all">
-  <!-- favicon -->
-  <link rel="icon" sizes="192x192" href="">
-  <!-- Navcollapse -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!-- UIkit CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
-  <!-- style -->
-  <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+    <!-- favicon -->
+    <link rel="icon" sizes="192x192" href="">
+    <!-- Navcollapse -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css"/>
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 
 </head>
 <style>
 
-  .bottone {
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    background-color: var(--color-main);
-    padding: 20px;
-    font-family: var(--font-secondary);
-    cursor: pointer;
-    color: #FDEF4B;
-  }
+    .bottone {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        background-color: var(--color-main);
+        padding: 20px;
+        font-family: var(--font-secondary);
+        cursor: pointer;
+        color: #FDEF4B;
+    }
 
-  .bottone:hover {
-    background-color: #FDEF4B;
-    color: #EE1B22;
-  }
+    .bottone:hover {
+        background-color: #FDEF4B;
+        color: #EE1B22;
+    }
 
-  body {
-    height: 100vh;
-  }
+    body {
+        height: 100vh;
+    }
 
-  #audio {
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    font-family: var(--font-secondary);
-    cursor: pointer;
-    color: white;
-    transform: scale(2);
-  }
+    #audio {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        font-family: var(--font-secondary);
+        cursor: pointer;
+        color: white;
+        transform: scale(2);
+    }
 
 </style>
 
 <body>
 
-  <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-  <video class="videoDesk" autoplay id="videointroductorio">
-    <source src="./assets/videoTest.mp4" type="video/mp4"></video>
+<!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
+<video class="videoDesk" autoplay id="videointroductorio">
+    <source src="./assets/videoTest.mp4" type="video/mp4">
+</video>
 
-  <a class="bottone" href="home.html"><span>Go to Website</span></a>
+<a class="bottone" href="home.html"><span>Go to Website</span></a>
 
-  <span id="audio"><i class="fas fa-volume-up"></i></span>
+<span id="audio"><i class="fas fa-volume-up"></i></span>
 
 
-  <!-- JavaScript-->
-  <!-- UIkit JS -->
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+<!-- JavaScript-->
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- jQuery CDN - Slim version (=without AJAX) -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <!-- Popper.JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <!-- jQuery Custom Scroller CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-  <!-- Font awesome -->
-  <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
 
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/footer.js"></script>
-  <script src="./assets/js/sideBar.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/footer.js"></script>
+<script src="./assets/js/sideBar.js"></script>
 
-  <script>
-    $(document).ready(function() {
-      //autoplay
+<script>
+    $(document).ready(function () {
+        //autoplay
 
-      //audio
-      $("#videointroductorio").prop('muted', true);
+        //audio
+        $("#videointroductorio").prop('muted', true);
 
-      $("#videointroductorio").click(function() {
-        $(this).prop('muted', !$(this).prop('muted'));
-      });
+        $("#videointroductorio").click(function () {
+            $(this).prop('muted', !$(this).prop('muted'));
+        });
 
-      $("#audio").click(function() {
-        $("#videointroductorio").prop('muted', !$("#videointroductorio").prop('muted'));
-      });
+        $("#audio").click(function () {
+            $("#videointroductorio").prop('muted', !$("#videointroductorio").prop('muted'));
+        });
 
     });
-  </script>
+</script>
 </body>
 
 
