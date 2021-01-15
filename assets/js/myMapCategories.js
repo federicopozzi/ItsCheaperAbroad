@@ -9,7 +9,6 @@ let mapOptions = {}
 
 let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/pages/";
 
-
 switch (document.location.pathname) {
   case prefix + "belly.html":
     mapOptions.view = [19.45207519930728, -1.8116567150579195];
