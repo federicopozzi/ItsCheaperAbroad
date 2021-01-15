@@ -6,14 +6,12 @@ var myIcon = L.icon({
 });
 
 let mapOptions = {}
-// https://federicopozzi.github.io/phase3/pages/
-let prefix = "/phase3/pages/"; //controllare anche questo
 
-switch (document.location.pathname) { //document.location.pathname.includes('belly.html')
+let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/pages/";
+
+switch (document.location.pathname) {
   case prefix + "belly.html":
     mapOptions.view = [19.45207519930728, -1.8116567150579195];
-    // mapOptions['viewx'] = 19.45207519930728;
-    // mapOptions['viewy'] = -1.8116567150579195;
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [32.526118, -117.02126],
