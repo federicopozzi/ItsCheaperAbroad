@@ -435,7 +435,7 @@ a.article:hover {
 .imgCarouselProduct {
     border-radius: 20px;
     border: 3px solid var(--color-main);
-    height: 350px;
+    height: 380px;
 }
 
 .borderInfo {
@@ -489,12 +489,12 @@ a.article:hover {
 .typeOperation {
     font-family: var(--font-text);
     font-weight: var(--font-xbold);
-    font-size: var(--fontsize-typeOp);
+    font-size: 30px;
     color: var(--color-text-secondary);
     line-height: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 .fullPrice {
@@ -507,9 +507,17 @@ a.article:hover {
 .price {
     font-family: var(--font-secondary);
     font-weight: var(--font-xbold);
-    font-size: 20px;
+    font-size: 40px;
     color: var(--color-text-secondary);
     padding-right: 20px;
+    padding-left: 5px;
+}
+
+.deal {
+    color: #FDEF4B;
+    background-color: #FF0009;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
 
 .mappa {
