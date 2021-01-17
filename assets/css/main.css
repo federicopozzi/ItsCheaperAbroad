@@ -399,6 +399,10 @@ a.article:hover {
 
 
 /* ########## CATEGORY PAGE ########## */
+.paddingCard {
+    padding-top: 40px;
+}
+
 .backButton {
     background-color: var(--color-main);
     border-radius: 10px;
