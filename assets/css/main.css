@@ -66,6 +66,14 @@ nav {
     margin-right: 250px;
 }
 
+.displayMobile {
+    display: none;
+}
+
+.displayDesk {
+    display: initial;
+}
+
 
 /* ########## MAP ########## */
 #map {
@@ -373,12 +381,12 @@ a.article:hover {
 
 /* ########## HOME PAGE ########## */
 .borderBodyPic {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     border: 2px solid var(--color-main);
 }
 
 .borderBodyText {
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
     border: 2px solid var(--color-main);
 }
 
@@ -388,6 +396,7 @@ a.article:hover {
     color: #FDEF4B;
     font-size: var(--fontsize-title);
 }
+
 
 /* ########## CATEGORY PAGE ########## */
 .backButton {
@@ -403,12 +412,12 @@ a.article:hover {
     color: #FDEF4B;
     font-family: var(--font-secondary);
     font-weight: var(--font-bold);
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
 
 .todayOnPromoBox {
     background-color: var(--color-main);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .backgroundCategory1 {
@@ -447,10 +456,7 @@ a.article:hover {
 }
 
 .countryClinic {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 3px 6px;
     border-radius: 10px;
     color: var(--color-main);
     border: 1.5px solid var(--color-main);
@@ -583,6 +589,14 @@ a.article:hover {
         margin-right: auto;
     }
 
+    .displayMobile {
+        display: initial;
+    }
+
+    .displayDesk {
+        display: none;
+    }
+
     /* ########## NAVBAR ########## */
     .marginNavSx {
         margin-left: 5px;
@@ -596,6 +610,7 @@ a.article:hover {
         width: 250px;
     }
 
+    /* ########## HOME PAGE ########## */
     .firstText {
         font-family: var(--font-text);
         font-weight: var(--font-bold);
@@ -610,5 +625,19 @@ a.article:hover {
         color: #FDEF4B;
         font-size: 10px;
         line-height: 20px;
+    }
+
+    .mainTitleSection {
+        font-family: var(--font-secondary);
+        font-weight: var(--font-bold);
+        font-size: 20px;
+        color: var(--color-main);
+    }
+
+    .categoryBodyText {
+        font-family: var(--font-secondary);
+        background-color: var(--color-main);
+        color: #FDEF4B;
+        font-size: 12px;
     }
 }
