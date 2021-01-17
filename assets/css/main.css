@@ -33,7 +33,7 @@ html {
     --fontsize-typeMedical: 30px;
     --fontsize-clinicName: 20px;
     --fontsize-info: 15px;
-    --fontsize-typeOp: 25px;
+    --fontsize-typeOp: 20px;
 }
 
 body {
@@ -426,7 +426,7 @@ a.article:hover {
 .imgCarouselProduct {
     border-radius: 20px;
     border: 3px solid var(--color-main);
-    height: 300px;
+    height: 350px;
 }
 
 .borderInfo {
@@ -501,7 +501,7 @@ a.article:hover {
 .price {
     font-family: var(--font-secondary);
     font-weight: var(--font-xbold);
-    font-size: 25px;
+    font-size: 20px;
     color: var(--color-text-secondary);
     padding-right: 20px;
 }
