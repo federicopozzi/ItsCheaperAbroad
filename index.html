@@ -74,7 +74,7 @@
 
 <a class="bottone" href="home.html"><span>Go to Website</span></a>
 
-<span id="audio"><i class="fas fa-volume-up"></i></span>
+<span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
 
 
 <!-- JavaScript-->
@@ -111,17 +111,26 @@
 <script>
     $(document).ready(function () {
         //autoplay
-
+        let a = 0;
         //audio
         $("#videointroductorio").prop('muted', true);
+        $("#volumeUp").hide();
 
-        $("#videointroductorio").click(function () {
-            $(this).prop('muted', !$(this).prop('muted'));
-        });
+        $("#audio").on('click', function() {
+            if (a===0) {
+                a = 1;
+                $("#videointroductorio").prop('muted', false);
+                $("#volumeUp").show();
+                $("#volumeDown").hide();
+            }
+            else {
+                a = 0;
+                $("#videointroductorio").prop('muted', true);
+                $("#volumeUp").hide();
+                $("#volumeDown").show();
+            }
 
-        $("#audio").click(function () {
-            $("#videointroductorio").prop('muted', !$("#videointroductorio").prop('muted'));
-        });
+        })
 
     });
 </script>
