@@ -621,10 +621,14 @@ a.article:hover {
 
     .introText {
         font-family: var(--font-text);
-        font-weight: var(--font-med);
-        color: #FDEF4B;
-        font-size: 10px;
-        line-height: 20px;
+        font-weight: var(--font-light);
+        color: white;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .introText2 {
+        font-weight: var(--font-bold);
     }
 
     .mainTitleSection {
