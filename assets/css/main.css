@@ -643,7 +643,7 @@ a.article:hover {
     .firstText {
         font-family: var(--font-text);
         font-weight: var(--font-bold);
-        color: var(--color-text-secondary);
+        color: var(--color-text-secondary) !important;
         text-align: center;
         font-size: 10px;
     }
