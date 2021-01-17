@@ -40,7 +40,7 @@ if (prev === 'Mex') {
                 `
 } else {
   document.getElementById("buttbtn").innerHTML = `
-          <a href="breast.html">
+          <a href="butt.html">
             <span class="backButton">❮ BUTT</span>
           </a>
                 `

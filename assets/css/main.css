@@ -644,4 +644,14 @@ a.article:hover {
         color: #FDEF4B;
         font-size: 12px;
     }
+
+    /* ########## MARQUEE ########## */
+    .marquee span {
+        font-size: 15px;
+        padding: 0 2vw;
+        font-family: var(--font-text);
+        font-weight: var(--font-bold);
+        font-style: var(--fontitalic);
+        color: var(--color-text-secondary);
+    }
 }
