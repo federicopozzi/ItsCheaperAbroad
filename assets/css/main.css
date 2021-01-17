@@ -654,4 +654,11 @@ a.article:hover {
         font-style: var(--fontitalic);
         color: var(--color-text-secondary);
     }
+
+    .firstTextContainerCountry {
+        background-color: var(--color-text-secondary);
+    }
+    .country span {
+        color: #FDEF4B;
+    }
 }
