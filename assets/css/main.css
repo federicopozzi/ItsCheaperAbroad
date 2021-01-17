@@ -594,16 +594,16 @@ a.article:hover {
 /* medium screen */
 @media only screen and (max-width: 1330px) {
     .websiteMargin {
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
 /* little screen */
 @media only screen and (max-width: 1000px) {
     .websiteMargin {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
