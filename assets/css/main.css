@@ -591,6 +591,22 @@ a.article:hover {
 }
 
 
+/* medium screen */
+@media only screen and (max-width: 1330px) {
+    .websiteMargin {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+/* little screen */
+@media only screen and (max-width: 1000px) {
+    .websiteMargin {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
