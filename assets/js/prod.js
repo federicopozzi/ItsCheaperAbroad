@@ -20,7 +20,7 @@ switch (document.location.pathname) {
         cardOptions.secondBioLink = "http://www.balticsurgery.com/";
         cardOptions.country = "MEXICO";
         cardOptions.viewProfile = 'https://www.instagram.com/balticsurgerytijuana/';
-        cardOptions.typeOp = "GASTRIC SLEEVE SURGERY";
+        cardOptions.typeOp = 'GASTRIC SLEEVE SURGERY';
         cardOptions.price = "$ 4.400";
         cardOptions.viewDeal = 'mm';
         break;
