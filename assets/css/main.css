@@ -725,4 +725,43 @@ a.article:hover {
     .country span {
         color: #FDEF4B;
     }
+
+    /* ########## PRODUCT PAGE ########## */
+    .profileName {
+        font-family: var(--font-text);
+        font-weight: var(--font-xbold);
+        font-size: 15px;
+    }
+
+    .clinicName {
+        font-family: var(--font-text);
+        font-weight: var(--font-reg);
+        font-size: 15px;
+    }
+
+    .followers {
+        font-family: var(--font-text);
+        font-weight: var(--font-reg);
+        font-size: 12px;
+    }
+
+    .price {
+        font-family: var(--font-secondary);
+        font-weight: var(--font-xbold);
+        font-size: 25px;
+        color: var(--color-text-secondary);
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+
+    .typeOperation {
+        font-family: var(--font-text);
+        font-weight: var(--font-xbold);
+        font-size: 25px;
+        color: var(--color-text-secondary);
+        line-height: 25px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
 }
