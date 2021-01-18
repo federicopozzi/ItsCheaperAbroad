@@ -31,7 +31,7 @@ html {
     --fontsize-nav: 14px;
     /* ########## ProductPage ########## */
     --fontsize-typeMedical: 30px;
-    --fontsize-clinicName: 20px;
+    --fontsize-clinicName: 18px;
     --fontsize-info: 15px;
     --fontsize-typeOp: 20px;
 }
@@ -47,6 +47,7 @@ footer {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 a {
@@ -62,8 +63,8 @@ nav {
 }
 
 .websiteMargin {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .displayMobile {
@@ -480,6 +481,14 @@ a.article:hover {
     font-family: var(--font-text);
     font-weight: var(--font-reg);
     font-size: var(--fontsize-info);
+}
+
+.profileView {
+    color: #FDEF4B;
+    background-color: var(--color-main);
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: var(--font-secondary);
 }
 
 .website {
