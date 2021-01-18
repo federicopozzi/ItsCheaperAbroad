@@ -6,24 +6,13 @@ document.getElementById("sideBar").innerHTML = `
     </div>
 
     <div class="sidebar-header">
-      <!-- <h3>MENU</h3> -->
+     
     </div>
 
     <ul class="list-unstyled components">
-      <!-- <p>Dummy Heading</p> -->
+    
       <li class="active">
-        <!-- <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a> -->
-        <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
-                      <li>
-                          <a href="#">Home 1</a>
-                      </li>
-                      <li>
-                          <a href="#">Home 2</a>
-                      </li>
-                      <li>
-                          <a href="#">Home 3</a>
-                      </li>
-                  </ul> -->
+       
       </li>
       <li>
       <a class="marginMenu" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><span class="secCat">BODY</span> <i class="fas fa-chevron-down"></i></a>
@@ -82,13 +71,6 @@ document.getElementById("sideBar").innerHTML = `
       <a class="marginMenu" href="./index.html"><span class="secCat">INTRO</span></a>
     </li>
   </ul>
-    <!-- <ul class="list-unstyled CTAs">
-              <li>
-                  <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-              </li>
-              <li>
-                  <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-              </li>
-          </ul> -->
+    
   </nav>
       `

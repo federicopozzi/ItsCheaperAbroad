@@ -63,18 +63,43 @@
         transform: scale(2);
     }
 
+    #audioMob {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        font-family: var(--font-secondary);
+        cursor: pointer;
+        color: white;
+        transform: scale(2);
+    }
+
 </style>
 
 <body>
+<div class="displayDesk">
+    <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
+    <video autoplay id="videointroductorio">
+        <source src="./assets/videoTest.mp4" type="video/mp4">
+    </video>
 
-<!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-<video class="videoDesk" autoplay id="videointroductorio">
-    <source src="./assets/videoTest.mp4" type="video/mp4">
-</video>
+    <a class="bottone" href="home.html"><span>Go to Website</span></a>
 
-<a class="bottone" href="home.html"><span>Go to Website</span></a>
+    <span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
+</div>
 
-<span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
+<div class="displayMobile">
+    <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
+    <video autoplay id="videointroductorioMob">
+        <source src="./assets/videoMob.mp4" type="video/mp4">
+    </video>
+
+    <a class="bottone" href="home.html"><span>Go to Website</span></a>
+
+    <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
+</div>
+
 
 
 <!-- JavaScript-->
@@ -128,6 +153,28 @@
                 $("#videointroductorio").prop('muted', true);
                 $("#volumeUp").hide();
                 $("#volumeDown").show();
+            }
+
+        })
+
+        //autoplay
+        let b = 0;
+        //audio
+        $("#videointroductorioMob").prop('muted', true);
+        $("#volumeUpMob").hide();
+
+        $("#audioMob").on('click', function() {
+            if (b===0) {
+                b = 1;
+                $("#videointroductorioMob").prop('muted', false);
+                $("#volumeUpMob").show();
+                $("#volumeDownMob").hide();
+            }
+            else {
+                b = 0;
+                $("#videointroductorioMob").prop('muted', true);
+                $("#volumeUpMob").hide();
+                $("#volumeDownMob").show();
             }
 
         })

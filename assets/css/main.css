@@ -123,6 +123,11 @@ nav {
     background-color: #FDEF4B;
 }
 
+.dismiss {
+    color:#FF0009;
+    font-weight: var(--font-med);
+}
+
 /* ########## MARQUEE ########## */
 .marquee {
     overflow: hidden;
@@ -323,6 +328,11 @@ a.article:hover {
 }
 
 /* ########## NAVBAR ########## */
+.paddingNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .marginNavSx {
     margin-left: 50px;
 }
@@ -609,6 +619,14 @@ a.article:hover {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .displayMobile {
+        display: initial;
+    }
+
+    .displayDesk {
+        display: none;
+    }
 }
 
 /* iphone */
@@ -628,15 +646,22 @@ a.article:hover {
 
     /* ########## NAVBAR ########## */
     .marginNavSx {
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     .marginNavDx {
-        margin-right: 5px;
+        margin-right: 15px;
     }
 
     .logo {
         width: 250px;
+    }
+
+    /* ########## DISMISSABLE ALERT ########## */
+    .dismiss {
+        color:#FF0009;
+        font-weight: var(--font-med);
+        font-size: 13px;
     }
 
     /* ########## HOME PAGE ########## */

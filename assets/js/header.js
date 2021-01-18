@@ -1,7 +1,7 @@
 document.getElementById("header").innerHTML = `
 <div class="sticky-top">
   <header class="">
-  <nav class=" d-flex align-items-center justify-content-between">
+  <nav class=" d-flex align-items-center justify-content-between paddingNav">
 
 
     <div>
@@ -19,7 +19,6 @@ document.getElementById("header").innerHTML = `
 
 </div>
 
-<!-- <div id="sideBar"></div> -->
 <div>
   <!-- Sidebar  -->
   <nav id="sidebar">
@@ -28,24 +27,13 @@ document.getElementById("header").innerHTML = `
     </div>
 
     <div class="sidebar-header">
-      <!-- <h3>MENU</h3> -->
+      
     </div>
 
     <ul class="list-unstyled components">
-      <!-- <p>Dummy Heading</p> -->
+     
       <li class="active">
-        <!-- <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a> -->
-        <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
-                      <li>
-                          <a href="#">Home 1</a>
-                      </li>
-                      <li>
-                          <a href="#">Home 2</a>
-                      </li>
-                      <li>
-                          <a href="#">Home 3</a>
-                      </li>
-                  </ul> -->
+     
       </li>
       <li>
 
@@ -105,14 +93,7 @@ document.getElementById("header").innerHTML = `
         <a class="marginMenu" href="../index.html"><span class="secCat">INTRO</span></a>
       </li>
     </ul>
-    <!-- <ul class="list-unstyled CTAs">
-              <li>
-                  <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-              </li>
-              <li>
-                  <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-              </li>
-          </ul> -->
+    
   </nav>
 </div>
       `

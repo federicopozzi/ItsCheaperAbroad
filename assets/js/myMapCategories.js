@@ -1,4 +1,4 @@
-var myIcon = L.icon({
+let myIcon = L.icon({
     iconUrl: '../assets/other/pin01.png',
     iconSize: [27.5, 41],
     iconAnchor: [5, 40],
@@ -347,7 +347,7 @@ switch (document.location.pathname) {
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 // var map = L.map('map').setView(new L.LatLng(mapOptions['viewx'],mapOptions['viewy']), mapOptions.zoom);
 
-var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
+let map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
     , {
