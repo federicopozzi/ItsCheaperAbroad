@@ -350,6 +350,10 @@ a.article:hover {
     background-color: var(--color-back-header);
 }
 
+.nav-link {
+    color:white;
+}
+
 .navFont {
     color: var(--color-text-primary);
     font-family: var(--font-text);
