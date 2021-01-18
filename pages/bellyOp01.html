@@ -25,6 +25,7 @@
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- style -->
   <link rel="stylesheet" href="../assets/css/main.css">
 
@@ -52,29 +53,19 @@
   <section class="websiteMargin">
     <div class="row pt-3">
       <div class="col-lg-5">
-        <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slideshow>
+        <div class="w3-content w3-display-container">
+          <img class="mySlides imgCarouselProduct" src="../assets/img/bellyAll/Belly_01_01.jpg" style="width:100%">
+          <img class="mySlides imgCarouselProduct" src="../assets/img/bellyAll/Belly_01_02.jpg" style="width:100%">
+          <img class="mySlides imgCarouselProduct" src="../assets/img/bellyAll/Belly_01_03.jpg" style="width:100%">
 
-          <ul class="uk-slideshow-items imgCarouselProduct">
-            <li>
-              <img src="../assets/img/bellyAll/Belly_01_01.jpg" alt="" uk-cover>
-            </li>
-            <li>
-              <img src="../assets/img/bellyAll/Belly_01_02.jpg" alt="" uk-cover>
-            </li>
-            <li>
-              <img src="../assets/img/bellyAll/Belly_01_03.jpg" alt="" uk-cover>
-            </li>
-          </ul>
-
-          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
-
       </div>
+
       <div class="col-lg-7 pl-5">
         <div class="row">
-          <div class="row pb-3 pt-3 borderInfo d-flex justify-content-center">
+          <div class="row pb-3 pt-3 borderInfo d-flex justify-content-center" style="position: absolute; top:0">
             <div class="row pt-2 pb-2">
               <div class="col-lg-2 d-flex align-items-center">
                 <img src="../assets/img/bellyAll/IG_Belly_01.jpg" class="img-fluid rounded-circle" alt="Responsive image">
@@ -121,7 +112,7 @@
               <div class="justify-content-between"><span class="price">$ 4.400</span><a href=""><span class="deal"><i class="fab fa-instagram"></i> VIEW DEAL</span></a></div>
             </div>
           </div>-->
-          <div class="row pb-3 pt-3 borderPrice d-flex justify-content-center mt-4">
+          <div class="row pb-3 pt-3 borderPrice d-flex justify-content-center mt-4" style="position: absolute; bottom:0">
 
             <div class="row pb-4">
               <div class="col-lg-12">
@@ -250,7 +241,25 @@
 
   </section>
 
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
 
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+</script>
 
   <footer id="footer"></footer>
 

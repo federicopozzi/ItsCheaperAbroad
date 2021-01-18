@@ -63,8 +63,8 @@ nav {
 }
 
 .websiteMargin {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .displayMobile {
@@ -450,7 +450,7 @@ a.article:hover {
 .imgCarouselProduct {
     border-radius: 20px;
     border: 3px solid var(--color-main);
-    height: 380px;
+   /* height: 380px;*/
 }
 
 .borderInfo {
@@ -512,7 +512,7 @@ a.article:hover {
 .typeOperation {
     font-family: var(--font-text);
     font-weight: var(--font-xbold);
-    font-size: 30px;
+    font-size: 25px;
     color: var(--color-text-secondary);
     line-height: 25px;
     padding-top: 20px;
@@ -617,8 +617,8 @@ a.article:hover {
 /* medium screen */
 @media only screen and (max-width: 1330px) {
     .websiteMargin {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 
