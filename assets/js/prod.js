@@ -52,8 +52,6 @@ switch (document.location.pathname) {
 
 
     document.getElementById('firstImgMob').src = cardOptions.firstImg;
-    /*document.getElementById('secondImgMob').src = cardOptions.secondImg;
-    document.getElementById('thirdImgMob').src = cardOptions.thirdImg;*/
     document.getElementById('igImgMob').src = cardOptions.igImg;
     document.getElementById('profileMob').textContent = cardOptions.profile;
     document.getElementById('secondLineMob').textContent = cardOptions.secondLine;

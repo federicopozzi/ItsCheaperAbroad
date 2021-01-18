@@ -642,8 +642,8 @@ a.article:hover {
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .displayMobile {
@@ -653,6 +653,8 @@ a.article:hover {
     .displayDesk {
         display: none;
     }
+
+
 
     /* ########## NAVBAR ########## */
     .marginNavSx {
@@ -770,6 +772,15 @@ a.article:hover {
         line-height: 25px;
         padding-top: 5px;
         padding-left: 5px;
+    }
+
+    .profileView {
+        color: #FDEF4B;
+        background-color: var(--color-main);
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-family: var(--font-secondary);
+        font-size: 10px;
     }
 
 }
