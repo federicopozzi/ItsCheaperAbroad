@@ -14,7 +14,7 @@ switch (document.location.pathname) {
     mapOptions.view = [0.533, -0.021];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [2.526118, -1.02126],
+      latlong: [45.6047428, 8.7989361],
       title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
     }];
     break;
