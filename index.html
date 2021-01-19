@@ -81,7 +81,8 @@
                 <span id="sidebarCollapse" class="marginNavSx"><i class="fas fa-bars"></i></span>
             </div>
 
-            <div><a class="nav-item nav-link" href="./home.html"><img src="./assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a>
+            <div><a class="nav-item nav-link" href="./home.html"><img src="./assets/svg/logo_Header.svg"
+                                                                      class="img-fluid logo" alt="Responsive image"></a>
             </div>
             <div>
                 <a href="./pages/about.html" style="color:white;"><span id="" class="marginNavDx">ABOUT</span></a>
@@ -119,10 +120,11 @@
 
     <a class="bottone" href="home.html"><span>Continue</span></a>
 
-    <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
+    <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob"
+                                                                            class="fas fa-volume-off"></i></span>
 </div>
 
-
+<footer id="footer" class="mt-5"></footer>
 
 <!-- JavaScript-->
 <!-- UIkit JS -->
@@ -163,14 +165,13 @@
         $("#videointroductorio").prop('muted', true);
         $("#volumeUp").hide();
 
-        $("#audio").on('click', function() {
-            if (a===0) {
+        $("#audio").on('click', function () {
+            if (a === 0) {
                 a = 1;
                 $("#videointroductorio").prop('muted', false);
                 $("#volumeUp").show();
                 $("#volumeDown").hide();
-            }
-            else {
+            } else {
                 a = 0;
                 $("#videointroductorio").prop('muted', true);
                 $("#volumeUp").hide();
@@ -185,14 +186,13 @@
         $("#videointroductorioMob").prop('muted', true);
         $("#volumeUpMob").hide();
 
-        $("#audioMob").on('click', function() {
-            if (b===0) {
+        $("#audioMob").on('click', function () {
+            if (b === 0) {
                 b = 1;
                 $("#videointroductorioMob").prop('muted', false);
                 $("#volumeUpMob").show();
                 $("#volumeDownMob").hide();
-            }
-            else {
+            } else {
                 b = 0;
                 $("#videointroductorioMob").prop('muted', true);
                 $("#volumeUpMob").hide();
