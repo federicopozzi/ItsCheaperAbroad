@@ -116,7 +116,9 @@ nav {
 
 .backgroundSection1 {
     background-color: #EE1B22;
+
 }
+
 
 /* ########## DISMISSABLE ALERT ########## */
 .colorDismissable {
@@ -618,6 +620,10 @@ a.article:hover {
     color: var(--color-main);
 }
 
+.textFoot {
+    font-size:10px ;
+}
+
 
 /* medium screen */
 @media only screen and (max-width: 1330px) {
@@ -646,8 +652,8 @@ a.article:hover {
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .displayMobile {

@@ -31,12 +31,10 @@
 <style>
 
     .bottone {
-        position: absolute;
-        left: 50%;
-        top: 80%;
-        transform: translate(-50%, -50%);
+
         background-color: var(--color-main);
-        padding: 20px;
+        padding: 10px;
+        border-radius: 10px;
         font-family: var(--font-secondary);
         cursor: pointer;
         color: #FDEF4B;
@@ -53,8 +51,8 @@
 
     #audio {
         position: absolute;
-        left: 5%;
-        top: 5%;
+        left: 20%;
+        top: 20%;
         transform: translate(-50%, -50%);
         padding: 20px;
         font-family: var(--font-secondary);
@@ -77,17 +75,45 @@
 
 </style>
 
-<body>
-<div class="displayDesk">
-    <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-    <video autoplay id="videointroductorio">
-        <source src="./assets/videoTest.mp4" type="video/mp4">
-    </video>
+<body style="background-color: #FDEF4B">
+<div class="sticky-top">
+    <header>
+        <nav class=" d-flex align-items-center justify-content-between paddingNav">
 
-    <a class="bottone" href="home.html"><span>Go to Website</span></a>
 
-    <span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
+            <div>
+                <span id="sidebarCollapse" class="marginNavSx"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div><a class="nav-item nav-link" href="./home.html"><img src="./assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a>
+            </div>
+            <div>
+                <a href="./pages/about.html" style="color:white;"><span id="" class="marginNavDx">ABOUT</span></a>
+            </div>
+        </nav>
+    </header>
 </div>
+
+<section class="websiteMargin" style="padding-top: 100px;">
+    <div class="displayDesk">
+        <div class="row">
+            <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
+            <video autoplay id="videointroductorio">
+                <source src="./assets/videoTest.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <div class="row pt-5 justify-content-center">
+            <div class="col-lg-3" style="text-align: center">
+                <a class="bottone" href="home.html"><span>CONTINUE</span></a>
+            </div>
+
+        </div>
+        <span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
+    </div>
+</section>
+
 
 <div class="displayMobile">
     <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
@@ -95,7 +121,7 @@
         <source src="./assets/videoMob.mp4" type="video/mp4">
     </video>
 
-    <a class="bottone" href="home.html"><span>Go to Website</span></a>
+    <a class="bottone" href="home.html"><span>Continue</span></a>
 
     <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
 </div>

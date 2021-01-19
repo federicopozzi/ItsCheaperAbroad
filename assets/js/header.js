@@ -10,7 +10,7 @@ document.getElementById("header").innerHTML = `
 
     <div><a class="nav-item nav-link" href="../home.html"><img src="../assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a></div>
     <div>
-      <span id="" class="marginNavDx"></span>
+      <a href="./about.html" style="color:white;"><span id="" class="marginNavDx">ABOUT</span></a>
     </div>
   </nav>
   </header>
