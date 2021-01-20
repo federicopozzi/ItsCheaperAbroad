@@ -131,6 +131,17 @@ nav {
     font-weight: var(--font-med);
 }
 
+.clickHere {
+    font-family: var(--font-text);
+    font-weight: var(--font-bold);
+    color: #FF0009;
+    text-decoration: underline;
+}
+
+.clickHere:hover {
+    color: #FF0009 !important;
+}
+
 /* ########## MARQUEE ########## */
 .marquee {
     overflow: hidden;
@@ -683,7 +694,7 @@ a.article:hover {
     .dismiss {
         color:#FF0009;
         font-weight: var(--font-med);
-        font-size: 13px;
+        font-size: 11px;
     }
 
     /* ########## HOME PAGE ########## */
@@ -699,8 +710,8 @@ a.article:hover {
         font-family: var(--font-text);
         font-weight: var(--font-light);
         color: white;
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 15px;
     }
 
     .introText2 {
