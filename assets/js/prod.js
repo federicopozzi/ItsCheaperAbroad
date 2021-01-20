@@ -20,7 +20,47 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/balticsurgerytijuana/';
         cardOptions.typeOp = 'GASTRIC SLEEVE SURGERY';
         cardOptions.price = "$ 4.400";
-        cardOptions.viewDeal = 'mm';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CJWlJd4hmwc/';
+        break;
+
+    case pref + "bellyOp02.html":
+        cardOptions.title = 'MOMMY MAKEOVER';
+        cardOptions.firstImg = '../assets/img/bellyAll/Belly_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/bellyAll/Belly_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/bellyAll/Belly_02_03.jpg';
+        cardOptions.igImg = '../assets/img/bellyAll/IG_Belly_02.jpg';
+        cardOptions.profile = '@balticsurgerytijuana';
+        cardOptions.secondLine = 'Plastic & Bariatric Surgery';
+        cardOptions.follower = '54.6k';
+        cardOptions.posts = "2.839";
+        cardOptions.firstBio = "The best Medical Tourism Company in Tijuana.";
+        cardOptions.secondBio = "balticsurgery.com";
+        cardOptions.secondBioLink = "http://www.balticsurgery.com/";
+        cardOptions.country = "MEXICO";
+        cardOptions.viewProfile = 'https://www.instagram.com/balticsurgerytijuana/';
+        cardOptions.typeOp = 'MOMMY MAKEOVER';
+        cardOptions.price = "$ 7.900";
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CCY37xih5zY/';
+        break;
+
+    case pref + "bellyOp03.html":
+        cardOptions.title = 'TUMMY TUCK';
+        cardOptions.firstImg = '../assets/img/bellyAll/Belly_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/bellyAll/Belly_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/bellyAll/Belly_03_03.jpg';
+        cardOptions.igImg = '../assets/img/bellyAll/IG_Belly_03.jpg';
+        cardOptions.profile = '@plasticsurgeryphuket';
+        cardOptions.secondLine = 'Plastic Surgery Phuket';
+        cardOptions.follower = '1.2k';
+        cardOptions.posts = "497";
+        cardOptions.firstBio = "📧: info@plastic-surgery-phuket.com";
+        cardOptions.secondBio = "youtu.be/agpsVo6HF6A";
+        cardOptions.secondBioLink = "http://youtu.be/agpsVo6HF6A";
+        cardOptions.country = "Thailand";
+        cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
+        cardOptions.typeOp = 'TUMMY TUCK';
+        cardOptions.price = "$ 6.900";
+        cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/\n';
         break;
 
     default:
