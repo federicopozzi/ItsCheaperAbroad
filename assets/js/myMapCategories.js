@@ -96,8 +96,12 @@ switch (document.location.pathname) {
                 title: '<span class="popUpText">Morsia Medical - Antalya, Turkey</span>'
             },
             {
-                latlong: [7.036529835292955, -73.06845903863724],
+                latlong: [18.47406276988475, -69.89695504602206],
                 title: '<span class="popUpText">Dra. Denia Carpio - Santo Domingo, Dominican Republic</span>'
+            },
+            {
+                latlong: [7.035789811760819, -73.06833737019],
+                title: '<span class="popUpText">Dr. Felipe Gonzalez - Bucamaranga, Colombia</span>'
             }
         ];
         break;
@@ -124,6 +128,10 @@ switch (document.location.pathname) {
             {
                 latlong: [36.867934712530776, 30.728576437563394],
                 title: '<span class="popUpText">Morsia Medical - Antalya, Turkey</span>'
+            },
+            {
+                latlong: [37.49596471735722, 127.02754671818016],
+                title: '<span class="popUpText">Seoul Guide Medical - Seoul, South Korea</span>'
             }
         ];
         break;
