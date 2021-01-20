@@ -7,69 +7,69 @@ let myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+let prefix = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
 
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
-    mapOptions.view = [0.533, -0.021];
+    mapOptions.view = [35, -100];
     mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [50, 8],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [32.523374791452376, -117.01309590491408],
+      title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
     }];
     break;
 
   case prefix + "bellyOp02.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [35, -100];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [32.523374791452376, -117.01309590491408],
+      title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
     }];
     break;
 
   case prefix + "bellyOp03.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [12, 100];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [7.898500665037002, 98.3679161],
+      title: '<span class="popUpText">Plastic Surgery Phuket - Phuket, Thailand</span>'
     }];
     break;
 
   case prefix + "bellyOp04.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [10, -80];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [11.01127471851537, -74.82809605936626],
+      title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
     }];
     break;
 
   case prefix + "bellyOp05.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [10, -80];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [11.01127471851537, -74.82809605936626],
+      title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
     }];
     break;
 
   case prefix + "bellyOp06.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [35, -100];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [32.526118, -117.02126],
       title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
     }];
     break;
 
   case prefix + "breastOp01.html":
-    mapOptions.view = [2.533, -7.021];
-    mapOptions.zoom = 2;
+    mapOptions.view = [35, 120];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      latlong: [37.4996, 127.034288],
+      title: '<span class="popUpText">Beautique Korea - Seoul, South Korea</span>'
     }];
     break;
 
