@@ -116,6 +116,9 @@ nav {
 
 .backgroundSection1 {
    background-color: #FF0009;
+    background-image:
+            radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.2)),
+            url('../a.png');
 }
 
 
