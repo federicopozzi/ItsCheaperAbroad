@@ -117,7 +117,7 @@ nav {
   background-color: #FF0009;
   background-image:
     radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.3)),
-    url('../a.png');
+    url('../a.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -232,8 +232,8 @@ nav {
 }
 
 #dismiss:hover {
-  background: #fff;
-  color: #7386D5;
+  background: #FDEF4B;
+  color: #FF0009;
 }
 
 .overlay {
@@ -782,7 +782,7 @@ a.article:hover {
     padding: 10px 15px;
     border-radius: 10px;
     font-family: var(--font-secondary);
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .typeOperation {
@@ -801,6 +801,6 @@ a.article:hover {
     padding: 10px 15px;
     border-radius: 10px;
     font-family: var(--font-secondary);
-    font-size: 10px;
+    font-size: 12px;
   }
 }
