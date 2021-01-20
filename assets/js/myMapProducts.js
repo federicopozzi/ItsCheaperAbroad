@@ -12,9 +12,9 @@ let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
     mapOptions.view = [0.533, -0.021];
-    mapOptions.zoom = 2;
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
-      latlong: [45.6047428, 8.7989361],
+      latlong: [50, 8],
       title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
     }];
     break;
