@@ -36,6 +36,7 @@ html {
   --fontsize-typeOp: 20px;
 }
 
+
 body {
   background-color: var(--color-back-main);
 }
