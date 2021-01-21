@@ -67,6 +67,10 @@ nav {
   margin-right: 250px;
 }
 
+.ptMob {
+  padding-top: 100px;
+}
+
 .displayMobile {
   display: none;
 }
@@ -808,5 +812,9 @@ a.article:hover {
     border-radius: 10px;
     font-family: var(--font-secondary);
     font-size: 12px;
+  }
+
+  .ptMob {
+    padding-top: 0;
   }
 }

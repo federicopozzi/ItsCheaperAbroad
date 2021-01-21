@@ -56,7 +56,7 @@
   #audioMob {
     position: absolute;
     left: 5%;
-    top: 5%;
+    top: 10%;
     transform: translate(-50%, -50%);
     padding: 20px;
     font-family: var(--font-secondary);
@@ -67,7 +67,7 @@
 </style>
 
 <body style="background-color: #FDEF4B">
-  <div class="sticky-top">
+  <div class="sticky-top displayDesk">
     <header>
       <nav class=" d-flex align-items-center justify-content-between paddingNav">
 
@@ -85,8 +85,8 @@
     </header>
   </div>
 
-  <section class="websiteMargin" style="padding-top: 100px;">
-    <div class="displayDesk">
+  <section class="websiteMargin ptMob">
+    <div class="displayDesk" >
       <div class="row">
         <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
         <video autoplay id="videointroductorio">
@@ -111,13 +111,17 @@
     <video autoplay id="videointroductorioMob">
       <source src="./assets/videoMob.mp4" type="video/mp4">
     </video>
+<div class="row" style="position: absolute; top:70%; left: 50%; transform: translate(-50%, -50%)">
+  <div class="col-12 d-flex justify-content-center">
+    <a  href="home.html"><span class="bottone">Continue</span></a>
+  </div>
+</div>
 
-    <a class="bottone" href="home.html"><span>Continue</span></a>
 
     <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
   </div>
 
-  <footer id="footer" class="mt-5"></footer>
+  <footer id="footer"></footer>
 
   <!-- JavaScript-->
   <!-- UIkit JS -->
