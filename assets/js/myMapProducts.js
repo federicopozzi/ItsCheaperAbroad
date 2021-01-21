@@ -7,7 +7,7 @@ let myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+let prefix = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
 
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
@@ -15,7 +15,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [32.523374791452376, -117.01309590491408],
-      title: '<span class="popUpText"><a href="" target="_blank"> Surgery - Tijuana, Mexico</a></span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/balticsurgerytijuana/?hl=it" class="textMap" target="_blank">Baltic Surgery - Tijuana, Mexico</a></span>'
     }];
     break;
 
@@ -24,7 +24,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [32.523374791452376, -117.01309590491408],
-      title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/balticsurgerytijuana/?hl=it" class="textMap" target="_blank">Baltic Surgery - Tijuana, Mexico</a></span>'
     }];
     break;
 
@@ -33,7 +33,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [7.898500665037002, 98.3679161],
-      title: '<span class="popUpText">Plastic Surgery Phuket - Phuket, Thailand</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/plasticsurgeryphuket/?hl=it" class="textMap" target="_blank">Plastic Surgery Phuket - Phuket, Thailand</a></span>'
     }];
     break;
 
@@ -42,7 +42,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [11.01127471851537, -74.82809605936626],
-      title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/pachecoplastic/" class="textMap" target="_blank">Dr. Hernando Pacheco - Baranquilla, Colombia</a></span>'
     }];
     break;
 
@@ -51,7 +51,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [11.01127471851537, -74.82809605936626],
-      title: '<span class="popUpText">Dr. Hernando Pacheco - Baranquilla, Colombia</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/pachecoplastic/" class="textMap" target="_blank">Dr. Hernando Pacheco - Baranquilla, Colombia</a></span>'
     }];
     break;
 
@@ -60,7 +60,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [32.526118, -117.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/sirenesurgeryclinic/" class="textMap" target="_blank">Sirene Surgical Clinic - Tijuana, Mexico</a></span>'
     }];
     break;
 
@@ -69,7 +69,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [37.4996, 127.034288],
-      title: '<span class="popUpText">Beautique Korea - Seoul, South Korea</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/beautiquekorea/" class="textMap" target="_blank">Beautique Korea - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -78,7 +78,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [7.898500665037002, 98.3679161],
-    title: '<span class="popUpText">Plastic Surgery Phuket - Phuket, Thailand</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/plasticsurgeryphuket/" class="textMap" target="_blank">Plastic Surgery Phuket - Phuket, Thailand</a></span>'
   }];
   break;
 
@@ -87,7 +87,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [41.06565331567315, 29.001017241413674],
-      title: '<span class="popUpText">Estetik International - Istanbul, Turkey</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
     }];
     break;
 
@@ -96,7 +96,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [18.47406276988475, -69.89695504602206],
-      title: '<span class="popUpText">Dra. Denia Carpio - Santo Domingo, Dominican Republic</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
     }];
     break;
 
@@ -105,7 +105,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [18.473983358302632, -69.8967334],
-      title: '<span class="popUpText">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/drasilviaaviles/" class="textMap" target="_blank">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</a></span>'
     }];
     break;
 
@@ -114,7 +114,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [32.526118, -117.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/sirenesurgeryclinic/" class="textMap" target="_blank">Sirene Surgical Clinic - Tijuana, Mexico</a></span>'
     }];
     break;
 
@@ -123,7 +123,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [18.473983358302632, -69.8967334],
-    title: '<span class="popUpText">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/drasilviaaviles/" class="textMap" target="_blank">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</a></span>'
   }];
   break;
 
@@ -132,7 +132,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [18.79572628416046, 98.97201133863724],
-      title: '<span class="popUpText">Sarinya Clinic (ศรินยา คลินิก) - Chiang Mai, Thailand</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/sarinyaclinic/" class="textMap" target="_blank">Sarinya Clinic (ศรินยา คลินิก) - Chiang Mai, Thailand</a></span>'
     }];
     break;
 
@@ -141,7 +141,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [41.06565331567315, 29.001017241413674],
-    title: '<span class="popUpText">Estetik International - Istanbul, Turkey</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
   }];
   break;
 
@@ -150,7 +150,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [41.06565331567315, 29.001017241413674],
-    title: '<span class="popUpText">Estetik International - Istanbul, Turkey</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
   }];
   break;
 
@@ -159,7 +159,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [18.47406276988475, -69.89695504602206],
-    title: '<span class="popUpText">Dra. Denia Carpio - Santo Domingo, Dominican Republic</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
   }];
   break;
 
@@ -168,7 +168,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [37.5034850514988, 127.02472141630581],
-      title: '<span class="popUpText">BGN Eye Clinic Busan - Seoul, South Korea</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/lasikinbusan/" class="textMap" target="_blank">BGN Eye Clinic Busan - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -177,7 +177,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [37.523433616202034, 127.02794202593883],
-      title: '<span class="popUpText">POP整形外科 - Seoul, South Korea</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/popsurgery_cn/" class="textMap" target="_blank">POP整形外科 - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -186,7 +186,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [36.867934712530776, 30.728576437563394],
-      title: '<span class="popUpText">Morsia Medical - Antalya, Turkey</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/morsiamedical/" class="textMap" target="_blank">Morsia Medical - Antalya, Turkey</a></span>'
     }];
     break;
 
@@ -195,7 +195,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [7.035789811760819, -73.06833737019],
-      title: '<span class="popUpText">Dr. Felipe Gonzalez - Bucamaranga, Colombia</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/drfelipegonzalez/" class="textMap" target="_blank"><a href="" target="_blank">Dr. Felipe Gonzalez - Bucamaranga, Colombia</a></span>'
     }];
     break;
 
@@ -204,7 +204,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [18.825487130547206, 99.01171333960211],
-      title: '<span class="popUpText">Rinrada Clinic CM รินรดา เชียงใหม่ - Pattaya, Chon Buri, Thailand</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/rinradaclinic/" class="textMap" target="_blank">Rinrada Clinic CM รินรดา เชียงใหม่ - Pattaya, Chon Buri, Thailand</a></span>'
     }];
     break;
 
@@ -213,7 +213,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [13.72377309366014, 100.56674017582452],
-      title: '<span class="popUpText">Nirunda International Aesthetic Clinic (นิรันดาคลินิก) - Bangkok, Thailand</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/nirundaclinic" class="textMap" target="_blank">Nirunda International Aesthetic Clinic (นิรันดาคลินิก) - Bangkok, Thailand</a></span>'
     }];
     break;
 
@@ -222,7 +222,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [18.47406276988475, -69.89695504602206],
-    title: '<span class="popUpText">Dra. Denia Carpio - Santo Domingo, Dominican Republic</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
   }];
   break;
 
@@ -231,7 +231,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [37.49596471735722, 127.02754671818016],
-      title: '<span class="popUpText">Seoul Guide Medical - Seoul, South Korea</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/seoulguidemedical/" class="textMap" target="_blank">Seoul Guide Medical - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -240,7 +240,7 @@ switch (document.location.pathname) {
   mapOptions.zoom = 3;
   mapOptions.markers = [{
     latlong: [36.867934712530776, 30.728576437563394],
-    title: '<span class="popUpText">Morsia Medical - Antalya, Turkey</span>'
+    title: '<span class="popUpText"><a href="https://www.instagram.com/morsiamedical/" class="textMap" target="_blank">Morsia Medical - Antalya, Turkey</a></span>'
   }];
   break;
 
@@ -249,7 +249,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [20.68511446997661, -103.39514154502761],
-      title: '<span class="popUpText">Hair in 1 Day - Gudalajara, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/hairin1day/?hl=en" class="textMap" target="_blank">Hair in 1 Day - Gudalajara, Mexico</a></span>'
     }];
     break;
 
@@ -258,7 +258,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [19.357103566905515, -99.18463991505979],
-      title: '<span class="popUpText">Clinica DrEO - Mexico City, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/clinica.dreo/?hl=en" class="textMap" target="_blank">Clinica DrEO - Mexico City, Mexico</a></span>'
     }];
     break;
 
@@ -267,7 +267,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [41.000874008735956, 29.05510727024624],
-      title: '<span class="popUpText">Arenamed Hair Clinic - Istanbul, Turkey</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/arenamedhairclinic/" class="textMap" target="_blank">Arenamed Hair Clinic - Istanbul, Turkey</a></span>'
     }];
     break;
 
@@ -276,7 +276,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/medictel_global/" class="textMap" target="_blank">Medictel - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -285,7 +285,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/jkplasticsurgery/" class="textMap" target="_blank">JK Plastics - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -294,7 +294,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/seoulguidemedical/" class="textMap" target="_blank">Seoul Guide Medical - Seoul, South Korea</a></span>'
     }];
     break;
 
@@ -303,16 +303,25 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/misooda_korea/" class="textMap" target="_blank">MISOODA - Seoul, South Korea</a></span>'
     }];
     break;
+
+    case prefix + "noseOp05.html":
+      mapOptions.view = [2.533, -7.021];
+      mapOptions.zoom = 2;
+      mapOptions.markers = [{
+        latlong: [3.526118, -17.02126],
+        title: '<span class="popUpText"><a href="https://www.instagram.com/popsurgery_cn/" class="textMap" target="_blank">POP整形外科 - Seoul, South Korea</a></span>'
+      }];
+      break;
 
   case prefix + "teethOp01.html":
     mapOptions.view = [2.533, -7.021];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dentalmarmaris_celebidental/" class="textMap" target="_blank">Celebi Dental - Marmaris, Turkey</a></span>'
     }];
     break;
 
@@ -321,7 +330,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/starling.health/?hl=en" class="textMap" target="_blank">Starling Health - Instanbul, Turkey</a></span>'
     }];
     break;
 
@@ -330,7 +339,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dentalmarmaris_celebidental/" class="textMap" target="_blank">Celebi Dental - Marmaris, Turkey</a></span>'
     }];
     break;
 
@@ -339,7 +348,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText">"><a href="https://www.instagram.com/sonrisacharry/" class="textMap" target="_blank">Sonrisa Charry - Valle del Cauca, Colombia</a></span>'
     }];
     break;
 
@@ -348,7 +357,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/perfectsmileexperience/" class="textMap" target="_blank">Perfect Smile Experience - Medellín, Colombia</a></span>'
     }];
     break;
 
@@ -357,7 +366,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 2;
     mapOptions.markers = [{
       latlong: [3.526118, -17.02126],
-      title: '<span class="popUpText">Sirene Surgical Clinic - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dentex2020/" class="textMap" target="_blank">Dentex Odontología - Playa del Carmen, Mexico</a></span>'
     }];
     break;
 

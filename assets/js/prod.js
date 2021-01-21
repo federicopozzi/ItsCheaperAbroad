@@ -1,6 +1,6 @@
 let cardOptions = {}
 
-let pref = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+let pref = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
 
 switch (document.location.pathname) {
     case pref + "bellyOp01.html":
@@ -101,4 +101,3 @@ document.getElementById('viewProfileMob').href = cardOptions.viewProfile;
 document.getElementById('typeOpMob').textContent = cardOptions.typeOp;
 document.getElementById('priceMob').textContent = cardOptions.price;
 document.getElementById('viewDealMob').href = cardOptions.viewDeal;
-
