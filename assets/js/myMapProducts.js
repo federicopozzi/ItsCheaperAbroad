@@ -1,5 +1,5 @@
 let myIcon = L.icon({
-  iconUrl: '../assets/other/pin01.png',
+  iconUrl: '../assets/svg/map/pin01.png',
   iconSize: [27.5, 41],
   iconAnchor: [5, 40],
   popupAnchor: [10, -25],

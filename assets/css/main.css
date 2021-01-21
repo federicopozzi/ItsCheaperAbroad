@@ -121,8 +121,8 @@ nav {
 .backgroundSection1 {
   background-color: #FF0009;
   background-image:
-    radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.3)),
-    url('../a.svg');
+    radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.5)),
+    url('../svg/bannerHome/a.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -606,11 +606,11 @@ a.article:hover {
 }
 
 .uk-accordion-title::before {
-  background-image: url(../svg/plus.svg);
+  background-image: url(../svg/about/plus.svg);
 }
 
 .uk-open>.uk-accordion-title::before {
-  background-image: url(../svg/minus.svg);
+  background-image: url(../svg/about/minus.svg);
 }
 
 .imgResearch {
@@ -712,6 +712,15 @@ a.article:hover {
     color: var(--color-text-secondary) !important;
     text-align: center;
     font-size: 10px;
+  }
+
+  .backgroundSection1 {
+    background-color: #FF0009;
+    background-image:
+            radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.6)),
+            url('../svg/bannerHome/b.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .introText {
