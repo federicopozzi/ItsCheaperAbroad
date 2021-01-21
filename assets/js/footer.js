@@ -25,7 +25,7 @@ Images are not modified nor altered. You may download anything on these pages fo
 <div class="row pl-4 pt-4 pb-2 pr-3">
      <div class="col-5">
      <div class="row">
-     <div class="col-12 d-flex justify-content-left">
+     <div class="col-12 d-flex justify-content-center">
      <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
      
 </div>
@@ -73,7 +73,7 @@ Images are not modified nor altered. You may download anything on these pages fo
 <div class="row pl-4 pt-4 pb-2 pr-3">
      <div class="col-5">
      <div class="row">
-     <div class="col-12 d-flex justify-content-left">
+     <div class="col-12 d-flex justify-content-center">
      <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
      
 </div>
