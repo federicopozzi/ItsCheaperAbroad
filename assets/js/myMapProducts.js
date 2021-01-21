@@ -15,7 +15,7 @@ switch (document.location.pathname) {
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [32.523374791452376, -117.01309590491408],
-      title: '<span class="popUpText">Baltic Surgery - Tijuana, Mexico</span>'
+      title: '<span class="popUpText"><a href="" target="_blank"> Surgery - Tijuana, Mexico</a></span>'
     }];
     break;
 
