@@ -458,12 +458,6 @@ a.article:hover {
   border-radius: 0 0 20px 20px;
 }
 
-.backgroundCategory1 {
-  background-image: url("../img/categoryImg1.jpg");
-  background-size: cover;
-  width: 100%;
-}
-
 .descriptionCategory {
   background-color: #FDEF4B;
   height: 80px;
@@ -811,7 +805,7 @@ a.article:hover {
     color: var(--color-text-secondary);
     line-height: 25px;
     padding-top: 5px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .profileView {
