@@ -80,7 +80,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
         cardOptions.typeOp = 'LIPOSCULPTURE';
         cardOptions.price = "$ 3.000";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/B7tSLNgn2jP/';
         break;
 
     case pref + "bellyOp05.html":
@@ -100,7 +100,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
         cardOptions.typeOp = 'ABDOMINOPLASTY';
         cardOptions.price = "$ 3.000";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/Bh6qBSdnCV4/';
         break;
 
     case pref + "bellyOp06.html":
@@ -120,7 +120,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/sirenesurgeryclinic/';
         cardOptions.typeOp = 'GASTRIC SLEEVE';
         cardOptions.price = "$ 5.500";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIGifYwnLmV/';
         break;
 
     case pref + "breastOp01.html":
@@ -140,7 +140,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/beautiquekorea/';
         cardOptions.typeOp = 'BREAST AUGMENTATION';
         cardOptions.price = "$ 3.100";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CCLifurhda9/';
         break;
 
     case pref + "breastOp02.html":
@@ -160,7 +160,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
         cardOptions.typeOp = 'BREAST AUGMENTATION';
         cardOptions.price = "$ 3.844";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/B4R7dTHgoaN/';
         break;
 
     case pref + "breastOp03.html":
@@ -180,7 +180,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/estetikinternational/';
         cardOptions.typeOp = 'BREAST AUGMENTATION';
         cardOptions.price = "$ 4.473";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGmZAmihFhy/';
         break;
 
     case pref + "breastOp04.html":
@@ -200,7 +200,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dradeniacarpio/';
         cardOptions.typeOp = 'BREAST AUGMENTATION';
         cardOptions.price = "$ 2.500";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CEjnu8XDeSv/';
         break;
 
     case pref + "breastOp05.html":
@@ -220,7 +220,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/drasilviaaviles/';
         cardOptions.typeOp = 'BREAST AUGMENTATION';
         cardOptions.price = "$ 4.320";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CEc_mbNHVzN/';
         break;
 
     case pref + "breastOp06.html":
@@ -240,7 +240,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/sirenesurgeryclinic/';
         cardOptions.typeOp = 'BREAST IMPLANTS';
         cardOptions.price = "$ 3.500";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIJOQAGHPIS/';
         break;
 
     case pref + "buttOp01.html":
@@ -260,7 +260,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/drasilviaaviles/';
         cardOptions.typeOp = 'BRAZILIAN BUTT LIFT';
         cardOptions.price = "$ 1.890";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CG-9CXapggL/';
         break;
 
     case pref + "buttOp02.html":
@@ -280,7 +280,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/sarinyaclinic/';
         cardOptions.typeOp = 'COOLSCULPTING';
         cardOptions.price = "$ 330";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIR46DXFE4i/';
         break;
 
     case pref + "buttOp03.html":
@@ -300,7 +300,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/estetikinternational/';
         cardOptions.typeOp = 'ONE ZONE LIPOSUCTION';
         cardOptions.price = "$ 1.242";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIaMhCSBAeE/';
         break;
 
     case pref + "buttOp04.html":
@@ -320,7 +320,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/estetikinternational/';
         cardOptions.typeOp = 'BRAZILIAN BUTT LIFT';
         cardOptions.price = "$ 1.242";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIferjNBwto/';
         break;
 
     case pref + "eyeOp01.html":
@@ -340,7 +340,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dradeniacarpio/';
         cardOptions.typeOp = 'BLEFAROPLASTICA';
         cardOptions.price = "$ 1.600";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGm5blRj3d3/';
         break;
 
     case pref + "eyeOp02.html":
@@ -360,7 +360,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/lasikinbusan/?hl=en';
         cardOptions.typeOp = 'EYE SURGERY';
         cardOptions.price = "$ 2.740";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/BkUTLwSAM8M/';
         break;
 
     case pref + "eyeOp03.html":
@@ -380,7 +380,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/popsurgery_cn/';
         cardOptions.typeOp = 'BROW LIFT';
         cardOptions.price = "$ 3.600";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CJFWoo7hGIO/';
         break;
 
     case pref + "eyeOp04.html":
@@ -400,7 +400,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/morsiamedical/';
         cardOptions.typeOp = 'LASIK SURGERY';
         cardOptions.price = "$ 1.600";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CJGjmRsl0aF/';
         break;
 
     case pref + "eyeOp05.html":
@@ -420,7 +420,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/drfelipegonzalez/';
         cardOptions.typeOp = 'BLEFAROPLASTICA';
         cardOptions.price = "$ 1.250";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIGc9npFkkC/';
         break;
 
     case pref + "faceOp01.html":
@@ -440,7 +440,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/rinradaclinic/';
         cardOptions.typeOp = 'MELANIN TREATMENT';
         cardOptions.price = "$ 999";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/B_RssbpJyMq/';
         break;
 
     case pref + "faceOp02.html":
@@ -460,7 +460,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/nirundaclinic';
         cardOptions.typeOp = 'BOTOX LIFT';
         cardOptions.price = "$ 450";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/BdzPvsLAjHV/';
         break;
 
     case pref + "faceOp03.html":
@@ -480,7 +480,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dradeniacarpio/';
         cardOptions.typeOp = 'FACIAL BOTOX';
         cardOptions.price = "$ 350";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CCWI0cCBskR/';
         break;
 
     case pref + "faceOp04.html":
@@ -500,7 +500,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/seoulguidemedical/';
         cardOptions.typeOp = 'FACIAL CONTOURING';
         cardOptions.price = "$ 8.200";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/B5Fd-MAA5dt/';
         break;
 
     case pref + "faceOp05.html":
@@ -520,7 +520,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/morsiamedical/';
         cardOptions.typeOp = 'FACE LIFT';
         cardOptions.price = "$ 5.000";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CI3D-g7FCq8/';
         break;
 
     case pref + "hairOp01.html":
@@ -540,7 +540,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/hairin1day/?hl=en';
         cardOptions.typeOp = 'HAIR TRANSPLANT';
         cardOptions.price = "$ 4.000";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CFSvrIUghXK/';
         break;
 
     case pref + "hairOp02.html":
@@ -560,7 +560,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/clinica.dreo/?hl=en';
         cardOptions.typeOp = 'HAIR TRANSPLANT';
         cardOptions.price = "$ 3.000";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CJW0gbmHIfT/';
         break;
 
     case pref + "hairOp03.html":
@@ -580,7 +580,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/arenamedhairclinic/';
         cardOptions.typeOp = 'HAIR TRANSPLANT';
         cardOptions.price = "$ 3.100";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIAflrdAp3t/';
         break;
 
     case pref + "noseOp01.html":
@@ -600,7 +600,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/medictel_global/';
         cardOptions.typeOp = 'RHINOPLASTY';
         cardOptions.price = "$ 5.800";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CAkm6VqHYty/';
         break;
 
     case pref + "noseOp02.html":
@@ -620,7 +620,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/jkplasticsurgery/';
         cardOptions.typeOp = 'NOSE JOB';
         cardOptions.price = "$ 6.790";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGZFEjcjJXs/';
         break;
 
     case pref + "noseOp03.html":
@@ -640,7 +640,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/seoulguidemedical/';
         cardOptions.typeOp = 'RHINOPLASTY';
         cardOptions.price = "$ 4.250";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/B3GL5c4np5w/';
         break;
 
     case pref + "noseOp04.html":
@@ -660,7 +660,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/misooda_korea/';
         cardOptions.typeOp = 'NOSE AUGMENTATION';
         cardOptions.price = "$ 2.500";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGY90_fAJ-S/';
         break;
 
     case pref + "teethOp01.html":
@@ -680,7 +680,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dentalmarmaris_celebidental/';
         cardOptions.typeOp = 'DENTAL BRIDGE';
         cardOptions.price = "$ 439";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGaO-W-JB9_/';
         break;
 
     case pref + "teethOp02.html":
@@ -700,7 +700,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/starling.health/?hl=en';
         cardOptions.typeOp = 'WHITENING';
         cardOptions.price = "$ 240";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CIQt32yFQT1/';
         break;
 
     case pref + "teethOp03.html":
@@ -720,7 +720,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dentalmarmaris_celebidental/';
         cardOptions.typeOp = 'DENTAL IMPLANT';
         cardOptions.price = "$ 536";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CGRwm1opZdS/';
         break;
 
     case pref + "teethOp04.html":
@@ -740,7 +740,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/sonrisacharry/';
         cardOptions.typeOp = 'WHITENING';
         cardOptions.price = "$ 290";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CJYlqgqAJNZ/';
         break;
 
     case pref + "teethOp05.html":
@@ -760,7 +760,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/perfectsmileexperience/';
         cardOptions.typeOp = 'COMPOSITE VENEERS';
         cardOptions.price = "$ 1.200";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CG22Btxg4_l/';
         break;
 
     case pref + "teethOp06.html":
@@ -780,7 +780,7 @@ switch (document.location.pathname) {
         cardOptions.viewProfile = 'https://www.instagram.com/dentex2020/';
         cardOptions.typeOp = 'ORTHODONTICS';
         cardOptions.price = "$ 1.800";
-        cardOptions.viewDeal = '';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/CFx3gIenmH4/';
         break;
 
 
