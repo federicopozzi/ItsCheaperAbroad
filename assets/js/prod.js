@@ -263,6 +263,66 @@ switch (document.location.pathname) {
         cardOptions.viewDeal = '';
         break;
 
+    case pref + "buttOp02.html":
+        cardOptions.title = 'COOLSCULPTING';
+        cardOptions.firstImg = '../assets/img/buttAll/Butt_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/buttAll/Butt_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/buttAll/Butt_02_03.jpg';
+        cardOptions.igImg = '../assets/img/buttAll/IG_Butt_02.jpg';
+        cardOptions.profile = '@sarinyaclinic';
+        cardOptions.secondLine = 'Sarinya Clinic Chiangmai';
+        cardOptions.follower = '371';
+        cardOptions.posts = "329";
+        cardOptions.firstBio = "📞 053-216924";
+        cardOptions.secondBio = "www.facebook.com/sarinyaclinic";
+        cardOptions.secondBioLink = "http://www.facebook.com/sarinyaclinic";
+        cardOptions.country = "THAILAND";
+        cardOptions.viewProfile = 'https://www.instagram.com/sarinyaclinic/';
+        cardOptions.typeOp = 'COOLSCULPTING';
+        cardOptions.price = "$ 330";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "buttOp03.html":
+        cardOptions.title = 'ONE ZONE LIPOSUCTION';
+        cardOptions.firstImg = '../assets/img/buttAll/Butt_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/buttAll/Butt_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/buttAll/Butt_03_03.jpg';
+        cardOptions.igImg = '../assets/img/buttAll/IG_Butt_03.jpg';
+        cardOptions.profile = '@estetikinternational';
+        cardOptions.secondLine = 'Estetik International';
+        cardOptions.follower = '70.2k';
+        cardOptions.posts = "2.367";
+        cardOptions.firstBio = "WP TR 05323783845";
+        cardOptions.secondBio = "www.youtube.com/watch?v=o5nDI9i-uNw";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Do5nDI9i-uNw&e=ATMBN_dNQi8PnVXWU1gkqPsWvWsk79uoOmwW3zZRXObRumoiMEnrh7bbF2DKQiI80VC_8RS7qMfiFerKuAGfeg&s=1";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/estetikinternational/';
+        cardOptions.typeOp = 'ONE ZONE LIPOSUCTION';
+        cardOptions.price = "$ 1.242";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "buttOp04.html":
+        cardOptions.title = 'BRAZILIAN BUTT LIFT';
+        cardOptions.firstImg = '../assets/img/buttAll/Butt_04_01.jpg';
+        cardOptions.secondImg = '../assets/img/buttAll/Butt_04_02.jpg';
+        cardOptions.thirdImg = '../assets/img/buttAll/Butt_04_03.jpg';
+        cardOptions.igImg = '../assets/img/buttAll/IG_Butt_04.jpg';
+        cardOptions.profile = '@estetikinternational';
+        cardOptions.secondLine = 'Estetik International';
+        cardOptions.follower = '70.2k';
+        cardOptions.posts = "2.367";
+        cardOptions.firstBio = "WP TR 05323783845";
+        cardOptions.secondBio = "www.youtube.com/watch?v=o5nDI9i-uNw";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Do5nDI9i-uNw&e=ATMBN_dNQi8PnVXWU1gkqPsWvWsk79uoOmwW3zZRXObRumoiMEnrh7bbF2DKQiI80VC_8RS7qMfiFerKuAGfeg&s=1";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/estetikinternational/';
+        cardOptions.typeOp = 'BRAZILIAN BUTT LIFT';
+        cardOptions.price = "$ 1.242";
+        cardOptions.viewDeal = '';
+        break;
+
     default:
 
 }
