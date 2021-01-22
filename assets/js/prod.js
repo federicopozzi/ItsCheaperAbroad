@@ -243,6 +243,26 @@ switch (document.location.pathname) {
         cardOptions.viewDeal = '';
         break;
 
+    case pref + "buttOp01.html":
+        cardOptions.title = 'BRAZILIAN BUTT LIFT';
+        cardOptions.firstImg = '../assets/img/buttAll/Butt_01_01.jpg';
+        cardOptions.secondImg = '../assets/img/buttAll/Butt_01_02.jpg';
+        cardOptions.thirdImg = '../assets/img/buttAll/Butt_01_03.jpg';
+        cardOptions.igImg = '../assets/img/buttAll/IG_Butt_01.jpg';
+        cardOptions.profile = '@drasilviaaviles';
+        cardOptions.secondLine = 'DRA. SILVIA AVILÉS';
+        cardOptions.follower = '2.135';
+        cardOptions.posts = "278";
+        cardOptions.firstBio = "Whatsapp 8298618685";
+        cardOptions.secondBio = "linktr.ee/drasilviaaviles";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fdrasilviaaviles&e=ATNPRuv5I_X1tEJT8-M80KYwX2VgsthsE_m-c4Vbq_sXEsFR-3UK6CWpSWaNekDuhgSC12gfNRF_D5iPoDrHkw&s=1";
+        cardOptions.country = "DOM. REP.";
+        cardOptions.viewProfile = 'https://www.instagram.com/drasilviaaviles/';
+        cardOptions.typeOp = 'BRAZILIAN BUTT LIFT';
+        cardOptions.price = "$ 1.890";
+        cardOptions.viewDeal = '';
+        break;
+
     default:
 
 }
