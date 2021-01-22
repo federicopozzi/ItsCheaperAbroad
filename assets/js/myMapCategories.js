@@ -197,7 +197,7 @@ switch (document.location.pathname) {
             },
             {
                 latlong: [20.63695910557869, -87.06711544602062],
-                title: '<span class="popUpText"><a href="https://www.instagram.com/dentex2020/" class="textMap" target="_blank">Dentex Odontología - Playa del Carmen, Mexico</a></span>'
+                title: '<span class="popUpText">Dentex Odontología - Playa del Carmen, Mexico</span>'
             },
             {
                 latlong: [36.84733677305643, 28.254776760987284],
