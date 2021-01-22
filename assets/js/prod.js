@@ -63,6 +63,66 @@ switch (document.location.pathname) {
         cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/\n';
         break;
 
+        case pref + "bellyOp04.html":
+            cardOptions.title = 'LIPOSCULPTURE';
+            cardOptions.firstImg = '../assets/img/bellyAll/Belly_04_01.jpg';
+            cardOptions.secondImg = '../assets/img/bellyAll/Belly_04_02.jpg';
+            cardOptions.thirdImg = '../assets/img/bellyAll/Belly_04_03.jpg';
+            cardOptions.igImg = '../assets/img/bellyAll/IG_Belly_04.jpg';
+            cardOptions.profile = '@pachecoplastic';
+            cardOptions.secondLine = 'Dr. Hernando Pacheco A.';
+            cardOptions.follower = '911';
+            cardOptions.posts = "177";
+            cardOptions.firstBio = "MD. Cirujano Plástico Estético";
+            cardOptions.secondBio = "www.pachecoplastic.net";
+            cardOptions.secondBioLink = "http://www.pachecoplastic.net";
+            cardOptions.country = "Colombia";
+            cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
+            cardOptions.typeOp = 'LIPOSCULPTURE';
+            cardOptions.price = "$ 3.000";
+            cardOptions.viewDeal = '';
+            break;
+
+            case pref + "bellyOp05.html":
+                cardOptions.title = 'ABDOMINOPLASTY';
+                cardOptions.firstImg = '../assets/img/bellyAll/Belly_05_01.jpg';
+                cardOptions.secondImg = '../assets/img/bellyAll/Belly_05_02.jpg';
+                cardOptions.thirdImg = '../assets/img/bellyAll/Belly_05_03.jpg';
+                cardOptions.igImg = '../assets/img/bellyAll/IG_Belly_05.jpg';
+                cardOptions.profile = '@pachecoplastic';
+                cardOptions.secondLine = 'Dr. Hernando Pacheco A.';
+                cardOptions.follower = '911';
+                cardOptions.posts = "177";
+                cardOptions.firstBio = "MD. Cirujano Plástico Estético";
+                cardOptions.secondBio = "www.pachecoplastic.net";
+                cardOptions.secondBioLink = "http://www.pachecoplastic.net";
+                cardOptions.country = "Colombia";
+                cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
+                cardOptions.typeOp = 'ABDOMINOPLASTY';
+                cardOptions.price = "$ 3.000";
+                cardOptions.viewDeal = '';
+                break;
+
+                case pref + "bellyOp06.html":
+                    cardOptions.title = 'GASTRIC SLEEVE';
+                    cardOptions.firstImg = '../assets/img/bellyAll/Belly_06_01.jpg';
+                    cardOptions.secondImg = '../assets/img/bellyAll/Belly_06_02.jpg';
+                    cardOptions.thirdImg = '../assets/img/bellyAll/Belly_06_03.jpg';
+                    cardOptions.igImg = '../assets/img/bellyAll/IG_Belly_06.jpg';
+                    cardOptions.profile = '@sirenesurgeryclinic';
+                    cardOptions.secondLine = 'Sirene Surgical Coordinator';
+                    cardOptions.follower = '81';
+                    cardOptions.posts = "203";
+                    cardOptions.firstBio = "Surgical Clinic & Wellness Center";
+                    cardOptions.secondBio = "";
+                    cardOptions.secondBioLink = "";
+                    cardOptions.country = "Mexico";
+                    cardOptions.viewProfile = 'https://www.instagram.com/sirenesurgeryclinic/';
+                    cardOptions.typeOp = 'GASTRIC SLEEVE';
+                    cardOptions.price = "$ 5.500";
+                    cardOptions.viewDeal = '';
+                    break;
+
     default:
 
 }
