@@ -57,10 +57,10 @@ switch (document.location.pathname) {
         cardOptions.secondBio = "youtu.be/agpsVo6HF6A";
         cardOptions.secondBioLink = "http://youtu.be/agpsVo6HF6A";
         cardOptions.country = "Thailand";
-        cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
+        cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/';
         cardOptions.typeOp = 'TUMMY TUCK';
         cardOptions.price = "$ 6.900";
-        cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/\n';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/';
         break;
 
     default:
