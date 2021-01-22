@@ -1,6 +1,6 @@
 let cardOptions = {}
 
-let pref = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
+let pref = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
 
 switch (document.location.pathname) {
     case pref + "bellyOp01.html":
@@ -57,10 +57,10 @@ switch (document.location.pathname) {
         cardOptions.secondBio = "youtu.be/agpsVo6HF6A";
         cardOptions.secondBioLink = "http://youtu.be/agpsVo6HF6A";
         cardOptions.country = "Thailand";
-        cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/';
+        cardOptions.viewProfile = 'https://www.instagram.com/plasticsurgeryphuket/\n';
         cardOptions.typeOp = 'TUMMY TUCK';
         cardOptions.price = "$ 6.900";
-        cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/';
+        cardOptions.viewDeal = 'https://www.instagram.com/p/Bj-_puRHDe4/\n';
         break;
 
     default:
