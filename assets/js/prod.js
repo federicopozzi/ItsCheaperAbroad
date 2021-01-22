@@ -427,8 +427,8 @@ switch (document.location.pathname) {
         cardOptions.title = 'MELANIN TREATMENT';
         cardOptions.firstImg = '../assets/img/faceAll/Face_01_01.jpg';
         cardOptions.secondImg = '../assets/img/faceAll/Face_01_02.jpg';
-        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_01_03.jpg';
-        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_01.jpg';
+        cardOptions.thirdImg = '../assets/img/faceAll/Face_01_03.jpg';
+        cardOptions.igImg = '../assets/img/faceAll/IG_Face_01.jpg';
         cardOptions.profile = '@rinradaclinic';
         cardOptions.secondLine = 'รินรดา คลินิก';
         cardOptions.follower = '403';
@@ -447,8 +447,8 @@ switch (document.location.pathname) {
         cardOptions.title = 'BOTOX LIFT';
         cardOptions.firstImg = '../assets/img/faceAll/Face_02_01.jpg';
         cardOptions.secondImg = '../assets/img/faceAll/Face_02_02.jpg';
-        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_02_03.jpg';
-        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_02.jpg';
+        cardOptions.thirdImg = '../assets/img/faceAll/Face_02_03.jpg';
+        cardOptions.igImg = '../assets/img/faceAll/IG_Face_02.jpg';
         cardOptions.profile = '@nirundaclinic';
         cardOptions.secondLine = 'NIRUNDA CLINIC';
         cardOptions.follower = '480';
@@ -467,21 +467,323 @@ switch (document.location.pathname) {
         cardOptions.title = 'FACIAL BOTOX';
         cardOptions.firstImg = '../assets/img/faceAll/Face_03_01.jpg';
         cardOptions.secondImg = '../assets/img/faceAll/Face_03_02.jpg';
-        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_03_03.jpg';
-        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_03.jpg';
-        cardOptions.profile = '@nirundaclinic';
-        cardOptions.secondLine = 'NIRUNDA CLINIC';
-        cardOptions.follower = '480';
-        cardOptions.posts = "32";
-        cardOptions.firstBio = "Board Certified Plastic Surgeon and Dermatologist-International Aesthetic Clinic";
-        cardOptions.secondBio = "www.nirundaclinic.com";
-        cardOptions.secondBioLink = "http://www.nirundaclinic.com";
-        cardOptions.country = "THAILAND";
-        cardOptions.viewProfile = 'https://www.instagram.com/nirundaclinic';
+        cardOptions.thirdImg = '../assets/img/faceAll/Face_03_03.jpg';
+        cardOptions.igImg = '../assets/img/faceAll/IG_Face_03.jpg';
+        cardOptions.profile = '@dradeniacarpio';
+        cardOptions.secondLine = 'Dra Denia Carpio';
+        cardOptions.follower = '4.934';
+        cardOptions.posts = "360";
+        cardOptions.firstBio = "Cirujana Plástica Reconstructiva y Estética";
+        cardOptions.secondBio = "";
+        cardOptions.secondBioLink = "";
+        cardOptions.country = "DOM. REP.";
+        cardOptions.viewProfile = 'https://www.instagram.com/dradeniacarpio/';
         cardOptions.typeOp = 'FACIAL BOTOX';
         cardOptions.price = "$ 350";
         cardOptions.viewDeal = '';
         break;
+
+    case pref + "faceOp04.html":
+        cardOptions.title = 'FACIAL CONTOURING';
+        cardOptions.firstImg = '../assets/img/faceAll/Face_04_01.jpg';
+        cardOptions.secondImg = '../assets/img/faceAll/Face_04_02.jpg';
+        cardOptions.thirdImg = '../assets/img/faceAll/Face_04_03.jpg';
+        cardOptions.igImg = '../assets/img/faceAll/IG_Face_04.jpg';
+        cardOptions.profile = '@seoulguidemedical';
+        cardOptions.secondLine = 'Seoul Guide Medical';
+        cardOptions.follower = '5.731';
+        cardOptions.posts = "477";
+        cardOptions.firstBio = "“Happy Patients, Always”";
+        cardOptions.secondBio = "bit.ly/35fJlBy";
+        cardOptions.secondBioLink = "https://products.seoulguidemedical.com/collections/best-selling/Facemask";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/seoulguidemedical/';
+        cardOptions.typeOp = 'FACIAL CONTOURING';
+        cardOptions.price = "$ 8.200";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "faceOp05.html":
+        cardOptions.title = 'FACE LIFT';
+        cardOptions.firstImg = '../assets/img/faceAll/Face_05_01.jpg';
+        cardOptions.secondImg = '../assets/img/faceAll/Face_05_02.jpg';
+        cardOptions.thirdImg = '../assets/img/faceAll/Face_05_03.jpg';
+        cardOptions.igImg = '../assets/img/faceAll/IG_Face_05.jpg';
+        cardOptions.profile = '@morsiamedical';
+        cardOptions.secondLine = 'Morsia Medical Turkey';
+        cardOptions.follower = '7.488';
+        cardOptions.posts = "108";
+        cardOptions.firstBio = "🌎✈️🇹🇷🏖🏥";
+        cardOptions.secondBio = "www.morsiamedical.com";
+        cardOptions.secondBioLink = "http://www.morsiamedical.com";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/morsiamedical/';
+        cardOptions.typeOp = 'FACE LIFT';
+        cardOptions.price = "$ 5.000";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "hairOp01.html":
+        cardOptions.title = 'HAIR TRANSPLANT';
+        cardOptions.firstImg = '../assets/img/hairAll/Hair_01_02.jpg';
+        cardOptions.secondImg = '../assets/img/hairAll/Hair_01_03.jpg';
+        cardOptions.thirdImg = '../assets/img/hairAll/Hair_01_04.jpg';
+        cardOptions.igImg = '../assets/img/hairAll/IG_Hair_01.jpg';
+        cardOptions.profile = '@hairin1day';
+        cardOptions.secondLine = 'Hair In 1 Day';
+        cardOptions.follower = '5.991';
+        cardOptions.posts = "117";
+        cardOptions.firstBio = "Somos la clínica #1 de Injerto Capilar, Barba y Cejas.";
+        cardOptions.secondBio = "www.hairin1day.com";
+        cardOptions.secondBioLink = "http://www.hairin1day.com";
+        cardOptions.country = "MEXICO";
+        cardOptions.viewProfile = 'https://www.instagram.com/hairin1day/?hl=en';
+        cardOptions.typeOp = 'HAIR TRANSPLANT';
+        cardOptions.price = "$ 4.000";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "hairOp02.html":
+        cardOptions.title = 'HAIR TRANSPLANT';
+        cardOptions.firstImg = '../assets/img/hairAll/Hair_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/hairAll/Hair_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/hairAll/Hair_02_03.jpg';
+        cardOptions.igImg = '../assets/img/hairAll/IG_Hair_02.jpg';
+        cardOptions.profile = '@clinica.dreo';
+        cardOptions.secondLine = 'Clínica DrEO';
+        cardOptions.follower = '32.6k';
+        cardOptions.posts = "814";
+        cardOptions.firstBio = "💙CONTÁCTANOS💙";
+        cardOptions.secondBio = "www.dreoclinic.com";
+        cardOptions.secondBioLink = "http://www.dreoclinic.com";
+        cardOptions.country = "MEXICO";
+        cardOptions.viewProfile = 'https://www.instagram.com/clinica.dreo/?hl=en';
+        cardOptions.typeOp = 'HAIR TRANSPLANT';
+        cardOptions.price = "$ 3.000";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "hairOp03.html":
+        cardOptions.title = 'HAIR TRANSPLANT';
+        cardOptions.firstImg = '../assets/img/hairAll/Hair_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/hairAll/Hair_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/hairAll/Hair_03_03.jpg';
+        cardOptions.igImg = '../assets/img/hairAll/IG_Hair_03.jpg';
+        cardOptions.profile = '@arenamedhairclinic';
+        cardOptions.secondLine = 'Fue Hairtransplant Istanbul';
+        cardOptions.follower = '37.4k';
+        cardOptions.posts = "2.125";
+        cardOptions.firstBio = "";
+        cardOptions.secondBio = "www.arenamedhairclinic.com";
+        cardOptions.secondBioLink = "http://www.arenamedhairclinic.com";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/arenamedhairclinic/';
+        cardOptions.typeOp = 'HAIR TRANSPLANT';
+        cardOptions.price = "$ 3.100";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "noseOp01.html":
+        cardOptions.title = 'RHINOPLASTY';
+        cardOptions.firstImg = '../assets/img/noseAll/Nose_01_01.jpg';
+        cardOptions.secondImg = '../assets/img/noseAll/Nose_01_02.jpg';
+        cardOptions.thirdImg = '../assets/img/noseAll/Nose_01_03.jpg';
+        cardOptions.igImg = '../assets/img/noseAll/IG_Nose_01.jpg';
+        cardOptions.profile = '@medictel_global';
+        cardOptions.secondLine = 'Medictel';
+        cardOptions.follower = '415';
+        cardOptions.posts = "392";
+        cardOptions.firstBio = "Contact us☎️👇";
+        cardOptions.secondBio = "api.whatsapp.com/send?phone=821032011588";
+        cardOptions.secondBioLink = "https://api.whatsapp.com/send?phone=821032011588";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/medictel_global/';
+        cardOptions.typeOp = 'RHINOPLASTY';
+        cardOptions.price = "$ 5.800";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "noseOp02.html":
+        cardOptions.title = 'NOSE JOB';
+        cardOptions.firstImg = '../assets/img/noseAll/Nose_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/noseAll/Nose_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/noseAll/Nose_02_03.jpg';
+        cardOptions.igImg = '../assets/img/noseAll/IG_Nose_02.jpg';
+        cardOptions.profile = '@jkplasticsurgery';
+        cardOptions.secondLine = 'JK성형외과';
+        cardOptions.follower = '3.684';
+        cardOptions.posts = "448";
+        cardOptions.firstBio = "WhatsApp : +82-10-9738-4053";
+        cardOptions.secondBio = "bit.ly/3oBq2Km";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2F3oBq2Km&e=ATM0ttF9Fbw7jdb7OTXjVe7tCTcZcbvcBqhQlhnFEoaS4taVEE0NH34orGl5PfG70of9BSIHdBHqjsCym-l30A&s=1";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/jkplasticsurgery/';
+        cardOptions.typeOp = 'NOSE JOB';
+        cardOptions.price = "$ 6.790";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "noseOp03.html":
+        cardOptions.title = 'RHINOPLASTY';
+        cardOptions.firstImg = '../assets/img/noseAll/Nose_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/noseAll/Nose_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/noseAll/Nose_03_03.jpg';
+        cardOptions.igImg = '../assets/img/noseAll/IG_Nose_03.jpg';
+        cardOptions.profile = '@seoulguidemedical';
+        cardOptions.secondLine = 'Seoul Guide Medical';
+        cardOptions.follower = '5.731';
+        cardOptions.posts = "477";
+        cardOptions.firstBio = "“Happy Patients, Always”";
+        cardOptions.secondBio = "bit.ly/35fJlBy";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2F35fJlBy&e=ATNAp_xFY2bmEfPrkHmv8PAliKVjtJv-LJgTSazf6Vol0cxur0D_BsrAq42_Ewph9Y8uWfULDl95T1AJa5kTLA&s=1";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/seoulguidemedical/';
+        cardOptions.typeOp = 'RHINOPLASTY';
+        cardOptions.price = "$ 4.250";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "noseOp04.html":
+        cardOptions.title = 'NOSE AUGMENTATION';
+        cardOptions.firstImg = '../assets/img/noseAll/Nose_04_01.jpg';
+        cardOptions.secondImg = '../assets/img/noseAll/Nose_04_02.jpg';
+        cardOptions.thirdImg = '../assets/img/noseAll/Nose_04_03.jpg';
+        cardOptions.igImg = '../assets/img/noseAll/IG_Nose_04.jpg';
+        cardOptions.profile = '@misooda_korea';
+        cardOptions.secondLine = 'Misooda';
+        cardOptions.follower = '5.933';
+        cardOptions.posts = "738";
+        cardOptions.firstBio = "📞Whatsapp +82 10-6886-8860 📞Kakao: mks001";
+        cardOptions.secondBio = "";
+        cardOptions.secondBioLink = "";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/misooda_korea/';
+        cardOptions.typeOp = 'NOSE AUGMENTATION';
+        cardOptions.price = "$ 2.500";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp01.html":
+        cardOptions.title = 'DENTAL BRIDGE';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_01_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_01_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_01_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_01.jpg';
+        cardOptions.profile = '@dentalmarmaris_celebidental';
+        cardOptions.secondLine = 'DENTALMARMARİS-CELEBIDENTAL';
+        cardOptions.follower = '5.981';
+        cardOptions.posts = "366";
+        cardOptions.firstBio = "📞 + 0090 54 62 25 75 75";
+        cardOptions.secondBio = "www.dentalmarmaris.com";
+        cardOptions.secondBioLink = "http://dentalmarmaris.com/";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/dentalmarmaris_celebidental/';
+        cardOptions.typeOp = 'DENTAL BRIDGE';
+        cardOptions.price = "$ 439";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp02.html":
+        cardOptions.title = 'WHITENING';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_02_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_02.jpg';
+        cardOptions.profile = '@starling.health';
+        cardOptions.secondLine = 'Starling Health';
+        cardOptions.follower = '402';
+        cardOptions.posts = "25";
+        cardOptions.firstBio = "Whatsapp +442080761006";
+        cardOptions.secondBio = "www.starling.health.com";
+        cardOptions.secondBioLink = "https://starling.health/";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/starling.health/?hl=en';
+        cardOptions.typeOp = 'WHITENING';
+        cardOptions.price = "$ 240";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp03.html":
+        cardOptions.title = 'DENTAL IMPLANT';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_03_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_03.jpg';
+        cardOptions.profile = '@dentalmarmaris_celebidental';
+        cardOptions.secondLine = 'DENTALMARMARİS-CELEBIDENTAL';
+        cardOptions.follower = '5.981';
+        cardOptions.posts = "366";
+        cardOptions.firstBio = "📞 + 0090 54 62 25 75 75";
+        cardOptions.secondBio = "www.dentalmarmaris.com";
+        cardOptions.secondBioLink = "http://dentalmarmaris.com/";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/dentalmarmaris_celebidental/';
+        cardOptions.typeOp = 'DENTAL IMPLANT';
+        cardOptions.price = "$ 536";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp04.html":
+        cardOptions.title = 'WHITENING';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_04_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_04_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_04_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_04.jpg';
+        cardOptions.profile = '@sonrisacharry';
+        cardOptions.secondLine = 'Veneers Dr Charry';
+        cardOptions.follower = '25.7k';
+        cardOptions.posts = "1.871";
+        cardOptions.firstBio = "Natural Look Smiles";
+        cardOptions.secondBio = "";
+        cardOptions.secondBioLink = "";
+        cardOptions.country = "COLOMBIA";
+        cardOptions.viewProfile = 'https://www.instagram.com/sonrisacharry/';
+        cardOptions.typeOp = 'WHITENING';
+        cardOptions.price = "$ 290";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp05.html":
+        cardOptions.title = 'COMPOSITE VENEERS';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_05_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_05_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_05_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_05.jpg';
+        cardOptions.profile = '@perfectsmileexperience';
+        cardOptions.secondLine = 'Composite Veneers';
+        cardOptions.follower = '19.6k';
+        cardOptions.posts = "244";
+        cardOptions.firstBio = "⬇️consultation online⬇️ #compositeveneers #veneers";
+        cardOptions.secondBio = "www.perfectsmilee.com";
+        cardOptions.secondBioLink = "http://perfectsmilee.com/";
+        cardOptions.country = "COLOMBIA";
+        cardOptions.viewProfile = 'https://www.instagram.com/perfectsmileexperience/';
+        cardOptions.typeOp = 'COMPOSITE VENEERS';
+        cardOptions.price = "$ 1.200";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "teethOp06.html":
+        cardOptions.title = 'ORTHODONTICS';
+        cardOptions.firstImg = '../assets/img/teethAll/Teeth_06_01.jpg';
+        cardOptions.secondImg = '../assets/img/teethAll/Teeth_06_02.jpg';
+        cardOptions.thirdImg = '../assets/img/teethAll/Teeth_06_03.jpg';
+        cardOptions.igImg = '../assets/img/teethAll/IG_Teeth_06.jpg';
+        cardOptions.profile = '@dentex2020';
+        cardOptions.secondLine = 'dentex2020';
+        cardOptions.follower = '80';
+        cardOptions.posts = "60";
+        cardOptions.firstBio = "📍Playa del Carmen";
+        cardOptions.secondBio = "bit.ly/2HQgcUv";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2F2HQgcUv&e=ATPA5PwNcCioSbP8bta1brjJIesHksit7iXJjeBZikhr_Lh--6z5c5TQ_Wgf5BYmoyv0Ex65gcQpkBkxDfwJ2w&s=1";
+        cardOptions.country = "MEXICO";
+        cardOptions.viewProfile = 'https://www.instagram.com/dentex2020/';
+        cardOptions.typeOp = 'ORTHODONTICS';
+        cardOptions.price = "$ 1.800";
+        cardOptions.viewDeal = '';
+        break;
+
+
 
     default:
 
