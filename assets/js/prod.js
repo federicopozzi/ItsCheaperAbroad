@@ -323,6 +323,166 @@ switch (document.location.pathname) {
         cardOptions.viewDeal = '';
         break;
 
+    case pref + "eyeOp01.html":
+        cardOptions.title = 'BLEFAROPLASTICA';
+        cardOptions.firstImg = '../assets/img/eyeAll/Eye_01_01.jpg';
+        cardOptions.secondImg = '../assets/img/eyeAll/Eye_01_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyeAll/Eye_01_03.jpg';
+        cardOptions.igImg = '../assets/img/eyeAll/IG_Eye_01.jpg';
+        cardOptions.profile = '@dradeniacarpio';
+        cardOptions.secondLine = 'Dra Denia Carpio';
+        cardOptions.follower = '4.934';
+        cardOptions.posts = "360";
+        cardOptions.firstBio = "Cirujana Plástica Reconstructiva y Estética";
+        cardOptions.secondBio = "";
+        cardOptions.secondBioLink = "";
+        cardOptions.country = "DOM. REP.";
+        cardOptions.viewProfile = 'https://www.instagram.com/dradeniacarpio/';
+        cardOptions.typeOp = 'BLEFAROPLASTICA';
+        cardOptions.price = "$ 1.600";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "eyeOp02.html":
+        cardOptions.title = 'EYE SURGERY';
+        cardOptions.firstImg = '../assets/img/eyeAll/Eye_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/eyeAll/Eye_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyeAll/Eye_02_03.jpg';
+        cardOptions.igImg = '../assets/img/eyeAll/IG_Eye_02.jpg';
+        cardOptions.profile = '@lasikinbusan';
+        cardOptions.secondLine = 'BGN Eye Clinic Busan';
+        cardOptions.follower = '88';
+        cardOptions.posts = "123";
+        cardOptions.firstBio = "Call 010-7670-3995 (24/7)";
+        cardOptions.secondBio = "http://facebook.com/lasikinbusan";
+        cardOptions.secondBioLink = "http://facebook.com/lasikinbusan";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/lasikinbusan/?hl=en';
+        cardOptions.typeOp = 'EYE SURGERY';
+        cardOptions.price = "$ 2.740";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "eyeOp03.html":
+        cardOptions.title = 'BROW LIFT';
+        cardOptions.firstImg = '../assets/img/eyeAll/Eye_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/eyeAll/Eye_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyeAll/Eye_03_03.jpg';
+        cardOptions.igImg = '../assets/img/eyeAll/IG_Eye_03.jpg';
+        cardOptions.profile = '@popsurgery_cn';
+        cardOptions.secondLine = '韩国POP整形外科医院🥰';
+        cardOptions.follower = '147';
+        cardOptions.posts = "543";
+        cardOptions.firstBio = "‍⚕️前首尔医科大学医学研究领导者执刀👨";
+        cardOptions.secondBio = "m.facebook.com/popsurgery.cn";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=https%3A%2F%2Fm.facebook.com%2Fpopsurgery.cn%2F&e=ATN02v0MrinOIofrjqWTYpdz5ODqakp6IMLfg7fPG6VbHhH0O4_vZGL1fPE3u5knFqMoUFUi6qLtumstFG-3Dw&s=1";
+        cardOptions.country = "SOUTH KOREA";
+        cardOptions.viewProfile = 'https://www.instagram.com/popsurgery_cn/';
+        cardOptions.typeOp = 'BROW LIFT';
+        cardOptions.price = "$ 3.600";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "eyeOp04.html":
+        cardOptions.title = 'LASIK SURGERY';
+        cardOptions.firstImg = '../assets/img/eyeAll/Eye_04_01.jpg';
+        cardOptions.secondImg = '../assets/img/eyeAll/Eye_04_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyeAll/Eye_04_03.jpg';
+        cardOptions.igImg = '../assets/img/eyeAll/IG_Eye_04.jpg';
+        cardOptions.profile = '@morsiamedical';
+        cardOptions.secondLine = 'Morsia Medical Turkey';
+        cardOptions.follower = '7.488';
+        cardOptions.posts = "108";
+        cardOptions.firstBio = "‍🌎✈️🇹🇷🏖🏥";
+        cardOptions.secondBio = "www.morsiamedical.com";
+        cardOptions.secondBioLink = "http://www.morsiamedical.com";
+        cardOptions.country = "TURKEY";
+        cardOptions.viewProfile = 'https://www.instagram.com/morsiamedical/';
+        cardOptions.typeOp = 'LASIK SURGERY';
+        cardOptions.price = "$ 1.600";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "eyeOp05.html":
+        cardOptions.title = 'BLEFAROPLASTICA';
+        cardOptions.firstImg = '../assets/img/eyeAll/Eye_05_01.jpg';
+        cardOptions.secondImg = '../assets/img/eyeAll/Eye_05_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyeAll/Eye_05_03.jpg';
+        cardOptions.igImg = '../assets/img/eyeAll/IG_Eye_05.jpg';
+        cardOptions.profile = '@drfelipegonzalez';
+        cardOptions.secondLine = 'DRFELIPEGONZALEZ.COM';
+        cardOptions.follower = '33.9k';
+        cardOptions.posts = "385";
+        cardOptions.firstBio = "‍📞(+57) 3202772830 - (+57)(7) 6389831";
+        cardOptions.secondBio = "api.whatsapp.com/send?phone=573202772830";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=http%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D573202772830&e=ATOX1CMW0JkMqR1CccidyJFmReAZzMdTy6E178yF--VGXwxZjLld47zYNTyp18RlUGI0rhAKIq3JDZQ0UO7w5A&s=1";
+        cardOptions.country = "COLOMBIA";
+        cardOptions.viewProfile = 'https://www.instagram.com/drfelipegonzalez/';
+        cardOptions.typeOp = 'BLEFAROPLASTICA';
+        cardOptions.price = "$ 1.250";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "faceOp01.html":
+        cardOptions.title = 'MELANIN TREATMENT';
+        cardOptions.firstImg = '../assets/img/faceAll/Face_01_01.jpg';
+        cardOptions.secondImg = '../assets/img/faceAll/Face_01_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_01_03.jpg';
+        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_01.jpg';
+        cardOptions.profile = '@rinradaclinic';
+        cardOptions.secondLine = 'รินรดา คลินิก';
+        cardOptions.follower = '403';
+        cardOptions.posts = "157";
+        cardOptions.firstBio = "‍Line : @rinradaclinicpty";
+        cardOptions.secondBio = "www.rinradaclinic.com";
+        cardOptions.secondBioLink = "https://l.instagram.com/?u=http%3A%2F%2Fwww.rinradaclinic.com%2F&e=ATOHlB4Yrq7IF43CMv4ReyI43vehAAWRcWhKegqXxowgc1zP4DsFpfSdH-ZSeRAO6DsVVXFuEy7eNZtMr3MwWQ&s=1";
+        cardOptions.country = "THAILAND";
+        cardOptions.viewProfile = 'https://www.instagram.com/rinradaclinic/';
+        cardOptions.typeOp = 'MELANIN TREATMENT';
+        cardOptions.price = "$ 999";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "faceOp02.html":
+        cardOptions.title = 'BOTOX LIFT';
+        cardOptions.firstImg = '../assets/img/faceAll/Face_02_01.jpg';
+        cardOptions.secondImg = '../assets/img/faceAll/Face_02_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_02_03.jpg';
+        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_02.jpg';
+        cardOptions.profile = '@nirundaclinic';
+        cardOptions.secondLine = 'NIRUNDA CLINIC';
+        cardOptions.follower = '480';
+        cardOptions.posts = "32";
+        cardOptions.firstBio = "Board Certified Plastic Surgeon and Dermatologist-International Aesthetic Clinic";
+        cardOptions.secondBio = "www.nirundaclinic.com";
+        cardOptions.secondBioLink = "http://www.nirundaclinic.com";
+        cardOptions.country = "THAILAND";
+        cardOptions.viewProfile = 'https://www.instagram.com/nirundaclinic';
+        cardOptions.typeOp = 'BOTOX LIFT';
+        cardOptions.price = "$ 450";
+        cardOptions.viewDeal = '';
+        break;
+
+    case pref + "faceOp03.html":
+        cardOptions.title = 'FACIAL BOTOX';
+        cardOptions.firstImg = '../assets/img/faceAll/Face_03_01.jpg';
+        cardOptions.secondImg = '../assets/img/faceAll/Face_03_02.jpg';
+        cardOptions.thirdImg = '../assets/img/eyfaceAlleAll/Face_03_03.jpg';
+        cardOptions.igImg = '../assets/img/eyefaceAllAll/IG_Face_03.jpg';
+        cardOptions.profile = '@nirundaclinic';
+        cardOptions.secondLine = 'NIRUNDA CLINIC';
+        cardOptions.follower = '480';
+        cardOptions.posts = "32";
+        cardOptions.firstBio = "Board Certified Plastic Surgeon and Dermatologist-International Aesthetic Clinic";
+        cardOptions.secondBio = "www.nirundaclinic.com";
+        cardOptions.secondBioLink = "http://www.nirundaclinic.com";
+        cardOptions.country = "THAILAND";
+        cardOptions.viewProfile = 'https://www.instagram.com/nirundaclinic';
+        cardOptions.typeOp = 'FACIAL BOTOX';
+        cardOptions.price = "$ 350";
+        cardOptions.viewDeal = '';
+        break;
+
     default:
 
 }
