@@ -272,100 +272,100 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "noseOp01.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [37.52, 127.0277505613608];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [37.50544810254444, 127.07881449766033],
       title: '<span class="popUpText"><a href="https://www.instagram.com/medictel_global/" class="textMap" target="_blank">Medictel - Seoul, South Korea</a></span>'
     }];
     break;
 
   case prefix + "noseOp02.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [37.52, 127.0277505613608];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [37.5232105439706, 127.02794862593731],
       title: '<span class="popUpText"><a href="https://www.instagram.com/jkplasticsurgery/" class="textMap" target="_blank">JK Plastics - Seoul, South Korea</a></span>'
     }];
     break;
 
   case prefix + "noseOp03.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [37.52, 127.0277505613608];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [37.496518048888824, 127.0277505613608],
       title: '<span class="popUpText"><a href="https://www.instagram.com/seoulguidemedical/" class="textMap" target="_blank">Seoul Guide Medical - Seoul, South Korea</a></span>'
     }];
     break;
 
   case prefix + "noseOp04.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [37.52, 127.0277505613608];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [37.523091480791976, 127.02673587011269],
       title: '<span class="popUpText"><a href="https://www.instagram.com/misooda_korea/" class="textMap" target="_blank">MISOODA - Seoul, South Korea</a></span>'
     }];
     break;
 
     case prefix + "noseOp05.html":
-      mapOptions.view = [2.533, -7.021];
+      mapOptions.view = [37.52, 127.0277505613608];
       mapOptions.zoom = 2;
       mapOptions.markers = [{
-        latlong: [3.526118, -17.02126],
+        latlong: [37.523433616202034, 127.02794202593883],
         title: '<span class="popUpText"><a href="https://www.instagram.com/popsurgery_cn/" class="textMap" target="_blank">POP整形外科 - Seoul, South Korea</a></span>'
       }];
       break;
 
   case prefix + "teethOp01.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [36.84733677305643, 28.254776760987284],
       title: '<span class="popUpText"><a href="https://www.instagram.com/dentalmarmaris_celebidental/" class="textMap" target="_blank">Celebi Dental - Marmaris, Turkey</a></span>'
     }];
     break;
 
   case prefix + "teethOp02.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [41.010, 28.960],
       title: '<span class="popUpText"><a href="https://www.instagram.com/starling.health/?hl=en" class="textMap" target="_blank">Starling Health - Instanbul, Turkey</a></span>'
     }];
     break;
 
   case prefix + "teethOp03.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [36.84733677305643, 28.254776760987284],
       title: '<span class="popUpText"><a href="https://www.instagram.com/dentalmarmaris_celebidental/" class="textMap" target="_blank">Celebi Dental - Marmaris, Turkey</a></span>'
     }];
     break;
 
   case prefix + "teethOp04.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [3.3946519617905495, -76.5413944306804],
       title: '<span class="popUpText">"><a href="https://www.instagram.com/sonrisacharry/" class="textMap" target="_blank">Sonrisa Charry - Valle del Cauca, Colombia</a></span>'
     }];
     break;
 
   case prefix + "teethOp05.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [6.250197625883222, -75.57088972470223],
       title: '<span class="popUpText"><a href="https://www.instagram.com/perfectsmileexperience/" class="textMap" target="_blank">Perfect Smile Experience - Medellín, Colombia</a></span>'
     }];
     break;
 
   case prefix + "teethOp06.html":
-    mapOptions.view = [2.533, -7.021];
+    mapOptions.view = [32.838796478998574, -44.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
-      latlong: [3.526118, -17.02126],
+      latlong: [20.63695910557869, -87.06711544602062],
       title: '<span class="popUpText"><a href="https://www.instagram.com/dentex2020/" class="textMap" target="_blank">Dentex Odontología - Playa del Carmen, Mexico</a></span>'
     }];
     break;
