@@ -643,7 +643,14 @@ a.article:hover {
     margin-right: 150px;
   }
 }
+/* little screen */
+@media only screen and (max-width: 1130px) {
+  .websiteMargin {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
+}
 /* little screen */
 @media only screen and (max-width: 1000px) {
   .websiteMargin {
