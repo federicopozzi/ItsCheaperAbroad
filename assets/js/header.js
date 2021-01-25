@@ -36,7 +36,7 @@ document.getElementById("header").innerHTML = `
      
       </li>
       <li>
-
+    <a class="marginMenu" href="../index.html"><span class="secCat">INTRO</span></a>
         <a class="marginMenu" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><span class="secCat">BODY</span> <i class="fas fa-chevron-down"></i></a>
         <ul class="collapse list-unstyled" id="pageSubmenu">
           <li>
@@ -90,7 +90,7 @@ document.getElementById("header").innerHTML = `
         </li>
         </ul>
         <a class="marginMenu" href="./about.html"><span class="secCat">ABOUT</span></a>
-        <a class="marginMenu" href="../index.html"><span class="secCat">INTRO</span></a>
+        
       </li>
     </ul>
     
