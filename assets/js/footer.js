@@ -3,7 +3,7 @@ let prefi = document.location.hostname === "federicopozzi.github.io" ? "/phase3/
 if (document.location.pathname === prefi + "home.html" || document.location.pathname === prefi + "index.html") {
   document.getElementById("footer").innerHTML = `
 <div class="displayDesk">
-<section class="websiteMargin pt-5 pb-5">
+<section class="websiteMargin pt-5 pb-5 mt-3">
 <div class="row">
      <div class="col-lg-3 col-2">
      <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
@@ -21,7 +21,7 @@ Images are not modified nor altered. You may download anything on these pages fo
 </div>
 
 <div class="displayMobile">
-<section class="websiteMargin pt-5 pb-5 pr-2">
+<section class="websiteMargin pt-5 pb-5 pr-2 mt-3">
 <div class="row pl-4 pt-4 pb-2 pr-3">
      <div class="col-5">
      <div class="row">
@@ -51,7 +51,7 @@ Images are not modified nor altered. You may download anything on these pages fo
   document.getElementById("footer").innerHTML = `
 
 <div class="displayDesk">
-<section class="websiteMargin pt-5 pb-5">
+<section class="websiteMargin pt-5 pb-5 mt-3">
 <div class="row">
      <div class="col-lg-3 col-2">
      <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
@@ -69,7 +69,7 @@ Images are not modified nor altered. You may download anything on these pages fo
 </div>
 
 <div class="displayMobile">
-<section class="websiteMargin pt-5 pb-5 pr-2">
+<section class="websiteMargin pt-5 pb-5 pr-2 mt-3">
 <div class="row pl-4 pt-4 pb-2 pr-3">
      <div class="col-5">
      <div class="row">

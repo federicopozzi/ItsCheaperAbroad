@@ -44,6 +44,7 @@ body {
 footer {
   background-color: var(--color-back-footer);
   color: var(--color-text-primary);
+  margin-top: 40px;
 }
 
 ul {
