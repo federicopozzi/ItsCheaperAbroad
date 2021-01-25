@@ -663,26 +663,6 @@ switch (document.location.pathname) {
         cardOptions.viewDeal = 'https://www.instagram.com/p/CGY90_fAJ-S/';
         break;
 
-    case pref + "noseOp05.html":
-        cardOptions.title = '';
-        cardOptions.firstImg = '';
-        cardOptions.secondImg = '';
-        cardOptions.thirdImg = '';
-        cardOptions.igImg = '';
-        cardOptions.profile = '';
-        cardOptions.secondLine = '';
-        cardOptions.follower = '';
-        cardOptions.posts = "";
-        cardOptions.firstBio = "";
-        cardOptions.secondBio = "";
-        cardOptions.secondBioLink = "";
-        cardOptions.country = "";
-        cardOptions.viewProfile = '';
-        cardOptions.typeOp = '';
-        cardOptions.price = "";
-        cardOptions.viewDeal = '';
-        break;
-
     case pref + "teethOp01.html":
         cardOptions.title = 'DENTAL BRIDGE';
         cardOptions.firstImg = '../assets/img/teethAll/Teeth_01_01.jpg';
