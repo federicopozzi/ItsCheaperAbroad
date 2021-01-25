@@ -34,6 +34,7 @@
     font-family: var(--font-secondary);
     cursor: pointer;
     color: #FDEF4B;
+    border: 2px solid #FDEF4B;
   }
 
   .bottone:hover {
@@ -43,8 +44,8 @@
 
   #audio {
     position: absolute;
-    left: 20%;
-    top: 20%;
+    left: 12%;
+    top: 5%;
     transform: translate(-50%, -50%);
     padding: 20px;
     font-family: var(--font-secondary);
@@ -56,7 +57,7 @@
   #audioMob {
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 5%;
     transform: translate(-50%, -50%);
     padding: 20px;
     font-family: var(--font-secondary);
@@ -66,61 +67,47 @@
   }
 </style>
 
-<body style="background-color: #FDEF4B">
-<div id="sideBar"></div>
-  <div class="sticky-top displayDesk">
-    <header>
-      <nav class=" d-flex align-items-center justify-content-between paddingNav">
+<body style="background-image:
+    radial-gradient(circle, rgba(148, 55, 255, 1), rgba(79, 17, 153, 0.85))">
 
+<div class="displayDesk">
+  <section class="pt-5 pb-5 d-flex justify-content-center">
 
-        <div>
-          <span id="sidebarCollapse" class="marginNavSx"><i class="fas fa-bars"></i></span>
-        </div>
-
-        <div><a class="nav-item nav-link" href="./home.html"><img src="./assets/svg/logo_Header.svg" class="img-fluid logo" alt="Responsive image"></a>
-        </div>
-        <div>
-          <a href="./pages/about.html" style="color:white;"><span id="" class="marginNavDx"><i class="fas fa-question"></i></span></a>
-        </div>
-      </nav>
-    </header>
-  </div>
-
-  <section class="websiteMargin ptMob">
-    <div class="displayDesk" >
-      <div class="row">
-        <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-        <video autoplay id="videointroductorio">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center  pb-5">
+        <a  href="home.html"><span class="bottone">CONTINUE</span></a>
+      </div>
+      <div class="col-lg-12 d-flex justify-content-center">
+        <video autoplay id="videointroductorio" style="border: 3px solid #FDEF4B; border-radius: 30px;" width="85%">
           <source src="./assets/videoTest.mp4" type="video/mp4">
+
         </video>
 
+        <span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
       </div>
 
-      <div class="row pt-5 justify-content-center">
-        <div class="col-lg-3" style="text-align: center">
-          <a class="bottone" href="home.html"><span>CONTINUE</span></a>
-        </div>
 
-      </div>
-      <span id="audio"><i id="volumeUp" class="fas fa-volume-up"></i><i id="volumeDown" class="fas fa-volume-off"></i></span>
-    </div>
+
+
+
+
   </section>
-
-
-  <div class="displayMobile">
-    <!-- <video src="../assets/videoTest.mp4" controls playsinline uk-video></video> -->
-    <video autoplay id="videointroductorioMob">
-      <source src="./assets/videoMob.mp4" type="video/mp4">
-    </video>
-<div class="row" style="position: absolute; top:70%; left: 50%; transform: translate(-50%, -50%)">
-  <div class="col-12 d-flex justify-content-center">
-    <a  href="home.html"><span class="bottone">Continue</span></a>
-  </div>
 </div>
 
 
-    <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
+<div class="displayMobile">
+  <video autoplay id="videointroductorioMob">
+    <source src="./assets/videoMob.mp4" type="video/mp4">
+  </video>
+
+  <div class="row" style="position: absolute; top:80%; left: 50%; transform: translate(-50%, -50%)">
+    <div class="col-12 d-flex justify-content-center">
+      <a  href="home.html"><span class="bottone">CONTINUE</span></a>
+    </div>
+
   </div>
+  <span id="audioMob"><i id="volumeUpMob" class="fas fa-volume-up"></i><i id="volumeDownMob" class="fas fa-volume-off"></i></span>
+</div>
 
   <!--<footer id="footer"></footer>-->
 
@@ -146,28 +133,28 @@
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
 
   <script src="./assets/js/main.js"></script>
- <!-- <script src="./assets/js/footer.js"></script>-->
-  <script src="./assets/js/sideBar.js"></script>
 
   <script>
     $(document).ready(function() {
       //autoplay
       let a = 0;
       //audio
-      $("#videointroductorio").prop('muted', true);
-      $("#volumeUp").hide();
+      /*$("#videointroductorio").prop('muted', false);*/
+      $("#volumeDown").hide();
+      $("#volumeUp").show();
+
 
       $("#audio").on('click', function() {
         if (a === 0) {
           a = 1;
-          $("#videointroductorio").prop('muted', false);
-          $("#volumeUp").show();
-          $("#volumeDown").hide();
-        } else {
-          a = 0;
           $("#videointroductorio").prop('muted', true);
           $("#volumeUp").hide();
           $("#volumeDown").show();
+        } else {
+          a = 0;
+          $("#videointroductorio").prop('muted', false);
+          $("#volumeUp").show();
+          $("#volumeDown").hide();
         }
 
       })
