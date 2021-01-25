@@ -74,13 +74,13 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "breastOp02.html":
-  mapOptions.view = [12, 100];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [7.898500665037002, 98.3679161],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/plasticsurgeryphuket/" class="textMap" target="_blank">Plastic Surgery Phuket - Phuket, Thailand</a></span>'
-  }];
-  break;
+    mapOptions.view = [12, 100];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [7.898500665037002, 98.3679161],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/plasticsurgeryphuket/" class="textMap" target="_blank">Plastic Surgery Phuket - Phuket, Thailand</a></span>'
+    }];
+    break;
 
   case prefix + "breastOp03.html":
     mapOptions.view = [45, 25];
@@ -119,13 +119,13 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "buttOp01.html":
-  mapOptions.view = [20, -50];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [18.473983358302632, -69.8967334],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/drasilviaaviles/" class="textMap" target="_blank">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</a></span>'
-  }];
-  break;
+    mapOptions.view = [20, -50];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [18.473983358302632, -69.8967334],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/drasilviaaviles/" class="textMap" target="_blank">Dra. Silvia Aviles - Santo Domingo, Dominican Republic</a></span>'
+    }];
+    break;
 
   case prefix + "buttOp02.html":
     mapOptions.view = [20, 100];
@@ -137,31 +137,31 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "buttOp03.html":
-  mapOptions.view = [45, 25];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [41.06565331567315, 29.001017241413674],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
-  }];
-  break;
+    mapOptions.view = [45, 25];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [41.06565331567315, 29.001017241413674],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
+    }];
+    break;
 
   case prefix + "buttOp04.html":
-  mapOptions.view = [45, 25];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [41.06565331567315, 29.001017241413674],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
-  }];
-  break;
+    mapOptions.view = [45, 25];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [41.06565331567315, 29.001017241413674],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/estetikinternational/" class="textMap" target="_blank">Estetik International - Istanbul, Turkey</a></span>'
+    }];
+    break;
 
   case prefix + "eyeOp01.html":
-  mapOptions.view = [20, -50];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [18.47406276988475, -69.89695504602206],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
-  }];
-  break;
+    mapOptions.view = [20, -50];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [18.47406276988475, -69.89695504602206],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
+    }];
+    break;
 
   case prefix + "eyeOp02.html":
     mapOptions.view = [40, 120];
@@ -218,13 +218,13 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "faceOp03.html":
-  mapOptions.view = [20, -50];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [18.47406276988475, -69.89695504602206],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
-  }];
-  break;
+    mapOptions.view = [20, -50];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [18.47406276988475, -69.89695504602206],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/dradeniacarpio/" class="textMap" target="_blank">Dra. Denia Carpio - Santo Domingo, Dominican Republic</a></span>'
+    }];
+    break;
 
   case prefix + "faceOp04.html":
     mapOptions.view = [40, 120];
@@ -236,13 +236,13 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "faceOp05.html":
-  mapOptions.view = [38, 25];
-  mapOptions.zoom = 3;
-  mapOptions.markers = [{
-    latlong: [36.867934712530776, 30.728576437563394],
-    title: '<span class="popUpText"><a href="https://www.instagram.com/morsiamedical/" class="textMap" target="_blank">Morsia Medical - Antalya, Turkey</a></span>'
-  }];
-  break;
+    mapOptions.view = [38, 25];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [36.867934712530776, 30.728576437563394],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/morsiamedical/" class="textMap" target="_blank">Morsia Medical - Antalya, Turkey</a></span>'
+    }];
+    break;
 
   case prefix + "hairOp01.html":
     mapOptions.view = [30, -100];
@@ -307,14 +307,14 @@ switch (document.location.pathname) {
     }];
     break;
 
-    case prefix + "noseOp05.html":
-      mapOptions.view = [40, 125];
-      mapOptions.zoom = 3;
-      mapOptions.markers = [{
-        latlong: [37.523433616202034, 127.02794202593883],
-        title: '<span class="popUpText"><a href="https://www.instagram.com/popsurgery_cn/" class="textMap" target="_blank">POP整形外科 - Seoul, South Korea</a></span>'
-      }];
-      break;
+  case prefix + "noseOp05.html":
+    mapOptions.view = [40, 125];
+    mapOptions.zoom = 3;
+    mapOptions.markers = [{
+      latlong: [37.523433616202034, 127.02794202593883],
+      title: '<span class="popUpText"><a href="https://www.instagram.com/popsurgery_cn/" class="textMap" target="_blank">POP整形外科 - Seoul, South Korea</a></span>'
+    }];
+    break;
 
   case prefix + "teethOp01.html":
     mapOptions.view = [35, 20];

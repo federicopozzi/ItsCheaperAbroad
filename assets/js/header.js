@@ -27,13 +27,13 @@ document.getElementById("header").innerHTML = `
     </div>
 
     <div class="sidebar-header">
-      
+
     </div>
 
     <ul class="list-unstyled components">
-     
+
       <li class="active">
-     
+
       </li>
       <li>
     <a class="marginMenu" href="../index.html"><span class="secCat">INTRO</span></a>
@@ -90,10 +90,10 @@ document.getElementById("header").innerHTML = `
         </li>
         </ul>
         <a class="marginMenu" href="./about.html"><span class="secCat">ABOUT</span></a>
-        
+
       </li>
     </ul>
-    
+
   </nav>
 </div>
       `

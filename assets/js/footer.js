@@ -31,14 +31,14 @@ Images are not modified nor altered. You may download anything on these pages fo
      <div class="row">
      <div class="col-12 d-flex justify-content-center">
      <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
-     
+
 </div>
 <div class="col-12 pt-3 d-flex justify-content-left">
-   
+
    <img src="./assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
 </div>
 </div>
-     
+
 </div>
 <div class="col-lg-5 col-7">
      <span class="textFoot">© All pictures shown at Itscheaperabroad belong to Instagram.
@@ -83,14 +83,14 @@ Images are not modified nor altered. You may download anything on these pages fo
      <div class="row">
      <div class="col-12 d-flex justify-content-center">
      <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
-     
+
 </div>
 <div class="col-12 pt-3 d-flex justify-content-left">
-   
+
    <img src="../assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
 </div>
 </div>
-     
+
 </div>
 <div class="col-lg-5 col-7">
      <span class="textFoot">© All pictures shown at Itscheaperabroad belong to Instagram.

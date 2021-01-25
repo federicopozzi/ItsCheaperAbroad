@@ -6,13 +6,13 @@ document.getElementById("sideBar").innerHTML = `
     </div>
 
     <div class="sidebar-header">
-     
+
     </div>
 
     <ul class="list-unstyled components">
-    
+
       <li class="active">
-       
+
       </li>
       <li>
        <a class="marginMenu" href="./index.html"><span class="secCat">INTRO</span></a>
@@ -69,9 +69,9 @@ document.getElementById("sideBar").innerHTML = `
       </li>
       </ul>
       <a class="marginMenu" href="./pages/about.html"><span class="secCat">ABOUT</span></a>
-      
+
     </li>
   </ul>
-    
+
   </nav>
       `
