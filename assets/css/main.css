@@ -90,6 +90,12 @@ nav {
 
 .popUpText {
   font-family: var(--font-secondary);
+  text-decoration: none;
+  color: black !important;
+}
+
+.leaflet-container a {
+  color: var(--color-main);
 }
 
 /* ########## TYPE ########## */
@@ -180,7 +186,7 @@ nav {
 
 .marquee__inner:hover {
   animation-play-state: running;
-  cursor: context-menu;
+
 }
 
 @keyframes marquee {
