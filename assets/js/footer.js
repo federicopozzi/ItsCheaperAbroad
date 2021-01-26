@@ -33,7 +33,7 @@ Images are not modified nor altered. You may download anything on these pages fo
                 <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
               </div>
-              <div class="col-12 pt-3 d-flex justify-content-left">
+              <div class="col-12 d-flex justify-content-left">
 
                 <img src="./assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
               </div>
@@ -85,7 +85,7 @@ Images are not modified nor altered. You may download anything on these pages fo
                 <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
               </div>
-              <div class="col-12 pt-3 d-flex justify-content-left">
+              <div class="col-12 d-flex justify-content-left">
 
                 <img src="../assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
               </div>
