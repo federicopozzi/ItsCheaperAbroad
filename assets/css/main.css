@@ -91,8 +91,10 @@ nav {
 .popUpText {
   font-family: var(--font-secondary);
   text-decoration: none;
+  font-size: 8.5px;
   color: black !important;
 }
+
 
 .leaflet-container a {
   color: var(--color-main);
