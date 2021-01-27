@@ -22,7 +22,7 @@ document.getElementById("sideBar").innerHTML = `
           <a href="./pages/belly.html">Belly</a>
         </li>
         <li>
-          <a href="./breast.html">Breast</a>
+          <a href="./pages/breast.html">Breast</a>
         </li>
         <li>
           <a href="./pages/butt.html">Butt</a>
