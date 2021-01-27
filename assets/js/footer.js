@@ -24,12 +24,12 @@ Images are not modified nor altered. You may download anything on these pages fo
 </div>
 
   <div class="displayMobile">
-    <section class="websiteMargin pt-5 pb-5 pr-2 mt-3">
-      <div class="container-fluid">
+    <section class="websiteMargin">
+      <div class="container-fluid pt-3 pb-3">
         <div class="row">
           <div class="col-5">
             <div class="row">
-              <div class="col-12 d-flex justify-content-center">
+              <div class="col-12 d-flex justify-content-center pb-3">
                 <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
               </div>
@@ -76,12 +76,12 @@ Images are not modified nor altered. You may download anything on these pages fo
 </div>
 
 <div class="displayMobile">
-    <section class="websiteMargin pt-5 pb-5 pr-2 mt-3">
-      <div class="container-fluid">
+    <section class="websiteMargin">
+      <div class="container-fluid pt-3 pb-3">
         <div class="row">
           <div class="col-5">
             <div class="row">
-              <div class="col-12 d-flex justify-content-center">
+              <div class="col-12 d-flex justify-content-center pb-3">
                 <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
               </div>
