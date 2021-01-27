@@ -601,6 +601,10 @@ a.article:hover {
   border: 3px solid var(--color-main);
   border-radius: 10px;
 }
+.accAboutRed {
+  border: 3px solid var(--color-text-secondary);
+  border-radius: 10px;
+}
 
 .acc-title {
   background-color: white !important;
@@ -609,17 +613,44 @@ a.article:hover {
   color: var(--color-main);
 }
 
+.acc-titleRed {
+  background-color: white !important;
+  border-radius: 10px;
+  font-family: var(--font-secondary);
+  color: var(--color-text-secondary);
+}
+
 .uk-accordion-title:focus, .uk-accordion-title:hover {
   color: var(--color-main);
 }
 
-.uk-accordion-title::before {
+.acc-titleRed:focus, .acc-titleRed:hover {
+  color: var(--color-text-secondary);
+}
+/*.uk-accordion-titleRed::before {
   background-image: url(../svg/about/plus.svg);
 }
 
 .uk-open>.uk-accordion-title::before {
   background-image: url(../svg/about/minus.svg);
+}*/
+
+#provared::before {
+  background-image: url(../svg/about/plusRed.svg);
 }
+
+.uk-open>#provared::before {
+  background-image: url(../svg/about/minusRed.svg);
+}
+
+#provav::before {
+  background-image: url(../svg/about/plus.svg);
+}
+
+.uk-open>#provav::before {
+  background-image: url(../svg/about/minus.svg);
+}
+
 
 .imgResearch {
   border-radius: 15px;
@@ -630,10 +661,19 @@ a.article:hover {
   padding-left: 40px;
   padding-right: 40px;
 }
+.textAboutRed {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 .textAbout>p {
   font-family: var(--font-text);
   color: var(--color-main);
+}
+
+.textAboutRed>p {
+  font-family: var(--font-text);
+  color: var(--color-text-secondary);
 }
 
 .textAbout>span {
