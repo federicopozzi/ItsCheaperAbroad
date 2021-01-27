@@ -29,10 +29,10 @@ Images are not modified nor altered. You may download anything on these pages fo
         <div class="row">
           <div class="col-5">
             <div class="row">
-              <div class="col-12 d-flex justify-content-center pb-3">
+              <!--<div class="col-12 d-flex justify-content-center pb-3">
                 <img src="./assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
-              </div>
+              </div>-->
               <div class="col-12 d-flex justify-content-left">
 
                 <img src="./assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
@@ -81,10 +81,10 @@ Images are not modified nor altered. You may download anything on these pages fo
         <div class="row">
           <div class="col-5">
             <div class="row">
-              <div class="col-12 d-flex justify-content-center pb-3">
+              <!--<div class="col-12 d-flex justify-content-center pb-3">
                 <img src="../assets/svg/density_white.svg" class="img-fluid" alt="Responsive image" width="50">
 
-              </div>
+              </div>-->
               <div class="col-12 d-flex justify-content-left">
 
                 <img src="../assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
