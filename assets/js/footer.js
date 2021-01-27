@@ -35,7 +35,7 @@ Images are not modified nor altered. You may download anything on these pages fo
               </div>-->
               <div class="col-12 d-flex justify-content-left">
 
-                <img src="./assets/svg/polimi_white.svg" class="img-fluid" alt="Responsive image" width="120">
+                <img src="./assets/svg/polimi_density.svg" class="img-fluid" alt="Responsive image" width="120">
               </div>
             </div>
 
