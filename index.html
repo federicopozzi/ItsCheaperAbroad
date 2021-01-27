@@ -90,7 +90,7 @@
 
   <div class="displayMobile">
 
-      <video  id="videoM" controls>
+      <video  id="videoM">
         <!--<source src="./assets/videoMob.mp4" type="video/mp4">-->
         <source  type="video/mp4">
 
@@ -156,10 +156,8 @@
 
       }
       else {
-        var newsrc = './assets/videoTest.mp4';
-        $('#videoD > source').attr('src', newsrc);
-        $("#videoD")[0].load();
-        $("#videoD")[0].play();
+        vidM.removeAttribute('src');
+        vidD.setAttribute('src', './assets/videoTest.mp4');
       }
 
 
