@@ -365,5 +365,5 @@ for (let marker of mapOptions.markers) {
   L.marker(marker.latlong, {
       icon: myIcon
     }).addTo(map)
-    .bindPopup(marker.title)
-}
+    .bindPopup(marker.title);
+};
