@@ -7,7 +7,7 @@ let myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+let prefix = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
 
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
@@ -245,8 +245,8 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "hairOp01.html":
-    mapOptions.view = [30, -100];
-    mapOptions.zoom = 2;
+    mapOptions.view = [20, -100];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [20.68511446997661, -103.39514154502761],
       title: '<span class="popUpText"><a href="https://www.instagram.com/hairin1day/?hl=en" class="textMap" target="_blank">Hair in 1 Day <br> Gudalajara, Mexico</a></span>'
@@ -254,7 +254,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "hairOp02.html":
-    mapOptions.view = [30, -100];
+    mapOptions.view = [20, -100];
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [19.357103566905515, -99.18463991505979],
@@ -344,7 +344,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "teethOp04.html":
-    mapOptions.view = [5, -90];
+    mapOptions.view = [5, -70];
     mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [3.3946519617905495, -76.5413944306804],
@@ -362,8 +362,8 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "teethOp06.html":
-    mapOptions.view = [0, 0];
-    mapOptions.zoom = 2;
+    mapOptions.view = [20, -80];
+    mapOptions.zoom = 3;
     mapOptions.markers = [{
       latlong: [20.63695910557869, -87.06711544602062],
       title: '<span class="popUpText"><a href="https://www.instagram.com/dentex2020/" class="textMap" target="_blank">Dentex Odontología <br> Playa del Carmen, Mexico</a></span>'

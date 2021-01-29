@@ -7,7 +7,7 @@ let myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+let prefix = document.location.hostname === "federicopozzi.github.io" ? "/pages/" : "/pages/";
 
 switch (document.location.pathname) {
   case prefix + "belly.html":
@@ -33,8 +33,8 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "breast.html":
-    mapOptions.view = [41.010, 28.960];
-    mapOptions.zoom = 1;
+    mapOptions.view = [41.010, 10];
+    mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [18.473983358302632, -69.8967334],
         title: '<span class="popUpText"><a href="https://www.instagram.com/drasilviaaviles/" class="textMap" target="_blank">Dra. Silvia Aviles <br> Santo Domingo <br> Dominican Republic</a></span>'
@@ -63,7 +63,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "butt.html":
-    mapOptions.view = [41.010, 28.960];
+    mapOptions.view = [30, 10];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [41.06565331567315, 29.001017241413674],
@@ -81,7 +81,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "eye.html":
-    mapOptions.view = [41.010, 28.960];
+    mapOptions.view = [30, 28.960];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [37.5034850514988, 127.02472141630581],
@@ -107,7 +107,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "face.html":
-    mapOptions.view = [29.66495282917875, 12.82202473508781];
+    mapOptions.view = [29.66495282917875, 20];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [37.496518048888824, 127.0277505613608],
@@ -137,7 +137,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "hair.html":
-    mapOptions.view = [22.731460267949362, -44.880591087998454];
+    mapOptions.view = [30, -44.880591087998454];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [20.68511446997661, -103.39514154502761],
@@ -181,7 +181,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "teeth.html":
-    mapOptions.view = [32.838796478998574, -44.15307467841153];
+    mapOptions.view = [32.838796478998574, -34.15307467841153];
     mapOptions.zoom = 2;
     mapOptions.markers = [{
         latlong: [41.010, 28.960],
@@ -221,7 +221,7 @@ switch (document.location.pathname) {
     break;
 
   case prefix + "colombia.html":
-    mapOptions.view = [7.036529835292955, -73.06845903863724];
+    mapOptions.view = [8, -73.06845903863724];
     mapOptions.zoom = 5;
     mapOptions.markers = [{
         latlong: [11.01127471851537, -74.82809605936626],
