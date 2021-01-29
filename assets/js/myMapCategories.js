@@ -350,6 +350,7 @@ switch (document.location.pathname) {
 
 }
 // https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+//https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}/**/
 // mapOptions['viewx'],mapOptions['viewy']
 // var map = L.map('map').setView(new L.LatLng(0,0), mapOptions.zoom);
 // var map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
@@ -357,7 +358,7 @@ switch (document.location.pathname) {
 
 let map = L.map('map').setView(mapOptions.view, mapOptions.zoom);
 
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
