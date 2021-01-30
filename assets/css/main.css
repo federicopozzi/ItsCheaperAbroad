@@ -676,12 +676,12 @@ a.article:hover {
 
 .textAbout>p {
   font-family: var(--font-text);
-  color: var(--color-main);
+  color: black;
 }
 
 .textAboutRed>p {
   font-family: var(--font-text);
-  color: var(--color-text-secondary);
+  color: black;
 }
 
 .textAbout>span {
