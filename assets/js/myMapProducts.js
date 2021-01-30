@@ -7,7 +7,11 @@ let myIcon = L.icon({
 
 let mapOptions = {}
 
-let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";
+/*let prefix = document.location.hostname === "federicopozzi.github.io" ? "/phase3/pages/" : "/phase3/pages/";*/
+
+/*IF atom live-server
+let prefix "/pages/";*/
+let prefix = "/phase3/pages/";
 
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
