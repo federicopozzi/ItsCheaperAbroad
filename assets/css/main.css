@@ -27,9 +27,7 @@ html {
   --fontitalic: italic;
   --fontsize-title: 18px;
   --fontsize-titleSection: 30px;
-  /* ########## NavBar ########## */
   --fontsize-nav: 14px;
-  /* ########## ProductPage ########## */
   --fontsize-typeMedical: 30px;
   --fontsize-clinicName: 18px;
   --fontsize-info: 15px;
@@ -102,13 +100,6 @@ nav {
 }
 
 /* ########## TYPE ########## */
-.mainTitle {
-  font-family: var(--font-secondary);
-  font-weight: var(--font-bold);
-  font-size: var(--fontsize-title);
-  color: var(--color-main);
-}
-
 .mainTitleSection {
   font-family: var(--font-secondary);
   font-weight: var(--font-bold);
@@ -124,10 +115,6 @@ nav {
 }
 
 /* ########## UTILITY ########## */
-.divider {
-  border-bottom: 2px solid var(--color-main);
-}
-
 .backgroundSection1 {
   background-color: #FF0009;
   background-image: radial-gradient(circle, rgba(255, 0, 9, 1), rgba(255, 0, 9, 0.5)),
@@ -344,19 +331,6 @@ a.article:hover {
   color: #fff !important;
 }
 
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
-#content {
-  width: 100%;
-  padding: 20px;
-  min-height: 100vh;
-  transition: all 0.3s;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 /* ########## NAVBAR ########## */
 .paddingNav {
   padding-top: 5px;
@@ -454,23 +428,6 @@ a.article:hover {
   color: white;
 }
 
-.todayOnPromoText {
-  background-color: var(--color-text-secondary);
-  color: #FDEF4B;
-  font-family: var(--font-secondary);
-  font-weight: var(--font-bold);
-  border-radius: 20px 20px 0 0;
-}
-
-.todayOnPromoBox {
-  background-color: var(--color-main);
-  border-radius: 0 0 20px 20px;
-}
-
-.descriptionCategory {
-  background-color: #FDEF4B;
-  height: 80px;
-}
 
 /* ########## PRODUCT PAGE ########## */
 .imgCarouselProduct {
@@ -532,12 +489,6 @@ a.article:hover {
   font-size: var(--fontsize-info);
 }
 
-.readMore {
-  color: var(--color-main);
-  font-family: var(--font-text);
-  font-size: var(--fontsize-info);
-}
-
 .borderPrice {
   border-radius: 20px;
   border: 3px solid var(--color-text-secondary);
@@ -553,13 +504,6 @@ a.article:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
-}
-
-.fullPrice {
-  font-family: var(--font-secondary);
-  font-weight: var(--font-med);
-  font-size: 20px;
-  text-decoration: line-through;
 }
 
 .price {
@@ -579,10 +523,6 @@ a.article:hover {
   font-family: var(--font-secondary);
 }
 
-.mappa {
-  border-radius: 20px;
-  border: 3px solid var(--color-main);
-}
 
 .username {
   font-family: var(--font-text);
@@ -630,13 +570,7 @@ a.article:hover {
 .acc-titleRed:focus, .acc-titleRed:hover {
   color: var(--color-text-secondary);
 }
-/*.uk-accordion-titleRed::before {
-  background-image: url(../svg/about/plus.svg);
-}
 
-.uk-open>.uk-accordion-title::before {
-  background-image: url(../svg/about/minus.svg);
-}*/
 
 #provared::before {
   background-image: url(../svg/about/plusRed.svg);
@@ -720,14 +654,6 @@ a.article:hover {
     margin-right: 10px;
   }
 
-  /*
-      .displayMobile {
-        display: initial;
-      }
-
-      .displayDesk {
-        display: none;
-      }*/
 }
 
 /* iphone */
@@ -745,11 +671,6 @@ a.article:hover {
     display: none;
   }
 
-  .map {
-    margin-right: 2px;
-    margin-left: 2px;
-
-  }
 
   /* ########## NAVBAR ########## */
   .marginNavSx {
