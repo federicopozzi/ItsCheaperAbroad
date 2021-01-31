@@ -662,6 +662,9 @@ a.article:hover {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .paddingV2 {
+    padding-top: 25px;
+  }
 
 }
 
