@@ -645,12 +645,6 @@ a.article:hover {
   }
 }
 
-@media only screen and (min-width: 1700px)  {
-  .websiteMargin {
-    margin-left: 450px;
-    margin-right: 450px;
-  }
-}
 
 /* medium screen */
 @media only screen and (max-width: 1330px) {
