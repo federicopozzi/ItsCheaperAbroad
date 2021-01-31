@@ -631,12 +631,24 @@ a.article:hover {
   font-size: 10px;
 }
 
-
+@media only screen and (min-width: 2000px)  {
+  .websiteMargin {
+    margin-left: 600px;
+    margin-right: 600px;
+  }
+}
 
 @media only screen and (min-width: 1750px)  {
   .websiteMargin {
-    margin-left: 430px;
-    margin-right: 430px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+}
+
+@media only screen and (min-width: 1700px)  {
+  .websiteMargin {
+    margin-left: 450px;
+    margin-right: 450px;
   }
 }
 
