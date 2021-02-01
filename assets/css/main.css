@@ -94,7 +94,6 @@ nav {
   color: black !important;
 }
 
-
 .leaflet-container a {
   color: var(--color-main);
 }
@@ -180,7 +179,6 @@ nav {
 
 .marquee__inner {
   animation-play-state: running;
-
 }
 
 @keyframes marquee {
@@ -432,7 +430,6 @@ a.article:hover {
   color: white;
 }
 
-
 /* ########## PRODUCT PAGE ########## */
 .imgCarouselProduct {
   border-radius: 20px;
@@ -527,7 +524,6 @@ a.article:hover {
   font-family: var(--font-secondary);
 }
 
-
 .username {
   font-family: var(--font-text);
   font-weight: var(--font-bold);
@@ -548,6 +544,7 @@ a.article:hover {
   border: 3px solid var(--color-main);
   border-radius: 10px;
 }
+
 .accAboutRed {
   border: 3px solid var(--color-text-secondary);
   border-radius: 10px;
@@ -575,7 +572,6 @@ a.article:hover {
   color: var(--color-text-secondary);
 }
 
-
 #provared::before {
   background-image: url(../svg/about/plusRed.svg);
 }
@@ -592,7 +588,6 @@ a.article:hover {
   background-image: url(../svg/about/minus.svg);
 }
 
-
 .imgResearch {
   border-radius: 15px;
   border: 3px solid var(--color-main);
@@ -607,6 +602,7 @@ a.article:hover {
   padding-left: 40px;
   padding-right: 40px;
 }
+
 .textAboutRed {
   padding-left: 40px;
   padding-right: 40px;
@@ -635,7 +631,7 @@ a.article:hover {
   font-size: 10px;
 }
 
-.faculty > p {
+.faculty>p {
   font-family: var(--font-secondary);
   font-size: 15px;
   color: var(--color-main);
@@ -644,33 +640,43 @@ a.article:hover {
 .mauri {
   cursor: url("../cursors/mauri.png"), auto;
 }
+
 .colombo {
   cursor: url("../cursors/colombo.png"), auto;
 }
+
 .briones {
   cursor: url("../cursors/briones.png"), auto;
 }
+
 .vant {
   cursor: url("../cursors/vant.png"), auto;
 }
+
 .zing {
   cursor: url("../cursors/zing.png"), auto;
 }
+
 .ben {
-   cursor: url("../cursors/bened.png"), auto;
- }
+  cursor: url("../cursors/bened.png"), auto;
+}
+
 .gobbo {
   cursor: url("../cursors/gob.png"), auto;
 }
+
 .elli {
   cursor: url("../cursors/elli.png"), auto;
 }
+
 .febres {
   cursor: url("../cursors/febres.png"), auto;
 }
+
 .anto {
   cursor: url("../cursors/anto.png"), auto;
 }
+
 .bet {
   cursor: url("../cursors/bet.png"), auto;
 }
@@ -718,13 +724,14 @@ a.article:hover {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .paddingV2 {
     padding-top: 25px;
   }
+
   .paddingV2T {
     padding-top: 25px;
   }
-
 }
 
 /* iphone */
@@ -741,7 +748,6 @@ a.article:hover {
   .displayDesk {
     display: none;
   }
-
 
   /* ########## NAVBAR ########## */
   .marginNavSx {
@@ -899,5 +905,4 @@ a.article:hover {
   .paddingV2T {
     padding-top: 25px;
   }
-
 }

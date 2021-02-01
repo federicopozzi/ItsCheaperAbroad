@@ -1,7 +1,7 @@
 <html lang=eng>
 
 <head>
-   <!-- metatag -->
+  <!-- metatag -->
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -29,7 +29,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="all">
   <!-- favicon -->
-  <link rel="icon" sizes="192x192" href="">
+  <link rel="icon" sizes="192x192" href="./assets/favicon/Fav.ico">
   <!-- Navcollapse -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
@@ -57,7 +57,6 @@
     background-color: #FDEF4B;
     color: #EE1B22;
   }
-
 </style>
 
 <body style="background-image:
@@ -73,7 +72,7 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <video id="videoD" controls style="border: 3px solid #FDEF4B; border-radius: 30px;" width="85%">
             <!--<source src="./assets/videoTest.mp4" type="video/mp4">-->
-            <source  type="video/mp4">
+            <source type="video/mp4">
 
           </video>
           <span id="start" onclick="fadeOutD()" style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%); cursor: pointer;"><img src="./assets/svg/play-button.svg" class="w-100" style="transform: scale(0.7)"></span>
@@ -90,11 +89,11 @@
 
   <div class="displayMobile">
 
-      <video  id="videoM" poster="./assets/img/screenM.png" controls playsinline>
-        <!--<source src="./assets/videoMob.mp4" type="video/mp4">-->
-        <source  type="video/mp4">
+    <video id="videoM" poster="./assets/img/screenM.png" controls playsinline>
+      <!--<source src="./assets/videoMob.mp4" type="video/mp4">-->
+      <source type="video/mp4">
 
-      </video>
+    </video>
 
     <a href="home.html" style="position: absolute; left:33%; top:95%;"><span class="bottone">CONTINUE</span></a>
     <span id="startM" onclick="fadeOutM();" style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%)"><img src="./assets/svg/play-button.svg" class="w-100" style="transform: scale(1)"></span>
@@ -126,41 +125,35 @@
   <script src="./assets/js/main.js"></script>
 
   <script>
+    const vidM = document.getElementById("videoM");
+    const vidD = document.getElementById("videoD");
+    const play = document.getElementById("start");
+    const playM = document.getElementById("startM");
 
+    console.log(play);
 
+    function fadeOutD() {
+      vidD.play();
+      play.remove();
+    }
 
-      const vidM = document.getElementById("videoM");
-      const vidD = document.getElementById("videoD");
-      const play = document.getElementById("start");
-      const playM = document.getElementById("startM");
+    function fadeOutM() {
+      vidM.play();
+      playM.remove();
+    }
 
-      console.log(play);
+    const mediaQuery = window.matchMedia('(max-width: 414px)');
 
-      function fadeOutD() {
-        vidD.play();
-        play.remove();
-      }
+    if (mediaQuery.matches) {
+      // Then trigger an alert
+      console.log('Media Query Matched!');
+      vidD.removeAttribute('src');
+      vidM.setAttribute('src', './assets/video/videoMob.mp4');
 
-      function fadeOutM() {
-        vidM.play();
-        playM.remove();
-      }
-
-      const mediaQuery = window.matchMedia('(max-width: 414px)');
-
-      if (mediaQuery.matches) {
-        // Then trigger an alert
-        console.log('Media Query Matched!');
-        vidD.removeAttribute('src');
-        vidM.setAttribute('src', './assets/video/videoMob.mp4');
-
-      }
-      else {
-        vidM.removeAttribute('src');
-        vidD.setAttribute('src', './assets/video/videoDesk.mp4');
-      }
-
-
+    } else {
+      vidM.removeAttribute('src');
+      vidD.setAttribute('src', './assets/video/videoDesk.mp4');
+    }
   </script>
 </body>
 
