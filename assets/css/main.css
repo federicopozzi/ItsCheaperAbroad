@@ -114,6 +114,10 @@ nav {
   border: 0;
 }
 
+.paddingV2T {
+  padding-top: 40px;
+}
+
 /* ########## UTILITY ########## */
 .backgroundSection1 {
   background-color: #FF0009;
@@ -677,6 +681,9 @@ a.article:hover {
   .paddingV2 {
     padding-top: 25px;
   }
+  .paddingV2T {
+    padding-top: 25px;
+  }
 
 }
 
@@ -846,6 +853,10 @@ a.article:hover {
   }
 
   .paddingV2 {
+    padding-top: 25px;
+  }
+
+  .paddingV2T {
     padding-top: 25px;
   }
 
