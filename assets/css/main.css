@@ -689,15 +689,15 @@ a.article:hover {
   }
 }
 
-@media (max-width:1600px) and (min-width:1330px) {
+@media (max-width:1600px) and (min-width:1350px) {
   .websiteMargin {
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 260px;
+    margin-right: 260px;
   }
 }
 
 /* medium screen */
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1350px) {
   .websiteMargin {
     margin-left: 150px;
     margin-right: 150px;
