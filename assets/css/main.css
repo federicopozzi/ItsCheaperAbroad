@@ -635,6 +635,46 @@ a.article:hover {
   font-size: 10px;
 }
 
+.faculty > p {
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  color: var(--color-main);
+}
+
+.mauri {
+  cursor: url("../cursors/mauri.png"), auto;
+}
+.colombo {
+  cursor: url("../cursors/colombo.png"), auto;
+}
+.briones {
+  cursor: url("../cursors/briones.png"), auto;
+}
+.vant {
+  cursor: url("../cursors/vant.png"), auto;
+}
+.zing {
+  cursor: url("../cursors/zing.png"), auto;
+}
+.ben {
+   cursor: url("../cursors/bened.png"), auto;
+ }
+.gobbo {
+  cursor: url("../cursors/gob.png"), auto;
+}
+.elli {
+  cursor: url("../cursors/elli.png"), auto;
+}
+.febres {
+  cursor: url("../cursors/febres.png"), auto;
+}
+.anto {
+  cursor: url("../cursors/anto.png"), auto;
+}
+.bet {
+  cursor: url("../cursors/bet.png"), auto;
+}
+
 @media only screen and (min-width: 2050px) {
   .websiteMargin {
     margin-left: 700px;
