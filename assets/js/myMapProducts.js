@@ -11,7 +11,7 @@ let mapOptions = {}
 
 /*IF atom live-server
 let prefix "/pages/";*/
-let prefix = "/phase3/pages/";
+let prefix = "/ItsCheaperAbroad/pages/";
 
 switch (document.location.pathname) {
   case prefix + "bellyOp01.html":
