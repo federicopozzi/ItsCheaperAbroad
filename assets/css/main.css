@@ -735,7 +735,7 @@ a.article:hover {
 }
 
 /* iphone */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 990px) {
   .websiteMargin {
     margin-left: 10px;
     margin-right: 10px;
