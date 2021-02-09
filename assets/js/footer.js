@@ -1,4 +1,4 @@
-let prefi = document.location.hostname === "federicopozzi.github.io" ? "/phase3/" : "/phase3/";
+let prefi = document.location.hostname === "federicopozzi.github.io" ? "/ItsCheaperAbroad/" : "/ItsCheaperAbroad/";
 
 if (document.location.pathname === prefi + "home.html" || document.location.pathname === prefi + "index.html") {
   document.getElementById("footer").innerHTML = `
